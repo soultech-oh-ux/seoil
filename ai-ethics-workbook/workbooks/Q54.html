@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q54 · 성경 공부를 AI에게 맡겨도 되는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제6부 · 교육과 신앙 훈련</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q54</div>
+    <div class="qtitle">성경 공부를 AI에게 맡겨도 되는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>성경을 읽다가 어려운 구절을 만나면, 이제 AI에게 물어 곧바로 해설을 받을 수 있습니다. 참 편리하지요. 그런데 이렇게 <b>답을 받아 공부하는 것</b>이 정말 성경 공부일까요? 편리함 뒤에 놓치고 있는 것은 없는지 함께 짚어 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">성경 공부의 <b>정보 탐색</b> 부분은 AI를 활용할 수 있습니다. 그러나 성경 공부의 본질—<b>하나님의 말씀이 내 삶에 말씀하시는 것</b>—은 AI에게 맡길 수 없습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>성경 공부에는 두 목적이 있습니다. 하나는 <b>이해</b>(본문이 원래 독자에게 무엇을 의미했는가)이고, 다른 하나는 <b>적용</b>(이 말씀이 오늘 내 삶에 무엇을 의미하는가)입니다.</p>
+    <p>첫 번째 목적에서 AI는 도움이 됩니다. 원어 분석, 역사적 배경, 다양한 해석 전통을 빠르게 제공합니다. 그러나 두 번째 목적은 <b>성령의 역사와 개인의 삶의 맥락</b>을 요구하기에, AI가 담당할 수 없습니다.</p>
+    <p>여기에 깊은 위험이 있습니다. 바로 <b>'이해의 외주화'</b>입니다. AI에게 "이 구절이 무슨 뜻이야?"라고 묻고 답을 받아 공부하는 것은 편리하지만, <b>성경과 직접 씨름하는 과정</b>—이해가 안 되는 부분과 부딪히고, 문맥을 살피고, 묵상하는 과정—을 건너뛰게 만듭니다. 그런데 바로 그 씨름이 신앙 형성의 핵심입니다.</p>
+    <p>마치 근육은 스스로 힘을 들여야 자라는 것과 같습니다. AI는 <b>사전이나 주석처럼</b>—필요할 때 참고하는 도구—로 활용하되, 성경 자체와의 직접적 씨름을 대신하게 해서는 안 됩니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">히브리서 4:12</span>
+      <span class="txt">"하나님의 말씀은 살아 있고 활력이 있어… 마음의 생각과 뜻을 판단하나니"</span>
+      <p class="reflect">말씀이 살아 역사하는 것은 <b>성령의 역사</b>입니다. AI의 매끄러운 해설이 이 역사를 대신할 수는 없습니다. 도구의 도움은 받되, 말씀이 내 마음을 꿰뚫도록 <b>직접 말씀 앞에 서는</b> 자리를 지켜야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q54 · 성경 공부를 AI에게 맡겨도 되는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI를 성경 공부에 쓰면 어떤 점이 도움이 되나요?</div>
+      <div class="row ans">'이해'의 영역입니다. 원어 분석, 역사적 배경, 다양한 해석 전통을 빠르게 제공해 본문 이해를 돕습니다.</div>
+      <div class="row ask">'이해의 외주화'가 왜 위험한가요?</div>
+      <div class="row ans">성경과 직접 씨름하는 과정—어려운 부분과 부딪히고 문맥을 살피고 묵상하는 과정—이 신앙 형성의 핵심인데, 답만 받아 오면 그 과정을 건너뛰게 되기 때문입니다.</div>
+      <div class="row ask">그럼 AI를 어떻게 쓰는 것이 바른가요?</div>
+      <div class="row ans">사전이나 주석처럼, 필요할 때 참고하는 도구로만 씁니다. 성경 자체와의 직접적 씨름을 대신하게 해서는 안 됩니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>말씀과 씨름하다가 뒤늦게 깨달음을 얻은 경험이 있나요? 그 과정이 어땠는지 나눠 봅시다.</li>
+      <li>AI에게 답을 받는 것과 스스로 묵상하는 것은 내 신앙에 어떻게 다르게 작용할까요?</li>
+      <li>'이해'는 AI의 도움을 받되, '적용'은 내가 감당해야 한다면 무엇을 준비해야 할까요?</li>
+      <li>AI를 사전처럼 지혜롭게 쓰는 나만의 원칙을 하나 정한다면 무엇일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">성경을 읽을 때 먼저 스스로 묵상하고, AI는 참고 도구로 뒤에 활용합니다.</div>
+      <div class="li">이번 주 한 본문을 정해, 답을 검색하기 전에 충분히 씨름하는 시간을 가집니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 편리함에 기대어 말씀과 씨름하는 복을 놓치지 않게 하시고, 성령께서 제 삶에 직접 말씀하시는 자리를 지키게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 <span class="em">사전과 주석</span>처럼 참고하는 도구,<br>
+    말씀과의 <span class="em">직접적 씨름</span>은 대신할 수 없습니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q54 / 100</div>
+</section>
+
+</body>
+</html>

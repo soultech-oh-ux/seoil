@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q73 · AI는 정의로운 사회를 만드는 데 기여할 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제8부 · 기술과 사회윤리</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q73</div>
+    <div class="qtitle">AI는 정의로운 사회를 만드는 데 기여할 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>앞선 질문들에서 우리는 AI의 위험한 면을 살펴보았습니다. 그렇다면 AI는 늘 나쁘기만 할까요? 같은 칼도 요리에 쓰면 이롭고 해치는 데 쓰면 흉기가 됩니다. AI가 오히려 <b>정의로운 사회</b>를 세우는 도구가 될 수는 없을까요? 희망의 가능성을 함께 찾아봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead"><b>조건부로 그렇습니다.</b> AI가 올바른 방향으로 설계되고 관리된다면, 정의로운 사회를 이루는 데 기여할 수 있습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>AI가 정의에 기여하는 사례는 여럿 있습니다. <b>사법 접근성</b> 향상—AI 법률 도우미가 변호사를 구하기 어려운 저소득층에게 기본 법률 안내를 제공합니다. <b>의료 격차 해소</b>—AI 진단 도구가 의료 접근이 어려운 지역에서 격차를 줄입니다.</p>
+    <p>또한 AI는 정부 지출의 이상한 흐름을 찾아내 <b>부패를 적발</b>하는 데 쓰이고, 기후 변화가 어느 지역에 더 심한 피해를 주는지 분석해 <b>취약 지역 지원 정책</b>을 안내합니다. 마치 성실한 조수처럼 사람이 놓치기 쉬운 것을 찾아 줍니다.</p>
+    <p>그러나 <b>중요한 경계</b>가 있습니다. AI 자체가 정의를 만드는 것이 아닙니다. 정의는 도덕적 헌신을 가진 <b>인간</b>이 만들고, AI는 그 도구일 뿐입니다. 삽이 밭을 갈아도 농사를 짓는 것은 농부인 것과 같습니다.</p>
+    <p>그러므로 "AI가 공정하게 처리하니 정의가 저절로 이루어진다"는 생각은 위험합니다. 이는 도덕적 책임을 알고리즘에 <b>떠넘기는 착각</b>입니다. 도구는 방향을 정하지 못합니다. 방향은 사람이 정합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">아모스 5:24</span>
+      <span class="txt">"오직 정의를 물 같이, 공의를 마르지 않는 강 같이 흐르게 할지어다."</span>
+      <p class="reflect">아모스가 말하는 정의는 개인적 선행을 넘어선 <b>제도적·구조적 정의</b>입니다. AI는 이런 정의로운 제도를 세우는 도구가 될 수 있습니다. 그러나 강물을 흐르게 하는 것은 도구가 아니라, 정의를 사모하는 하나님의 백성입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q73 · AI는 정의로운 사회를 만드는 데 기여할 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 정의에 기여한 실제 사례가 있나요?</div>
+      <div class="row ans">있습니다. 저소득층 법률 안내, 의료 격차 해소, 정부 부패 적발, 기후 취약 지역 지원 등에서 AI가 유용한 도구로 쓰이고 있습니다.</div>
+      <div class="row ask">그럼 AI에게 맡기면 사회가 더 공정해지겠네요?</div>
+      <div class="row ans">그렇지 않습니다. AI 자체가 정의를 만들지는 못합니다. 정의는 도덕적 헌신을 가진 인간이 만들고, AI는 그 도구일 뿐입니다.</div>
+      <div class="row ask">"AI가 공정하게 처리한다"는 말은 왜 위험한가요?</div>
+      <div class="row ans">도덕적 책임을 알고리즘에 떠넘기는 착각이기 때문입니다. 책임은 언제나 방향을 정한 사람에게 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>AI가 우리 사회의 어떤 불의를 밝히거나 줄이는 데 쓰이면 좋을지 이야기해 봅시다.</li>
+      <li>"정의는 인간이 만들고 AI는 도구다"라는 말이 왜 중요한지 나눠 봅시다.</li>
+      <li>책임을 기계에 떠넘기고 싶은 유혹은 일상에서도 있습니다. 어떤 순간에 그런가요?</li>
+      <li>정의를 "물 같이, 강 같이" 흐르게 하려면, 나부터 무엇을 사모하고 실천해야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI를 '정의의 도구'로 선용할 방법을 상상하고, 좋은 사례에 관심을 기울입니다.</div>
+      <div class="li">어떤 결정이든 책임은 사람에게 있음을 기억하고, 책임을 회피하지 않는 태도를 지킵니다.</div>
+      <div class="pray"><b>기도</b> — "정의의 하나님, AI라는 도구를 선한 목적에 쓰게 하시고, 정의를 향한 헌신은 결코 기계에 맡기지 않게 하소서. 저희가 정의를 물 같이 흐르게 하는 통로 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 정의로운 제도를 세우는 <span class="em">도구</span>가 될 수 있습니다.<br>
+    그러나 정의는 <span class="em">헌신하는 사람</span>이 만듭니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q73 / 100</div>
+</section>
+
+</body>
+</html>

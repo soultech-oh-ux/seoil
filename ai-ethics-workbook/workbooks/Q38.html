@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q38 · AI가 신학을 가르칠 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제4부 · 신앙과 신학적 관점</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q38</div>
+    <div class="qtitle">AI가 신학을 가르칠 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI에게 교리나 교회사, 성경 해석을 물으면 웬만한 참고서보다 빠르고 자세히 답합니다. 그렇다면 AI가 신학교 선생님을 대신할 수 있을까요? 신학을 '배운다'는 것은 지식을 쌓는 일에서 끝나는 걸까요, 아니면 그보다 더 깊은 무엇일까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI는 신학 <b>정보</b>를 제공할 수 있습니다. 그러나 신학을 <b>가르치는 것</b>—삶의 변화를 수반하는 진리의 전달—은 AI의 역량 밖입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>신학 교육에는 <b>두 차원</b>이 있습니다. 첫째는 <b>인지적 차원</b>입니다. 개념·교리·성경 해석·교회사 같은 지식을 전달하는 것으로, 방대한 자료를 빠르게 탐색·정리하는 데 AI가 상당히 유용할 수 있습니다.</p>
+    <p>둘째는 <b>형성적 차원</b>입니다. 지식이 삶을 변화시키고, 신앙의 습관이 몸에 배며, 영적 분별력이 자라는 것입니다. 이것은 살아있는 <b>공동체와 멘토링 관계</b>를 통해서만 일어납니다. AI는 이 차원에서 <b>근본적으로 무력</b>합니다.</p>
+    <p>바울이 디모데에게 한 말이 의미심장합니다. "네게 <b>가르친 자를 알며</b>"(딤후 3:14)—신학 교육은 <b>관계적</b>입니다. 가르친 자의 삶, 그 사람의 신실함, 어려움 속에서도 붙들었던 믿음이 지식과 <b>함께</b> 전수됩니다.</p>
+    <p>정리하면, AI는 신학 정보 접근 도구로서 <b>유용</b>합니다. 그러나 신학 교육의 본질인 <b>형성과 멘토링</b>은 인격적 관계 속에서 이루어져야 합니다. 정보는 화면으로 얻어도, 사람은 사람에게서 빚어집니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">디모데후서 3:14</span>
+      <span class="txt">"그러나 너는 네가 배우고 확신한 일에 거하라 그것을 네게 가르친 자를 알며…"</span>
+      <p class="reflect">바울은 '무엇을 배웠는가'뿐 아니라 '<b>누구에게</b> 배웠는가'를 강조합니다. 진리는 스승의 삶을 통해 전수됩니다. 그래서 신학 교육은 정보 전달이 아니라 <b>사람에서 사람으로</b> 이어지는 신실함의 계승입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q38 · AI가 신학을 가르칠 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">신학 교육의 두 차원이 뭔가요?</div>
+      <div class="row ans">인지적 차원(지식 전달)과 형성적 차원(삶의 변화·신앙 습관·영적 분별)입니다. AI는 앞의 것엔 유용하지만 뒤의 것엔 무력합니다.</div>
+      <div class="row ask">왜 AI는 '형성적 차원'을 못 하나요?</div>
+      <div class="row ans">삶의 변화와 영적 성숙은 살아있는 공동체와 멘토링 관계를 통해서만 일어나기 때문입니다. AI는 이 관계적 차원을 제공할 수 없습니다.</div>
+      <div class="row ask">그럼 신학 공부에 AI를 써도 되나요?</div>
+      <div class="row ans">네, 정보 접근 도구로는 유용합니다. 다만 스승과 공동체를 통한 형성과 멘토링을 대신할 수는 없다는 점을 기억해야 합니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내 신앙에 깊은 영향을 준 '가르친 자(스승)'는 누구였나요? 무엇이 전수되었나요?</li>
+      <li>지식은 늘었는데 삶은 변하지 않았던 경험이 있나요? 그 이유는 무엇이었을까요?</li>
+      <li>AI로 얻은 신학 지식을 어떻게 하면 '형성'으로까지 이어갈 수 있을까요?</li>
+      <li>우리 공동체가 서로에게 '멘토'가 되어 준다는 것은 어떤 모습일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI로 얻은 지식을 공동체 안에서 나누고 삶으로 실천하며 소화합니다.</div>
+      <div class="li">나를 신앙으로 이끈 스승에게 감사를 표현하고, 나도 누군가의 멘토가 되어 봅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 지식이 머리에 머물지 않고 삶으로 흘러가게 하소서. 신실한 스승과 공동체를 주심에 감사하며, 저도 누군가에게 믿음을 전수하는 사람이 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    정보는 <span class="em">화면</span>에서 얻어도,<br>
+    믿음은 <span class="em">사람에게서 사람에게로</span> 전수됩니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q38 / 100</div>
+</section>
+
+</body>
+</html>

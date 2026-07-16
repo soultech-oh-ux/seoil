@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q18 · 도덕적 AI란 어떤 모습을 말하는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제2부 · 도덕성과 윤리 기준</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q18</div>
+    <div class="qtitle">도덕적 AI란 어떤 모습을 말하는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>'도덕적 AI'라는 말이 학계와 산업계에서 활발히 논의됩니다. 그런데 무엇이 AI를 '도덕적'으로 만들까요? 안전하고 투명하기만 하면 충분할까요? 기독교 신앙은 이 논의에 어떤 더 깊은 물음을 더할 수 있을까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">'도덕적 AI'는 안전·투명·공정 같은 원칙을 갖춘 AI입니다. 여기에 기독교 윤리는 <b>누구를 섬기는가, 인간 존엄을 지키는가, 진실에 기초하는가</b>라는 더 깊은 질문을 더합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>유럽연합 전문가 그룹이 제시한 <b>신뢰 가능한 AI</b>의 원칙에는 인간 감독과 통제, 견고성과 안전성, 프라이버시, 투명성, 다양성·비차별·공정성, 사회적·환경적 웰빙, 책임성이 있습니다. 모두 중요한 기준입니다.</p>
+    <p>기독교 윤리는 여기에 세 가지 더 깊은 질문을 더합니다. 첫째, <b>AI가 섬기는 사람은 누구인가?</b> 이웃 사랑(agape)의 관점에서, 도덕적 AI는 <b>취약하고 소외된 이들</b>을 우선 배려해야 합니다. 이윤 나는 고객만 섬기는 AI는 시장에선 성공해도 도덕적이지 않습니다.</p>
+    <p>둘째, <b>AI가 인간의 존엄을 지키는가?</b> 인간을 수단이 아닌 목적으로 대하라는 칸트의 원칙이 기독교 인간론과 부합합니다. 사람을 한낱 <b>데이터 포인트로 환원</b>하는 AI는 Imago Dei를 훼손합니다.</p>
+    <p>셋째, <b>AI가 진실에 기초하는가?</b> 여기서 진실은 단순한 사실 정확성 이상, <b>에메트(emet)</b>—신실함과 신뢰 가능성입니다. 사용자를 조작하거나 허위 정보를 만들거나 감정을 착취하도록 설계된 AI는 근본적으로 비도덕적입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">잠언 12:19 (사역)</span>
+      <span class="txt">"진실을 말하는 자는 영원히 서지만, 거짓 혀는 잠시뿐이니라"</span>
+      <p class="reflect">도덕적 AI는 <b>진실을 위해</b> 설계되어야 합니다. 사람을 조작하거나 허위 정보를 퍼뜨리도록 만든 기술은 잠시 유익해 보여도 결국 무너집니다. 신실함(emet)에 뿌리내린 것만이 오래 섭니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q18 · 도덕적 AI란 어떤 모습을 말하는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">안전하고 투명하면 도덕적 AI인가요?</div>
+      <div class="row ans">중요한 출발점입니다. 다만 기독교 윤리는 '누구를 섬기는가, 존엄을 지키는가, 진실한가'라는 더 깊은 질문을 더합니다.</div>
+      <div class="row ask">'누구를 섬기는가'가 왜 중요한가요?</div>
+      <div class="row ans">이웃 사랑의 관점에서, 도덕적 AI는 취약하고 소외된 이들을 우선 배려해야 하기 때문입니다. 이윤만 좇는 AI는 도덕적이지 않습니다.</div>
+      <div class="row ask">진실이 단순한 정확성 이상이라는 건 무슨 뜻인가요?</div>
+      <div class="row ans">성경의 진실(emet)은 신실함과 신뢰 가능성입니다. 사람을 조작하거나 허위를 생성하는 AI는 근본적으로 비도덕적입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>우리가 쓰는 AI 서비스는 주로 누구를 위해 설계된 것 같나요?</li>
+      <li>사람을 '데이터 포인트'로만 대하는 기술의 위험은 무엇일까요?</li>
+      <li>AI가 감정을 착취하도록 설계된 사례(중독성 알림 등)를 본 적이 있나요?</li>
+      <li>진실(emet)에 기초한 기술이란 우리 삶에서 어떤 모습일지 나눠 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI 서비스를 고를 때 '누구를 섬기고 무엇에 기초하는가'를 한 번 생각합니다.</div>
+      <div class="li">사람을 수단이 아닌 목적으로 대하는 시선을 일상에서 연습합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 진실과 사랑에 뿌리내린 기술을 분별하게 하시고, 소외된 이웃을 먼저 섬기는 마음을 주소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    도덕적 AI의 참된 물음은<br>
+    <span class="em">누구를 섬기고, 존엄을 지키며, 진실한가</span>입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q18 / 100</div>
+</section>
+
+</body>
+</html>

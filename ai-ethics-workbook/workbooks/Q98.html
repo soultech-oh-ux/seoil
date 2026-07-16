@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q98 · AI 시대 교회의 사명은 어떻게 재정립되어야 하나요? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제10부 · 미래 윤리와 종말론적 성찰</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q98</div>
+    <div class="qtitle">AI 시대 교회의 사명은 어떻게 재정립되어야 하나요?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI가 설교문도 써 주고, 정보도 다 알려 주는 시대입니다. 그렇다면 "교회는 이제 무엇을 해야 하나?" 하는 물음이 생깁니다. 교회의 <b>본질적 사명</b>은 변하지 않지만, 그 사명을 담아내는 방식은 어떻게 새로워져야 할까요? 함께 정리해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">교회의 본질적 사명(선포·공동체·섬김·예배)은 변하지 않습니다. 다만 AI 시대에 교회는 <b>"AI가 할 수 없는 것"</b>—인격적 임재, 성례전적 만남, 함께하는 동행, 세대를 잇는 신앙 전수—에 집중해야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>교회의 본질적 사명—<b>케리그마(선포)·코이노니아(공동체)·디아코니아(섬김)·리투르기아(예배)</b>—은 변하지 않습니다. 다만 AI 시대는 이 사명을 표현하는 <b>맥락과 방식</b>을 크게 바꿉니다.</p>
+    <p><b>선포</b>는 데이터나 정보가 아니라 "살아있는 만남"을 전해야 합니다. 복음은 알고리즘이 대신할 수 없는 <b>인격적 증언</b>을 필요로 하기 때문입니다. <b>공동체</b>는 디지털 연결은 넘치지만 참된 소속감은 결핍된 시대에, 진정한 관계의 <b>오아시스</b>가 되어야 합니다.</p>
+    <p><b>섬김</b>은 AI 자동화로 인한 실업자, 디지털 격차로 소외된 계층, AI 윤리 문제로 피해 입은 이들을 돌보는 것으로 구체화됩니다. <b>예배</b>는 화면 피로와 디지털 과부하의 시대에, 오프라인에서 몸으로 참여하고 침묵하며 거룩히 만나는 공간을 제공해야 합니다.</p>
+    <p>결국 미래 교회는 <b>"AI가 할 수 없는 것"</b>에 집중해야 합니다. 진정한 인격적 임재, 성례전적 만남, 고통 중에 함께하는 <b>육체적 동행</b>, 세대를 잇는 신앙 전수입니다. 마치 <b>영상 통화가 아무리 좋아도 손을 맞잡는 위로를 대신할 수 없는 것</b>처럼요. 이것이 AI 시대 교회의 대체 불가능한 기여입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">마태복음 28:19-20</span>
+      <span class="txt">"그러므로 너희는 가서 모든 민족을 제자로 삼아 … 내가 너희에게 분부한 모든 것을 가르쳐 지키게 하라."</span>
+      <p class="reflect">예수님이 주신 <b>제자 삼는 사명</b>은 정보 전달이 아니라 삶을 나누며 가르치고 함께 지켜 가는 인격적 여정입니다. 아무리 기술이 발전해도, 교회의 부름은 사람과 사람이 <b>직접 만나 신앙을 전수하는 것</b>에 있습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q98 · AI 시대 교회의 사명은 어떻게 재정립되어야 하나요?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 정보를 다 주는데 교회의 '선포'는 무슨 의미가 있나요?</div>
+      <div class="row ans">복음은 정보가 아니라 '살아있는 만남'이기 때문입니다. 알고리즘은 데이터를 전달할 수 있어도, 인격적 증언과 삶의 감동은 전할 수 없습니다.</div>
+      <div class="row ask">교회의 사명이 바뀌는 건가요?</div>
+      <div class="row ans">본질(선포·공동체·섬김·예배)은 변하지 않습니다. 다만 그것이 표현되는 맥락과 방식이 AI 시대에 맞게 새로워지는 것입니다.</div>
+      <div class="row ask">그럼 교회가 특별히 집중해야 할 것은 무엇인가요?</div>
+      <div class="row ans">'AI가 할 수 없는 것'입니다. 인격적 임재, 성례전적 만남, 고통 중의 육체적 동행, 세대를 잇는 신앙 전수가 교회만의 대체 불가능한 기여입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>나에게 교회는 '정보를 얻는 곳'인가요, '살아있는 만남이 있는 곳'인가요?</li>
+      <li>디지털 연결은 많은데 참된 소속감은 없는 시대에, 우리 공동체는 어떤 '오아시스'가 될 수 있을까요?</li>
+      <li>우리 교회 주변에서 AI 시대에 <b>섬김이 필요한 이웃</b>은 누구일까요?</li>
+      <li>'AI가 할 수 없는 것'에 우리 교회가 더 집중하려면 무엇을 바꿔야 할지 나눠 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">온라인 참여에 머물지 않고, 몸으로 예배하고 얼굴을 맞대는 만남을 소중히 여깁니다.</div>
+      <div class="li">고통 중인 이웃 곁에 직접 찾아가 함께하는 '육체적 동행'을 이번 주 한 번 실천합니다.</div>
+      <div class="pray"><b>기도</b> — "교회의 머리 되신 주님, 정보가 넘치는 시대에 저희 교회가 살아있는 만남과 참된 공동체가 되게 하시고, AI가 대신할 수 없는 사랑의 동행으로 세상을 섬기게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    교회의 부름은 <span class="em">AI가 할 수 없는 것</span>—<br>
+    <span class="em">인격적 만남·동행·신앙 전수</span>에 있습니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q98 / 100</div>
+</section>
+
+</body>
+</html>

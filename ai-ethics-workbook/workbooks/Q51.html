@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q51 · AI로 제자훈련 교재를 제작하는 것은 윤리적인가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제6부 · 교육과 신앙 훈련</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q51</div>
+    <div class="qtitle">AI로 제자훈련 교재를 제작하는 것은 윤리적인가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>새 학기 제자훈련을 준비하는 교사에게 AI는 반가운 조력자입니다. 성경 지식과 교리를 깔끔하게 정리해 주니 시간이 크게 절약되지요. 그런데 문득 <b>"이렇게 만든 교재로 사람을 훈련해도 될까?"</b> 하는 마음이 듭니다. AI로 만든 제자훈련 교재, 과연 괜찮을까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI를 제자훈련 교재 제작의 <b>보조 도구</b>로 쓰는 것은 허용될 수 있습니다. 다만 그 내용을 신학적으로 검토하고 삶과 연결하는 <b>사람의 책임</b>이 반드시 뒤따라야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>제자훈련</b>의 핵심은 단순한 지식 전달이 아니라 <b>삶의 변화</b>, 곧 그리스도를 닮아가는 인격 형성입니다. AI는 이 가운데 성경 지식·교리·기독교 세계관 같은 <b>인지적 콘텐츠</b>를 효율적으로 정리하고 구조화하는 데 도움을 줍니다.</p>
+    <p>그러나 AI가 만든 내용에는 조건이 붙습니다. 첫째, <b>신학적 검토</b>입니다. AI는 신학적 오류나 편향을 담을 수 있어, 훈련된 사람이 반드시 걸러 내야 합니다. 마치 요리사가 손질 도구는 쓰되, 맛은 직접 보고 확인하는 것과 같습니다.</p>
+    <p>둘째, <b>삶과의 연결</b>입니다. AI는 일반적 원칙을 주지만, 우리 공동체의 구체적인 삶에 그것을 이어 주는 일은 인간 교사의 몫입니다. 셋째, <b>공동체적 맥락</b>입니다. 제자훈련 교재는 혼자 보는 학습지가 아니라 공동체 안에서 쓰일 때 온전해집니다.</p>
+    <p>마지막으로, AI를 사용했다면 <b>그 사실을 밝히는 것</b>이 정직함(진실성)의 실천입니다. 도구의 도움을 받았음을 감추지 않는 태도가 신뢰를 세웁니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">마태복음 28:18-19</span>
+      <span class="txt">"예수께서 나아와 말씀하여 이르시되… 그러므로 너희는 가서 모든 민족을 제자로 삼아…"</span>
+      <p class="reflect">제자 삼는 일은 예수님이 사람에게 맡기신 <b>사명</b>입니다. AI는 자료를 정리해 주는 도구일 수 있으나, 사람을 그리스도의 제자로 빚어 가는 책임은 여전히 우리에게 있습니다. 도구는 손에 들되, 사명은 마음에 품어야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q51 · AI로 제자훈련 교재를 제작하는 것은 윤리적인가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 만든 교재를 그대로 써도 되나요?</div>
+      <div class="row ans">안 됩니다. AI는 신학적 오류나 편향을 담을 수 있어, 신학적으로 훈련된 사람이 반드시 검토하고 걸러 내는 과정이 필요합니다.</div>
+      <div class="row ask">AI가 제자훈련의 어느 부분을 도울 수 있나요?</div>
+      <div class="row ans">성경 지식, 교리, 기독교 세계관 같은 인지적 콘텐츠를 정리하고 구조화하는 일입니다. 그러나 삶으로 이어 주는 일은 사람 교사의 몫입니다.</div>
+      <div class="row ask">AI를 썼다는 사실을 굳이 밝혀야 하나요?</div>
+      <div class="row ans">네. 도구의 도움을 받았음을 정직하게 밝히는 것이 진실성의 실천이며, 공동체의 신뢰를 지키는 태도입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>제자훈련에서 '지식 전달'과 '삶의 변화'는 어떻게 다른가요? 나의 훈련 경험을 떠올려 봅시다.</li>
+      <li>AI가 정리한 신앙 내용에서 잘못된 부분을 발견한 적이 있나요? 어떻게 분별하셨나요?</li>
+      <li>우리 공동체의 구체적인 삶과 연결하려면, 교재에 무엇을 더해야 할까요?</li>
+      <li>교회에서 AI를 사용했음을 밝히는 문화를 어떻게 만들어 갈 수 있을까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI의 도움을 받은 자료는 반드시 신학적으로 검토한 뒤 사용하는 습관을 들입니다.</div>
+      <div class="li">교재 내용을 우리 공동체의 실제 삶과 이어 주는 한 가지 적용점을 직접 준비합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 편리한 도구를 지혜롭게 쓰되, 사람을 제자로 빚는 책임은 제가 감당하게 하소서. 정직함과 분별로 섬기게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 교재를 <span class="em">정리하는 도구</span>,<br>
+    제자를 빚는 <span class="em">책임</span>은 여전히 사람의 몫입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q51 / 100</div>
+</section>
+
+</body>
+</html>

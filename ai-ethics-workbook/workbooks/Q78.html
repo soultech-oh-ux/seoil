@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q78 · AI를 활용한 전쟁은 도덕적인가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제8부 · 기술과 사회윤리</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q78</div>
+    <div class="qtitle">AI를 활용한 전쟁은 도덕적인가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>영화 속 이야기 같던 '스스로 판단해 사람을 공격하는 무기'가 이제 현실이 되고 있습니다. 기계가 방아쇠를 당기고, 그로 인해 사람이 죽는다면—그 책임은 누구에게 있을까요? 생명의 무게를 아는 신앙인으로서, 이 무거운 질문을 피하지 말고 마주해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI 자율 무기는 기독교 전쟁 윤리(<b>정전론</b>)에 심각한 도전을 제기합니다. 완전 자율 치사 무기(LAWS)는 정전론의 핵심 원칙들을 <b>충족할 수 없습니다</b>.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>정전론</b>(정의로운 전쟁 이론)은 어거스틴에서 아퀴나스, 근대 국제법에 이르기까지 기독교 전쟁 윤리의 뼈대입니다. 그 핵심 원칙은 네 가지입니다. <b>정당한 원인</b>(정당한 이유로만 시작), <b>비례성</b>(무력은 목적에 비례), <b>차별성</b>(전투원과 민간인 구별), <b>책임성</b>(도덕적 책임을 짐).</p>
+    <p>그런데 AI 자율 무기에는 큰 문제가 있습니다. 첫째, <b>차별성 실패</b>입니다. AI가 전장에서 전투원과 민간인을 완벽히 구별하는 것은 아직 불가능하며, 알고리즘 오류가 곧바로 <b>민간인 살상</b>으로 이어질 수 있습니다.</p>
+    <p>둘째, <b>책임의 공백</b>입니다. AI가 사람을 죽였을 때 누가 책임을 지겠습니까? "기계가 결정했다"는 말은 전쟁 범죄를 피해 가는 <b>새로운 도피 경로</b>가 됩니다. 아무도 책임지지 않는 죽음이 생기는 것입니다.</p>
+    <p>전쟁은 언제나 <b>최후의 수단</b>이며, 불가피할 때조차 그 도덕적 무게를 의식하는 <b>인간의 결정</b>이어야 합니다. 100대의 AI가 결정하는 전쟁보다, 한 명의 양심 있는 지휘관이 결정하는 전쟁이 도덕적으로 더 책임 있습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">고린도전서 12:31</span>
+      <span class="txt">"너희는 더욱 큰 은사를 사모하라 내가 또한 가장 좋은 길을 너희에게 보이리라."</span>
+      <p class="reflect">가장 좋은 길은 결국 <b>사랑</b>입니다(고전 13장). 생명을 다루는 결정에서 사랑과 양심의 무게를 느낄 수 있는 존재는 기계가 아니라 사람입니다. 전쟁의 불가피함 속에서도, 그 결정은 도덕적 책임을 지는 인간의 손에 있어야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q78 · AI를 활용한 전쟁은 도덕적인가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">'정전론'이란 무엇인가요?</div>
+      <div class="row ans">정의로운 전쟁의 조건을 따지는 기독교 전쟁 윤리입니다. 정당한 원인, 비례성, 전투원과 민간인의 차별성, 그리고 책임성을 핵심 원칙으로 삼습니다.</div>
+      <div class="row ask">AI 무기가 왜 이 원칙을 못 지키나요?</div>
+      <div class="row ans">전투원과 민간인을 완벽히 구별하지 못해 오류가 민간인 살상으로 이어질 수 있고, 사람이 죽어도 "기계가 결정했다"며 책임의 공백이 생깁니다.</div>
+      <div class="row ask">사람이 결정하는 전쟁은 왜 더 책임 있나요?</div>
+      <div class="row ans">사람만이 생명을 앗는 결정의 도덕적 무게를 의식하고 책임을 질 수 있기 때문입니다. 양심 있는 한 지휘관이 100대의 AI보다 책임 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>"기계가 결정했다"는 말이 왜 위험한 변명이 될 수 있을까요?</li>
+      <li>생명을 다루는 결정에서 '인간의 양심'이 반드시 필요한 이유는 무엇일까요?</li>
+      <li>편리함이나 효율을 이유로 사람이 책임을 회피하려는 유혹은 일상 어디에 있을까요?</li>
+      <li>전쟁이 최후의 수단이 되도록, 신앙 공동체가 지금 할 수 있는 평화의 노력은 무엇일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">중요한 결정에서 책임을 도구나 남에게 떠넘기지 않고 스스로 감당하는 태도를 기릅니다.</div>
+      <div class="li">생명과 평화의 가치를 지키는 기도와 관심을 놓지 않고, 폭력에 무뎌지지 않도록 깨어 있습니다.</div>
+      <div class="pray"><b>기도</b> — "평화의 왕이신 주님, 생명을 가볍게 여기는 시대에 그 무게를 아는 양심을 주시고, 책임을 기계에 떠넘기지 않는 정직함을 주소서. 이 땅에 평화를 세우는 자 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    완전 자율 무기는 <span class="em">차별성과 책임성</span>을 지킬 수 없습니다.<br>
+    생명의 결정은 <span class="em">양심 있는 인간</span>의 손에 있어야 합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q78 / 100</div>
+</section>
+
+</body>
+</html>

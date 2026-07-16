@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q48 · AI로 운영되는 '가상 교회'는 정당한가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제5부 · 교회와 목회 현장 적용</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q48</div>
+    <div class="qtitle">AI로 운영되는 '가상 교회'는 정당한가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>메타버스 공간에 예배당을 짓고, AI 목사가 설교하고 성도를 응대하는 <b>'가상 교회'</b>가 등장하고 있습니다. 언제 어디서나 접속만 하면 예배할 수 있다니 편리해 보입니다. 그런데 사람 없이 AI가 완전히 운영하는 그곳을, 우리는 과연 <b>'교회'</b>라고 부를 수 있을까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">완전히 AI로만 운영되는 가상 교회는, 기독교 신학이 말하는 <b>교회(에클레시아)의 기준을 충족하지 못합니다.</b> 교회는 인격적 모임을 전제하기 때문입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>종교개혁 전통은 <b>참 교회의 표지</b>를 세 가지로 제시합니다. ① <b>말씀의 바른 선포</b>—살아 있는 목회자를 통한 말씀 선포, ② <b>성례의 올바른 시행</b>—세례와 성찬의 집전, ③ <b>권징의 시행</b>—공동체적 책임 구조입니다.</p>
+    <p>AI가 완전히 운영하는 가상 교회에서는 이 <b>세 표지가 모두 문제</b>가 됩니다. AI는 세례를 베풀 수도, 떡과 잔을 나눌 수도, 공동체의 책임 구조를 이룰 수도 없기 때문입니다. 겉모습은 교회를 닮았어도 본질이 비어 있는 것이지요.</p>
+    <p>물론 <b>모든 온라인 교회가 부적절한 것은 아닙니다.</b> 지리적 장애, 신체 장애, 선교지 상황에서 온라인 예배는 중요한 역할을 합니다. 다만 이것은 반드시 <b>인간 목회자가 이끄는 인격적 공동체를 기반</b>으로 해야 합니다.</p>
+    <p>비유하자면, 가족 사진이 아무리 생생해도 <b>실제 가족의 품</b>을 대신할 수 없는 것과 같습니다. AI 가상 교회는 교회의 이미지일 수는 있어도, 살아 있는 인격적 모임 자체는 될 수 없습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">마태복음 18:20</span>
+      <span class="txt">"두세 사람이 내 이름으로 모인 곳에는 나도 그들 중에 있느니라"</span>
+      <p class="reflect">교회는 <b>인격적 모임(gathering)</b>을 전제합니다. 주님은 "내 이름으로 모인 곳"에 함께하시겠다고 약속하셨습니다. AI가 완전히 운영하는 가상 공간은 이 살아 있는 인격적 모임의 대체가 될 수 없습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q48 · AI로 운영되는 '가상 교회'는 정당한가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">참 교회의 표지는 무엇인가요?</div>
+      <div class="row ans">종교개혁 전통은 세 가지를 제시합니다. 말씀의 바른 선포, 성례(세례·성찬)의 올바른 시행, 그리고 권징이라는 공동체적 책임 구조입니다.</div>
+      <div class="row ask">AI 가상 교회는 왜 교회의 기준을 충족하지 못하나요?</div>
+      <div class="row ans">AI는 세례와 성찬을 집전할 수 없고 공동체적 책임 구조를 이룰 수 없기 때문입니다. 세 표지가 모두 문제가 됩니다.</div>
+      <div class="row ask">그럼 온라인 예배는 다 잘못된 건가요?</div>
+      <div class="row ans">아닙니다. 지리적·신체적 장애나 선교지 상황에서는 중요한 역할을 합니다. 다만 인간 목회자가 이끄는 인격적 공동체를 기반으로 해야 합니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>나에게 "교회"란 어떤 곳인가요? 그 본질은 건물이나 화면이 아니라 무엇일까요?</li>
+      <li>세례·성찬 같은 성례가 "몸으로 함께" 이루어져야 하는 이유는 무엇일까요?</li>
+      <li>온라인 예배가 <b>정당하게 필요한 상황</b>과, <b>본질을 놓치는 경우</b>는 어떻게 구분할 수 있을까요?</li>
+      <li>"내 이름으로 모인 곳"이라는 말씀이 오늘 우리 공동체에 주는 도전은 무엇일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">편리한 접속을 넘어, 몸으로 함께 모여 예배하고 성례에 참여하는 자리를 소중히 여깁니다.</div>
+      <div class="li">온라인이 꼭 필요한 이웃에게는, 인격적 공동체와 연결되도록 다리를 놓아 줍니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 두세 사람이 주의 이름으로 모인 곳에 함께하시는 은혜를 사모하게 하소서. 편리함을 좇아 교회의 본질을 잃지 않게 하시고, 몸으로 함께하는 공동체를 지키게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    교회는 살아 있는 <span class="em">인격적 모임</span>이며,<br>
+    AI 가상 공간이 그 <span class="em">본질을 대체할 수 없습니다.</span>
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q48 / 100</div>
+</section>
+
+</body>
+</html>

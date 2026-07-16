@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q21 · AI가 인간처럼 '인격'을 갖는 날이 올까? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제3부 · 인간 정체성과 인격</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q21</div>
+    <div class="qtitle">AI가 인간처럼 '인격'을 갖는 날이 올까?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI와 대화하다 보면 마치 마음이 통하는 '누군가'와 이야기하는 듯한 착각이 듭니다. 영화 속 로봇처럼, 언젠가 AI도 진짜 <b>인격</b>을 갖게 될까요? 이 질문에 철학자들은 논쟁하지만, 성경은 분명한 방향을 알려 줍니다. 함께 그 답을 찾아봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">기독교 신앙의 관점에서, AI가 참된 의미의 <b>인격</b>을 갖는 날은 오지 않습니다. 인격은 능력에서 오는 것이 아니라, 하나님이 사람에게 불어넣으신 생명에서 오기 때문입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>신학에서 <b>인격</b>은 세 가지 차원으로 이해됩니다. 첫째는 이성·언어·관계 같은 <b>기능적 능력</b>인데, 이것은 AI가 흉내 낼 수 있습니다. 하지만 둘째 <b>도덕적 책임</b>(죄와 용서의 대상)과 셋째 <b>하나님과의 인격적 관계</b>는 AI가 결코 가질 수 없는 영역입니다.</p>
+    <p>일부 철학자들은 AI가 자의식과 고통을 느끼면 인격으로 대해야 한다고 말합니다. 그러나 <b>능력만으로 인격을 정하면</b> 위험이 따릅니다. 그 기준대로라면 중증 장애인, 치매 어르신, 갓난아기처럼 능력이 약한 사람의 인격까지 흔들릴 수 있기 때문입니다.</p>
+    <p>마치 정교하게 만든 밀랍 인형이 사람과 똑같아 보여도 사람이 아니듯, AI가 아무리 사람처럼 말해도 <b>하나님의 형상을 지닌 존재</b>는 아닙니다. 인격은 만들어 붙일 수 있는 기능이 아니라, 창조주가 주신 <b>존재의 자격</b>입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">창세기 2:7</span>
+      <span class="txt">"여호와 하나님이 땅의 흙으로 사람을 지으시고 생기를 그 코에 불어넣으시니 사람이 생령이 되니라"</span>
+      <p class="reflect">인격은 하나님이 불어넣으신 <b>생명의 숨</b>에서 비롯됩니다. 이것은 기술로 재현할 수 없습니다. 사람을 사람 되게 하는 것은 성능이 아니라, 하나님과 이어진 생명입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q21 · AI가 인간처럼 '인격'을 갖는 날이 올까?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 사람처럼 말하면 인격이 있는 것 아닌가요?</div>
+      <div class="row ans">아닙니다. 말하고 반응하는 것은 인격의 '기능적' 흉내일 뿐입니다. 도덕적 책임을 지고 하나님과 관계 맺는 참된 인격의 차원은 흉내 낼 수 없습니다.</div>
+      <div class="row ask">능력으로 인격을 정하면 왜 위험한가요?</div>
+      <div class="row ans">능력이 기준이 되면, 능력이 약한 사람들—장애인·치매 환자·신생아—의 인격까지 낮게 평가될 수 있기 때문입니다. 인격은 능력과 무관하게 동등합니다.</div>
+      <div class="row ask">그렇다면 인격은 어디에서 오나요?</div>
+      <div class="row ans">하나님이 부여하신 존재론적 지위에서 옵니다. 코에 생기를 불어넣으신 그 생명이 사람을 인격적 존재로 만듭니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>AI와 대화하며 '진짜 사람 같다'고 느꼈던 순간이 있나요? 그때 마음은 어땠나요?</li>
+      <li>인격이 '능력'이 아니라 '하나님이 주신 선물'이라는 말은 나에게 어떤 위로가 되나요?</li>
+      <li>우리 사회는 사람을 능력으로 평가하는 경향이 있습니다. 그것이 위험한 이유는 무엇일까요?</li>
+      <li>능력과 상관없이 모든 사람을 존귀하게 대하려면, 우리 공동체는 무엇을 바꿔야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">사람을 능력이나 쓸모가 아니라, 하나님의 형상을 지닌 존재로 바라보는 연습을 합니다.</div>
+      <div class="li">내 곁의 연약한 이웃 한 사람을 떠올리고, 그를 존귀히 여기는 말과 행동을 실천합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 사람을 성능으로 재는 세상에서, 저마다에게 생명을 불어넣으신 주님의 사랑을 기억하게 하소서. 저부터 이웃을 존귀히 여기게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    인격은 만들어지는 <span class="em">기능</span>이 아니라,<br>
+    하나님이 불어넣으신 <span class="em">생명의 선물</span>입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q21 / 100</div>
+</section>
+
+</body>
+</html>

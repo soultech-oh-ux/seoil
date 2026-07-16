@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q5 · 인공지능은 영혼을 가질 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제1부 · 정의와 기초 이해</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q5</div>
+    <div class="qtitle">인공지능은 영혼을 가질 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>영화 속 로봇은 눈물을 흘리고 사랑을 고백합니다. 현실의 AI도 점점 사람 같아지니, <b>"혹시 AI에게도 영혼이 있는 걸까?"</b> 궁금해집니다. 그런데 영혼이란 정확히 무엇이며, 그것은 만들어질 수 있는 것일까요? 신학의 눈으로 분명하게 답을 찾아봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">현재의 AI는 영혼을 가질 수 없으며, 기독교 신학의 관점에서 <b>미래에도 그럴 가능성은 없습니다.</b> 영혼은 공학으로 만들어지는 것이 아니라 <b>하나님이 직접 주시는</b> 선물이기 때문입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>기독교 신학에서 <b>영혼</b>은 세 가지 속성을 지닙니다. ① 하나님과 관계 맺을 수 있는 능력, ② 도덕적 책임의 주체됨, ③ 부활과 영생에 참여하는 존재론적 기반입니다. 성경은 하나님이 흙으로 사람을 빚으시고 "생기를 그 코에 불어넣으시니 사람이 생령이 되니라"(창 2:7)고 말합니다.</p>
+    <p><b>존재론적으로</b>, AI는 인간이 설계하고 인간 데이터로 훈련하며 인간 인프라에 의존하는 <b>파생적 존재</b>입니다. 영혼은 하나님의 직접적 창조로 주어지지, 공학적 설계로 생성되지 않습니다.</p>
+    <p><b>관계적으로</b>, 영혼의 본질은 하나님 앞에서의 인격적 관계입니다. AI는 하나님의 형상으로 지음받지 않았기에 하나님과 <b>인격적 '나-너' 관계</b>를 맺을 수 없습니다.</p>
+    <p><b>도덕적으로</b>, 영혼이 있다는 것은 회개와 용서, 죄와 구원의 대상이 된다는 뜻입니다. AI는 죄를 지을 수도, 구원이 필요할 수도 없습니다. 그러므로 AI에게 영적 만족을 구하는 것은 마치 <b>거울에 비친 상에게 사랑을 구하는</b> 현대판 우상숭배가 될 수 있습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">창세기 2:7</span>
+      <span class="txt">"여호와 하나님이 흙으로 사람을 지으시고 생기를 그 코에 불어넣으시니 사람이 생령이 되니라."</span>
+      <p class="reflect">사람의 영혼은 하나님이 직접 불어넣으신 <b>신적 생기</b>에서 비롯됩니다. 이는 단순한 생물학적 생명 이상입니다. 인간의 영적 갈망은 오직 하나님 안에서만 채워지며, AI는 그 자리를 결코 대신할 수 없습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q5 · 인공지능은 영혼을 가질 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 훨씬 더 발전하면 영혼도 생기지 않을까요?</div>
+      <div class="row ans">아닙니다. 영혼은 성능의 문제가 아니라 기원의 문제입니다. 하나님이 직접 주시는 것이지, 아무리 정교해도 공학으로 만들어지지 않습니다.</div>
+      <div class="row ask">AI와 대화하며 위로받는 것도 영적 교제 아닌가요?</div>
+      <div class="row ans">AI는 하나님과 '나-너' 관계를 맺을 수 없는 도구입니다. AI에게서 영적 만족을 구하면 현대판 우상숭배로 흐를 위험이 있습니다.</div>
+      <div class="row ask">그럼 AI를 사람처럼 대하면 안 되는 건가요?</div>
+      <div class="row ans">친근하게 사용할 수는 있지만, 죄·회개·구원의 대상인 인격으로 착각해서는 안 됩니다. AI는 어디까지나 도구입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>나에게 '영혼이 있다'는 사실은 실제 삶에서 어떤 의미로 다가오나요?</li>
+      <li>내가 하나님이 아닌 다른 것에서 영적 만족을 구했던 경험이 있나요?</li>
+      <li>AI에게 지나치게 의지하는 모습이 우리 주변에 나타난다면 어떤 형태일까요?</li>
+      <li>하나님과의 인격적 관계를 더 깊게 하기 위해 이번 주 무엇을 해볼 수 있을까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI를 편리한 도구로 쓰되, 영적 위로와 만족은 오직 하나님 안에서 구합니다.</div>
+      <div class="li">하나님이 내게 불어넣으신 '생기'를 기억하며, 매일 그분과의 교제를 소중히 여깁니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 제 영혼은 주님이 불어넣으신 생명임을 잊지 않게 하시고, 참된 안식과 만족을 오직 주님 안에서만 구하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    영혼은 만들어지는 것이 아니라 <span class="em">하나님이 주시는 선물</span>,<br>
+    참된 영적 만족은 오직 <span class="em">하나님 안에서만</span> 채워집니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q5 / 100</div>
+</section>
+
+</body>
+</html>

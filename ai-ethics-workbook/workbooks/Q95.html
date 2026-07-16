@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q95 · 기독교는 AI 윤리 국제 거버넌스에 어떻게 기여할 수 있나요? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제10부 · 미래 윤리와 종말론적 성찰</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q95</div>
+    <div class="qtitle">기독교는 AI 윤리 국제 거버넌스에 어떻게 기여할 수 있나요?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI가 온 인류에게 영향을 미치는 만큼, 세계 여러 나라와 기구들이 <b>'AI를 어떻게 관리할 것인가'</b> 규칙을 만들고 있습니다. 그런데 이런 국제 논의에 신앙 전통이 보탤 지혜가 있을까요? "교회는 그저 지켜보기만 해야 하나?" 함께 생각해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">기독교는 AI 국제 규범에 <b>인간 존엄의 불가침성, 약자 보호의 우선성, 권력 집중 견제, 세대 간 책임</b>이라는 독특한 지혜를 기여할 수 있습니다. 교회는 그 논의에 <b>적극 참여</b>해야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>AI 윤리 국제 거버넌스</b>란 AI가 인류 전체에 미치는 영향을 관리하기 위한 국제 규범·제도·협약을 말합니다. 유네스코의 'AI 윤리 권고안', EU의 AI법, G7 히로시마 프로세스 같은 논의가 이미 진행 중입니다.</p>
+    <p>여기에 기독교가 보탤 수 있는 지혜가 있습니다. 첫째, <b>인간 존엄의 불가침성</b>입니다. 쓸모나 경제적 가치와 상관없이 사람은 존엄하다는 믿음은, AI가 넘어선 안 될 원칙이 됩니다. 둘째, <b>약자 보호의 우선성</b>—성경의 "고아, 과부, 나그네"에 대한 관심은 AI 혜택에서 소외된 이들을 먼저 챙기라고 말합니다.</p>
+    <p>셋째, <b>권력 집중에 대한 견제</b>입니다. 모든 권력의 독점을 경계하는 예언자적 목소리는, 소수 기업의 AI 독점을 막는 근거가 됩니다. 마치 <b>물을 한 곳에 다 가두지 않고 골고루 흐르게 해야 모두가 마시는 것</b>과 같습니다. 넷째, "땅을 다스리라"는 명령에 담긴 <b>세대 간 책임</b>—미래 세대까지 생각하는 청지기직입니다.</p>
+    <p>실제로 세계교회협의회(WCC), 바티칸, 세계복음주의연맹(WEA)은 이미 AI 윤리에 대한 입장을 내고 있습니다. 개별 교회와 신학자도 공청회나 정책 과정에 참여해 신학적 지혜를 공적 영역에 보탤 수 있습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">미가 6:8</span>
+      <span class="txt">"여호와께서 네게 구하시는 것은 오직 정의를 행하며 인자를 사랑하며 겸손하게 네 하나님과 함께 행하는 것이니라."</span>
+      <p class="reflect"><b>정의·인자·겸손</b>은 AI 규범 논의에 교회가 가져갈 나침반입니다. 기술을 다루는 규칙 안에도 약자를 향한 사랑과 공정을 심을 수 있도록, 교회는 공적 자리에서 이 지혜를 겸손히 증언해야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q95 · 기독교는 AI 윤리 국제 거버넌스에 어떻게 기여할 수 있나요?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI 규칙을 만드는 건 전문가들 일 아닌가요? 교회가 왜 나서나요?</div>
+      <div class="row ans">기술적 세부는 전문가의 몫이지만, '무엇을 지켜야 하는가'라는 가치의 문제에는 신앙 전통의 도덕적 지혜가 크게 기여할 수 있습니다.</div>
+      <div class="row ask">기독교가 내놓을 수 있는 특별한 원칙은 무엇인가요?</div>
+      <div class="row ans">쓸모와 무관한 인간 존엄, 약자 우선 보호, 권력 집중 견제, 미래 세대를 향한 청지기적 책임입니다. 모두 성경에 깊이 뿌리내린 가치입니다.</div>
+      <div class="row ask">평범한 성도도 여기에 참여할 수 있나요?</div>
+      <div class="row ans">그렇습니다. 공청회 의견 제출, 정책에 관심 갖기, 약자 보호를 지지하는 목소리 내기 등 작은 참여도 공적 지혜에 보탬이 됩니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>'쓸모와 상관없이 사람은 존엄하다'는 믿음은 AI 시대에 왜 더 중요해질까요?</li>
+      <li>AI 혜택에서 소외되기 쉬운 사람은 우리 주변에 누구일까요?</li>
+      <li>소수 기업이 AI 권력을 독점하는 것을 왜 <b>경계</b>해야 할까요?</li>
+      <li>교회와 성도가 AI 규범 논의에 실제로 참여할 수 있는 방법을 함께 찾아봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI 정책·뉴스를 볼 때 '누가 소외되는가'를 먼저 살피는 눈을 기릅니다.</div>
+      <div class="li">사람을 쓸모로 재는 세상 논리에 맞서, 모든 이의 존엄을 지지하는 목소리를 냅니다.</div>
+      <div class="pray"><b>기도</b> — "정의를 구하시는 하나님, AI를 다루는 규칙 안에도 약자를 향한 사랑과 공정을 심게 하소서. 교회가 겸손히 공적 자리에서 주님의 지혜를 증언하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    교회가 전할 지혜는 <span class="em">정의·인자·겸손</span>,<br>
+    쓸모가 아닌 <span class="em">인간 존엄</span>을 지키는 목소리입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q95 / 100</div>
+</section>
+
+</body>
+</html>

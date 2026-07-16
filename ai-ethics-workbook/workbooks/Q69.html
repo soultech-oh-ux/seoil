@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q69 · 로봇 간병인이 인간의 사랑을 대체할 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제7부 · 생명 윤리와 AI</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q69</div>
+    <div class="qtitle">로봇 간병인이 인간의 사랑을 대체할 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>고령화는 빨라지고 간병할 사람은 부족합니다. 그래서 약을 챙기고 낙상을 감지하는 <b>로봇 간병인</b>이 점점 늘고 있습니다. 편리하고 든든합니다. 그런데 외로운 어르신에게 필요한 것이 정말 '기능'뿐일까요? 로봇이 사랑까지 대신할 수 있을지, 함께 생각해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">아닙니다. 로봇 간병인은 돌봄의 일부 기능을 할 수 있지만 <b>인간의 사랑을 대체할 수 없습니다</b>. 동시에 그 역할을 완전히 부정하는 것도 현실적이지 않습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>먼저 현실을 봐야 합니다. 전 세계가 고령화와 간병 인력 부족을 겪고 있고, 한국은 가장 빠르게 늙어 가는 나라 중 하나입니다. 일본은 이미 노인 돌봄 시설에서 로봇을 적극 활용합니다. 로봇은 <b>약 복용 알림, 낙상 감지와 응급 연락, 이동 보조, 대화 상대</b> 역할을 해낼 수 있습니다.</p>
+    <p>그래서 저자는 로봇 간병인을 무조건 부정하지 않습니다. 이런 기능적 돌봄은 실제로 큰 도움이 됩니다. 문제는 그것이 <b>사랑을 대체</b>할 수 있느냐입니다.</p>
+    <p>저자의 답은 분명합니다. 고통받는 사람에게 진짜 필요한 것은 효율적인 서비스가 아니라, 자신의 고통이 <b>목격되고(witnessed)</b> 자신이 사랑받는다는 느낌입니다. 로봇은 기능을 수행할 수는 있어도, 진정으로 <b>목격할 수는 없습니다</b>. 마치 자동응답기가 말은 받아 주지만 마음은 알아주지 못하는 것과 같습니다.</p>
+    <p>여기서 저자는 <b>교회의 응답</b>을 제안합니다. AI와 로봇이 기능적 돌봄을 맡을 때, 인간은 함께 앉아 이야기를 듣고 손을 잡고 기도해 주는 <b>관계적 돌봄</b>에 더 집중해야 합니다. 이것이 AI 시대에 기독교 공동체가 세상에 보여줄 <b>차별적 사랑</b>입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">요한복음 14:26</span>
+      <span class="txt">"보혜사 곧 아버지께서 내 이름으로 보내실 성령… 그가 너희에게 모든 것을 가르치시고"</span>
+      <p class="reflect">하나님은 우리를 홀로 두지 않으시고 <b>보혜사</b>, 곧 '곁에서 돕는 이'를 보내셨습니다. 참된 돌봄은 곁에 있어 주고 마음을 알아주는 것입니다. 로봇은 기능을 대신할 수 있어도, 함께 울고 함께 기도하는 사랑까지 대신할 수는 없습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q69 · 로봇 간병인이 인간의 사랑을 대체할 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">로봇 간병인을 쓰는 게 잘못인가요?</div>
+      <div class="row ans">아닙니다. 인력 부족이 심한 현실에서 약 알림, 낙상 감지, 이동 보조 같은 기능적 돌봄은 큰 도움이 됩니다. 그 역할을 무조건 부정할 필요는 없습니다.</div>
+      <div class="row ask">그럼 로봇이 대체할 수 없는 것은 무엇인가요?</div>
+      <div class="row ans">사랑입니다. 고통받는 이에게 필요한 것은 효율적 서비스가 아니라, 자신의 고통이 목격되고 사랑받는다는 느낌입니다. 로봇은 진정으로 '목격'할 수 없습니다.</div>
+      <div class="row ask">그럼 교회는 무엇을 해야 하나요?</div>
+      <div class="row ans">로봇이 기능적 돌봄을 맡을 때, 인간은 함께 앉아 듣고 손잡고 기도하는 관계적 돌봄에 더 집중해야 합니다. 이것이 AI 시대의 차별적 사랑입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 아플 때 가장 위로가 되었던 것은 '무엇을 해준 것'이었나요, '곁에 있어 준 것'이었나요?</li>
+      <li>"고통이 목격된다"는 말은 어떤 뜻일까요? 로봇이 그것을 왜 못 한다고 생각하나요?</li>
+      <li>우리 교회 주변에 홀로 계신 어르신은 누구인가요? 우리가 함께 앉아 드릴 수 있는 자리가 있을까요?</li>
+      <li>'기능적 돌봄'은 로봇에게 맡기고 '관계적 돌봄'에 집중한다면, 우리 공동체는 무엇부터 시작할 수 있을까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">이번 주, 외로운 이웃 한 사람 곁에 잠시라도 함께 앉아 이야기를 들어 드립니다.</div>
+      <div class="li">돌봄을 '해주는 일'을 넘어 '함께 있어 주는 일'로 여기는 마음을 연습합니다.</div>
+      <div class="pray"><b>기도</b> — "보혜사를 보내신 주님, 저희를 홀로 두지 않으심을 감사합니다. 기술이 기능을 대신하는 시대에, 저희가 곁에 앉아 손잡고 기도하는 사랑의 자리를 지키게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    로봇은 <span class="em">기능</span>을 돕지만,<br>
+    함께 있어 주는 <span class="em">사랑</span>은 오직 사람이 합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q69 / 100</div>
+</section>
+
+</body>
+</html>

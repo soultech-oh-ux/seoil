@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q34 · AI가 설교해도 되는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제4부 · 신앙과 신학적 관점</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q34</div>
+    <div class="qtitle">AI가 설교해도 되는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI에게 "이번 주 설교문을 써 달라"고 하면 그럴듯한 원고가 순식간에 나옵니다. 그렇다면 그 원고를 강단에서 읽는 것도 '설교'일까요? 설교란 과연 좋은 문장을 잘 전달하는 일일까요, 아니면 그 이상의 무엇일까요? 설교의 본질을 함께 들여다봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI가 만든 텍스트를 목회자가 읽는 것은 가능합니다. 그러나 그것이 성경적 의미의 <b>설교</b>인지는 신중히 물어야 합니다. 설교는 <b>성령이 살아있는 목회자를 통해</b> 회중에게 말씀하시는 사건이기 때문입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>사도 바울은 자신의 전도가 "설득력 있는 지혜의 말"이 아니라 <b>"성령의 나타나심과 능력"</b>으로 된 것이라 고백했습니다(고전 2:4-5). 설교는 잘 다듬은 강연이 아니라, 성령의 역사가 일어나는 사건입니다.</p>
+    <p>이 역사에는 세 가지가 필요합니다. ① 목회자가 본문과 <b>씨름하며 기도하고 연구</b>하는 개인적 과정, ② 이 <b>특정 회중</b>이 지금 무엇을 필요로 하는지 아는 것, ③ 말씀이 이 순간 살아 역사하게 하시는 <b>성령의 감동</b>입니다.</p>
+    <p>AI는 신학적으로 정확한 텍스트를 만들 수 있지만, <b>성령의 역사를 중재할 수 없습니다.</b> 그렇다면 목회자가 AI를 설교 준비에 <b>도구로</b> 쓰는 것은 가능할까요? 예, 가능합니다.</p>
+    <p>주석 정보 수집, 예화 아이디어 탐색, 초안 구조 잡기는 <b>허용</b>됩니다. 다만 그 내용을 자신의 기도와 씨름으로 소화해 재구성해야 하며, AI가 생성한 텍스트를 그대로 읽거나 AI가 설교의 <b>실질적 주체</b>가 되는 것은 경계해야 합니다. 2023년 독일에서 AI가 전체 예배를 진행한 실험에서 상당수 참석자가 <b>"영적 깊이가 없었다"</b>고 평가한 것은 의미심장합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">고린도전서 2:4-5</span>
+      <span class="txt">"내 말과 내 전도함이 설득력 있는 지혜의 말로 하지 아니하고 다만 성령의 나타나심과 능력으로 하여…"</span>
+      <p class="reflect">바울은 청중의 믿음이 '사람의 지혜'가 아니라 '하나님의 능력'에 있기를 원했습니다. 설교의 힘은 문장의 완성도가 아니라 <b>성령의 능력</b>에 있습니다. 그래서 설교는 기술이 아니라 살아있는 사람을 통한 하나님의 사건입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q34 · AI가 설교해도 되는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 신학적으로 정확한 설교문을 쓴다면 문제없지 않나요?</div>
+      <div class="row ans">정확한 텍스트를 만들 수는 있습니다. 그러나 설교는 성령이 목회자를 통해 회중에게 역사하시는 사건이며, AI는 그 성령의 역사를 중재할 수 없습니다.</div>
+      <div class="row ask">그럼 목회자가 AI를 설교 준비에 쓰면 안 되나요?</div>
+      <div class="row ans">도구로는 가능합니다. 주석 수집, 예화 탐색, 초안 구조는 허용됩니다. 단, 자신의 기도와 씨름으로 소화해 재구성해야 합니다.</div>
+      <div class="row ask">가장 경계해야 할 것은 무엇인가요?</div>
+      <div class="row ans">AI가 만든 원고를 그대로 읽거나, AI가 설교의 실질적 주체가 되는 것입니다. 독일의 AI 예배 실험도 '영적 깊이가 없다'는 평을 받았습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내 마음을 깊이 울린 설교에는 어떤 공통점이 있었나요?</li>
+      <li>설교가 '좋은 강연'과 다른 점은 무엇이라고 생각하나요?</li>
+      <li>목회자가 AI를 도구로 쓸 때, '허용'과 '경계'의 선을 어디에 그어야 할까요?</li>
+      <li>회중인 우리는 목회자의 설교 사역을 위해 무엇으로 도울 수 있을까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">설교를 들을 때 '문장의 완성도'가 아니라 '성령의 음성'에 귀를 기울입니다.</div>
+      <div class="li">목회자가 본문과 씨름하며 준비할 수 있도록 기도로 함께합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 설교가 사람의 지혜가 아니라 성령의 능력으로 임하게 하소서. 말씀을 전하는 종을 붙드시고, 듣는 저희 마음을 열어 주님의 음성을 듣게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    설교는 잘 쓴 원고가 아니라,<br>
+    <span class="em">성령이 사람을 통해</span> 말씀하시는 <span class="em">사건</span>입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q34 / 100</div>
+</section>
+
+</body>
+</html>

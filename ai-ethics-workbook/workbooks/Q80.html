@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q80 · AI와 인간의 공존은 가능할까? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제8부 · 기술과 사회윤리</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q80</div>
+    <div class="qtitle">AI와 인간의 공존은 가능할까?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>지금까지 우리는 AI의 여러 그림자를 살펴봤습니다. 그렇다면 결론은 절망일까요? 아닙니다. AI는 인간의 적일까요, 아니면 함께 살아갈 이웃 같은 도구일까요? 우리가 이 관계를 <b>어떻게 짜느냐</b>에 따라 미래가 달라집니다. 그 방향을 신앙 안에서 함께 찾아봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">예. AI와 인간의 공존은 가능합니다. 기독교 신앙은 그 공존을 어떻게 구성해야 하는지 <b>중요한 방향</b>—청지기 공존—을 제시합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>공존에는 두 모델이 있습니다. <b>경쟁 모델</b>은 AI와 인간이 같은 역할을 두고 다투는 것입니다. 이 경우 AI가 인간을 대체하는 것은 불가피하고, 인간의 존엄과 소명은 위협받습니다. 마치 같은 자리를 놓고 겨루는 라이벌 같습니다.</p>
+    <p><b>협력 모델</b>은 다릅니다. AI가 인간의 능력을 <b>확장하고 보완하는 도구</b>로 기능하는 것입니다. 인간이 방향을 정하고 AI가 실행합니다. 이 모델에서는 오히려 인간다움이 더 충분히 드러납니다.</p>
+    <p>기독교는 여기서 <b>세 번째 모델</b>을 제안합니다. 바로 <b>청지기 공존</b>입니다. 인간은 하나님 앞에서 <b>청지기</b>로서 AI를 관리하고, AI는 하나님의 창조 세계를 돌보는 사역의 도구가 됩니다. 인간의 특별함—하나님의 형상, 관계적 소명—은 AI가 능가할 수 없습니다.</p>
+    <p>에덴에서 하나님은 사람에게 동산을 "경작하며 지키게" 하셨습니다. <b>경작</b>(아바드—섬기다)과 <b>지키기</b>(샤마르—보호하다), 이 청지기 소명이 AI 시대에도 우리에게 있습니다. AI를 도구로 쓰되, AI가 하나님의 창조 세계를 해치지 않도록 지키는 것—이것이 기독교적 공존의 비전입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">창세기 2:15</span>
+      <span class="txt">"여호와 하나님이 그 사람을 이끌어 에덴동산에 두어 그것을 경작하며 지키게 하시고."</span>
+      <p class="reflect">경작(섬김)과 지키기(보호)—이 두 소명은 AI 시대에도 유효합니다. 우리는 AI를 도구로 활용하되, 동시에 창조 세계를 지키는 청지기입니다. 기술의 주인은 하나님이시고, 우리는 그 앞에서 맡겨진 것을 <b>책임 있게 다루는 관리인</b>입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q80 · AI와 인간의 공존은 가능할까?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">경쟁 모델과 협력 모델은 어떻게 다른가요?</div>
+      <div class="row ans">경쟁 모델은 AI와 인간이 같은 역할을 두고 다투어 결국 인간이 대체됩니다. 협력 모델은 AI가 인간을 보완하는 도구로, 인간이 방향을 정하고 AI가 실행합니다.</div>
+      <div class="row ask">기독교가 말하는 '청지기 공존'이란 무엇인가요?</div>
+      <div class="row ans">인간이 하나님 앞의 청지기로서 AI를 관리하고, AI는 창조 세계를 돌보는 사역의 도구가 되는 것입니다. 인간의 특별함은 AI가 능가할 수 없습니다.</div>
+      <div class="row ask">에덴의 '경작하며 지키라'는 명령이 왜 중요한가요?</div>
+      <div class="row ans">경작(섬김)과 지키기(보호)의 청지기 소명이 AI 시대에도 유효하기 때문입니다. AI를 쓰되 창조 세계를 해치지 않도록 지키는 것이 우리 역할입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>나는 AI를 '경쟁자'로 느끼나요, '도구'로 느끼나요? 그 이유는 무엇인가요?</li>
+      <li>AI가 결코 대신할 수 없는 <b>인간만의 특별함</b>은 무엇이라고 생각하나요?</li>
+      <li>"방향은 인간이 정하고 AI가 실행한다"는 협력 모델을 내 일상에 어떻게 적용할 수 있을까요?</li>
+      <li>이 워크북(제8부) 전체를 돌아볼 때, AI 시대의 청지기로서 내가 가장 붙들고 싶은 다짐은 무엇인가요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI를 두려워하거나 맹신하지 않고, 하나님 앞의 청지기로서 책임 있게 활용합니다.</div>
+      <div class="li">기술을 쓰는 동시에 창조 세계와 이웃을 '지키는' 관점을 잃지 않도록 늘 살핍니다.</div>
+      <div class="pray"><b>기도</b> — "창조주 하나님, 동산을 경작하며 지키라 하신 소명이 AI 시대에도 저희에게 있음을 압니다. 기술의 주인은 주님이시니, 맡겨진 것을 책임 있게 다스리는 신실한 청지기 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI와 인간의 공존은 <span class="em">청지기 공존</span>으로 가능합니다.<br>
+    경작하고 <span class="em">지키는</span> 소명이 AI 시대에도 우리에게 있습니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q80 / 100</div>
+</section>
+
+</body>
+</html>

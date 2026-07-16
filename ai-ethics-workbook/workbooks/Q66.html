@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q66 · AI가 장기 기증 우선순위를 정하는 것은 올바른가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제7부 · 생명 윤리와 AI</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q66</div>
+    <div class="qtitle">AI가 장기 기증 우선순위를 정하는 것은 올바른가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>이식받을 장기는 늘 부족하고, 기다리는 환자는 많습니다. 누구에게 먼저 기회를 줄지 정하는 이 어려운 일을, 이제 <b>AI가 돕겠다고</b> 나섰습니다. 공정하고 효율적일 수 있지만, 혹시 힘없는 사람이 뒤로 밀리지는 않을까요? 함께 짚어 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI가 장기 이식 우선순위를 <b>보조</b>하는 것은 조건부로 허용될 수 있습니다. 단, 반드시 <b>인간의 최종 검토와 윤리 위원회의 감독</b>이 함께해야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>사실 장기 이식 배분은 이미 <b>알고리즘</b>을 씁니다. 미국의 UNOS, 한국의 KONOS 같은 시스템이 의학적 적합성, 대기 시간, 지리적 근접성 등을 따져 순서를 정합니다. AI는 이 과정을 더 효율적으로 만들 수 있습니다.</p>
+    <p>그래서 저자는 무조건 반대하지 않습니다. 다만 <b>네 가지 조건</b>을 지킬 때에만 AI가 보조 역할을 할 수 있다고 봅니다. ① <b>투명성</b>—결정 기준이 공개되고 사회적으로 합의되어야 합니다. ② <b>인간 최종 검토</b>—AI의 권고를 의료진과 윤리 위원회가 검토해야 합니다.</p>
+    <p>③ <b>공정성 감사</b>—알고리즘이 특정 집단을 차별하지 않는지 정기적으로 점검해야 합니다. ④ <b>이의 제기 가능성</b>—결정에 이의를 제기할 수 있는 인간적 절차가 있어야 합니다. 이 조건들은 마치 심판의 판정에 항의할 창구와 비디오 판독이 있어야 하는 것과 같습니다.</p>
+    <p>무엇보다 저자가 강조하는 것은 <b>가장 취약한 사람들</b>입니다. 사회경제적으로 불리한 위치에 있는 이들의 이익이 알고리즘 속에서 조용히 밀려나지 않도록, 특별한 주의가 필요합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">잠언 31:8</span>
+      <span class="txt">"너는 말 못하는 자와 모든 고독한 자의 송사를 위하여 입을 열지니라"</span>
+      <p class="reflect">성경은 스스로를 변호할 수 없는 <b>약한 이들</b>을 위해 입을 열라고 명합니다. 장기 배분처럼 생사가 걸린 자리에서, 힘없는 사람이 효율의 이름으로 밀려나지 않도록 지켜보는 것이 신앙 공동체의 몫입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q66 · AI가 장기 기증 우선순위를 정하는 것은 올바른가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">장기 배분에 AI를 쓰는 게 허용되나요?</div>
+      <div class="row ans">조건부로 허용됩니다. 이미 알고리즘이 쓰이고 있고, AI가 더 효율적으로 도울 수 있습니다. 단, 네 가지 조건을 반드시 지켜야 합니다.</div>
+      <div class="row ask">그 조건들은 무엇인가요?</div>
+      <div class="row ans">① 기준의 투명성과 사회적 합의, ② 의료진·윤리 위원회의 인간 최종 검토, ③ 차별 여부 정기 감사, ④ 결정에 이의를 제기할 인간적 절차입니다.</div>
+      <div class="row ask">이 논의에서 가장 조심해야 할 점은요?</div>
+      <div class="row ans">사회경제적으로 불리한 취약한 사람들이 알고리즘 속에서 조용히 밀려나지 않도록 특별히 살펴야 한다는 점입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>공정한 순서를 기계가 정한다면 오히려 더 믿음직할까요, 아니면 불안할까요? 왜 그런가요?</li>
+      <li>'투명성'과 '이의 제기 창구'가 왜 그렇게 중요한 조건일까요?</li>
+      <li>알고리즘이 '차별하지 않는지'는 어떻게 확인할 수 있을까요?</li>
+      <li>우리 사회에서 '힘없어 밀려나기 쉬운 사람'은 누구일까요? 교회는 그들을 위해 무엇을 할 수 있을까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">효율만 앞세우는 판단 속에서 약한 이웃이 밀려나지 않는지 살피는 시선을 기릅니다.</div>
+      <div class="li">스스로 변호할 수 없는 이들을 위해 '입을 여는' 용기를 작은 자리에서 연습합니다.</div>
+      <div class="pray"><b>기도</b> — "공의로우신 하나님, 생명을 나누는 자리에 정의와 긍휼이 함께하게 하소서. 효율의 이름으로 약한 이가 밀려나지 않게 하시고, 말 못 하는 자를 위해 입을 여는 용기를 주소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 <span class="em">보조</span>, 최종 검토는 <span class="em">사람</span>,<br>
+    가장 약한 이웃을 <span class="em">먼저 지켜봅니다</span>.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q66 / 100</div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q43 · 성도 돌봄에 AI를 활용할 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제5부 · 교회와 목회 현장 적용</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q43</div>
+    <div class="qtitle">성도 돌봄에 AI를 활용할 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>교인 한 사람 한 사람의 생일과 기도 제목을 챙기는 일은 목양의 아름다운 수고입니다. 요즘은 <b>24시간 응답하는 AI 돌봄 챗봇</b>까지 등장해, 질문에 답하고 기도까지 제공한다고 합니다. 편리해 보이는데, 과연 AI가 성도를 <b>돌본다</b>고 말할 수 있을까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">돌봄의 <b>행정적·정보적 측면</b>에는 AI가 큰 도움이 됩니다. 그러나 돌봄의 핵심인 <b>함께 있음(현존)과 공감</b>은 AI가 결코 대신할 수 없습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>성도 돌봄에는 <b>두 차원</b>이 있습니다. 하나는 <b>행정적 차원</b>—생일·기념일 알림, 심방 일정 관리, 상담 기록 정리, 기도 제목 추적입니다. 이런 일에서 AI는 상당한 도움을 줍니다.</p>
+    <p>다른 하나는 <b>관계적 차원</b>—병상 심방, 임종 동행, 위기 속의 지지, 영적 씨름의 동반자입니다. 이것은 AI가 결코 대체할 수 없는 영역입니다. 손을 잡아 주고 함께 울어 주는 일에는 <b>사람의 현존</b>이 필요하기 때문입니다.</p>
+    <p>여기에 <b>위험</b>이 있습니다. 24시간 답해 주는 AI 챗봇은 진정한 목회 돌봄의 필요를 <b>채워 주는 것처럼 보이지만, 실제로는 그렇지 않습니다.</b> 마치 배고픈 이에게 음식 사진을 보여 주는 것과 같지요. 허기의 착시만 줄 뿐 참된 양식이 되지 못합니다.</p>
+    <p>그러므로 바른 방향은 이것입니다. 교회가 <b>AI로 절약한 행정 시간을 더 깊은 인격적 돌봄에 투자하는 것</b>입니다. 기계가 일정과 기록을 맡아 줄 때, 사람은 사람에게 더 가까이 다가갈 수 있습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">마태복음 8:17</span>
+      <span class="txt">"우리의 연약한 것을 친히 담당하시고 병을 짊어지셨도다"</span>
+      <p class="reflect">예수님의 치유 사역의 핵심은 <b>"친히 담당하심"</b>—몸으로 함께하시는 돌봄이었습니다. 목회 돌봄도 이 <b>체화된 현존</b>을 본받아야 합니다. AI는 정보를 줄 수 있어도, 곁에 있어 줄 수는 없습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q43 · 성도 돌봄에 AI를 활용할 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 돌봄에 도움이 되는 부분은 어디까지인가요?</div>
+      <div class="row ans">행정적 차원입니다. 생일·기념일 알림, 심방 일정 관리, 상담 기록 정리, 기도 제목 추적 같은 일에서 AI는 상당한 도움을 줍니다.</div>
+      <div class="row ask">AI 돌봄 챗봇은 왜 위험한가요?</div>
+      <div class="row ans">진정한 목회 돌봄의 필요를 채워 주는 것처럼 보이지만 실제로는 채우지 못하기 때문입니다. 겉보기 만족이 참된 돌봄의 부재를 가릴 수 있습니다.</div>
+      <div class="row ask">그렇다면 AI를 바르게 쓰는 방향은 무엇인가요?</div>
+      <div class="row ans">AI로 절약한 행정 시간을 더 깊은 인격적 돌봄에 투자하는 것입니다. 기계가 반복 업무를 맡을수록 사람은 사람에게 더 가까이 갈 수 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 누군가에게 받았던 돌봄 중, "함께 있어 준 것"이 가장 큰 위로였던 순간은 언제였나요?</li>
+      <li>돌봄의 행정적 차원과 관계적 차원을 구분해 보면, 우리 교회는 어느 쪽에 더 힘써야 할까요?</li>
+      <li>AI 돌봄 챗봇이 "채워 주는 것처럼 보이지만 실제로는 아니다"라는 말에 어떤 생각이 드나요?</li>
+      <li>AI로 시간을 아꼈다면, 그 시간을 어떤 <b>인격적 돌봄</b>에 쓰면 좋을지 나눠 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">이번 주, 문자나 챗봇 대신 직접 찾아가거나 손을 잡아 줄 한 사람을 정합니다.</div>
+      <div class="li">AI가 대신할 수 없는 "함께 있음"의 돌봄을 우리 공동체 안에서 실천합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 연약한 이를 친히 담당하신 예수님처럼, 저도 사람 곁에 몸으로 함께하는 돌봄의 사람이 되게 하소서. 편리함에 사랑을 넘겨주지 않게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 돌봄의 <span class="em">행정</span>을 도울 수 있으나,<br>
+    <span class="em">함께 있음과 공감</span>은 오직 사람의 몫입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q43 / 100</div>
+</section>
+
+</body>
+</html>

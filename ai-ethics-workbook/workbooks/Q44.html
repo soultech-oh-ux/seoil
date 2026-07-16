@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q44 · 온라인 목회와 AI의 결합은 어떤 영향을 줄까? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제5부 · 교회와 목회 현장 적용</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q44</div>
+    <div class="qtitle">온라인 목회와 AI의 결합은 어떤 영향을 줄까?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>이제 예배를 온라인으로 드리고, AI가 실시간으로 자막과 번역을 붙이는 시대입니다. 멀리 사는 성도나 해외 이민자도 함께 예배할 수 있게 되었지요. 그런데 화면 너머로만 만나다 보면, 문득 <b>"우리가 정말 함께 모이고 있는 걸까?"</b> 하는 물음이 남습니다. 온라인 목회와 AI의 만남은 우리 신앙에 어떤 영향을 줄까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">온라인 목회와 AI의 결합은 복음의 <b>접근성을 크게 넓히는</b> 잠재력이 있습니다. 그러나 <b>공동체성과 체화된 신앙의 약화</b>라는 위험도 함께 안고 있습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>긍정적 가능성</b>은 분명합니다. 지방 소도시·선교지·이민자 공동체에서도 목회 자원에 접근할 수 있고, <b>AI 번역</b>으로 다국어 예배가 실시간으로 이루어지며, 24시간 기본 정보 제공과 <b>장애인 접근성</b> 향상까지 가능합니다. 문이 넓어지는 것입니다.</p>
+    <p>그러나 <b>위험</b>도 있습니다. 첫째는 <b>공동체성의 상실</b>입니다. 온라인과 AI 환경에서는 몸으로 함께 모이는 예배의 경험이 약해집니다. 성찬, 안수, 세례, 서로 짐 지기—이런 것들은 온라인으로 온전히 구현될 수 없습니다.</p>
+    <p>둘째는 <b>'교회 쇼핑'</b>입니다. AI 추천 알고리즘이 내 취향에 딱 맞는 설교와 교회를 골라 주면, 성도가 헌신과 공동체 대신 <b>소비자 선택</b>으로 교회를 대할 위험이 생깁니다. 마치 입맛대로 채널을 돌리듯 신앙을 고르게 되는 것이지요.</p>
+    <p>그래서 방향이 중요합니다. 온라인 목회는 오프라인 공동체를 <b>대체하는 것이 아니라 보완하는</b> 쪽으로 발전해야 합니다. 넓어진 문이 흩어짐이 아니라 더 깊은 모임으로 이어져야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">히브리서 10:25</span>
+      <span class="txt">"모이기를 폐하는 어떤 사람들의 습관과 같이 하지 말고 오직 권하여 그 날이 가까움을 볼수록 더욱 그리하자"</span>
+      <p class="reflect">성경은 <b>함께 모이기</b>를 신앙의 본질로 강조합니다. 온라인과 AI가 아무리 편리해도, 몸으로 모여 서로 권면하는 공동체를 대신할 수는 없습니다. 편리함이 모임을 대체하지 않도록 지혜가 필요합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q44 · 온라인 목회와 AI의 결합은 어떤 영향을 줄까?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">온라인 목회와 AI의 가장 큰 유익은 무엇인가요?</div>
+      <div class="row ans">복음의 접근성 확장입니다. 지리적 한계를 넘고, 실시간 번역으로 다국어 예배를 열며, 장애인 접근성을 높여 더 많은 이가 함께할 수 있게 합니다.</div>
+      <div class="row ask">'교회 쇼핑'이란 무슨 뜻인가요?</div>
+      <div class="row ans">AI 추천이 취향에 맞는 설교와 교회를 골라 주면, 헌신과 공동체 대신 소비자처럼 교회를 고르고 옮겨 다니게 되는 위험을 말합니다.</div>
+      <div class="row ask">그럼 온라인 목회는 어떤 방향으로 가야 하나요?</div>
+      <div class="row ans">오프라인 공동체를 대체하는 것이 아니라 보완하는 방향입니다. 넓어진 접근성이 흩어짐이 아니라 더 깊은 모임으로 이어져야 합니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>온라인 예배가 내 신앙에 준 유익과, 반대로 아쉬웠던 점은 각각 무엇이었나요?</li>
+      <li>성찬·세례·안수처럼 "몸으로 함께해야 하는" 신앙의 요소들이 왜 중요할까요?</li>
+      <li>추천 알고리즘에 따라 신앙을 <b>소비자처럼 고르게</b> 되는 위험을 우리 삶에서 느낀 적이 있나요?</li>
+      <li>온라인이 오프라인 공동체를 <b>보완</b>하려면, 우리 교회는 무엇을 준비해야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">온라인의 편리함을 누리되, 몸으로 모이는 예배와 교제를 우선순위에 둡니다.</div>
+      <div class="li">멀리 있어 접근성이 필요한 이웃에게 온라인 자원을 안내하고 연결해 줍니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 넓어진 기술의 문으로 더 많은 이가 복음을 만나게 하시고, 저희가 편리함에 갇혀 모이기를 소홀히 하지 않게 하소서. 함께 모여 서로 권면하는 공동체를 지키게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    온라인과 AI는 복음의 <span class="em">문을 넓히지만</span>,<br>
+    모이는 <span class="em">공동체</span>를 대체할 수는 없습니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q44 / 100</div>
+</section>
+
+</body>
+</html>

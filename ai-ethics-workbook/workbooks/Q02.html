@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q2 · 기독교 윤리란 무엇인가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제1부 · 정의와 기초 이해</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q2</div>
+    <div class="qtitle">기독교 윤리란 무엇인가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>세상에도 '착하게 살자'는 도덕은 많습니다. 그렇다면 <b>기독교 윤리</b>는 그런 상식적인 착함과 무엇이 다를까요? AI 시대에 옳고 그름을 판단하려면, 먼저 우리가 어떤 잣대로 사는지 알아야 합니다. 신앙인의 도덕은 어디에서 출발하는지 함께 살펴봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">기독교 윤리는 사람의 이성이나 합의가 아니라 <b>하나님 자신—그분의 성품·말씀·뜻</b>을 모든 판단의 출발점으로 삼는 규범 체계입니다. 그 두 기둥은 <b>거룩과 사랑</b>입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>세속 윤리는 인간의 <b>이성·합의·결과</b>에서 기준을 찾습니다. 반면 기독교 윤리는 하나님 자신을 기준으로 삼습니다. 같은 '정직'을 말해도, 출발점이 사람이냐 하나님이냐에 따라 뿌리 깊이가 완전히 달라집니다.</p>
+    <p>기독교 윤리는 세 층위로 우리를 안내합니다. ① <b>계명</b>(하나님이 직접 명하신 절대 기준 — "살인하지 말라", "이웃을 네 몸처럼 사랑하라") → ② <b>지혜</b>(잠언·전도서처럼 구체적 상황에서 선하게 사는 법을 성찰) → ③ <b>성령의 인도</b>(계명과 지혜로도 안 풀리는 새 상황에서 공동체가 함께 기도하며 분별, 약 1:5).</p>
+    <p>세속 AI 윤리도 공정성·투명성·책임성을 말합니다. 중요하지만 <b>'얇습니다'</b>. 왜 사람을 공정하게 대해야 하는지, 왜 정직이 의무인지 두터운 이유를 대지 못합니다. 마치 규칙만 있고 그 규칙을 지켜야 할 까닭은 비어 있는 것과 같습니다.</p>
+    <p>기독교 윤리는 두텁게 대답합니다. 인간이 존엄한 이유는 <b>하나님의 형상</b>으로 지음받았기 때문이고, 정의가 의무인 이유는 하나님 자신이 정의로우시기 때문입니다. 이 두터운 근거가 AI의 모든 구체적 질문을 판단하는 힘이 됩니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">레위기 11:44 · 마태복음 22:39</span>
+      <span class="txt">"내가 거룩하니 너희도 거룩할지어다" / "네 이웃을 네 자신같이 사랑하라"</span>
+      <p class="reflect"><b>거룩</b>은 하나님의 성품을 닮아가는 것이고, <b>사랑</b>은 그것을 이웃에게 구체적 행동으로 표현하는 것입니다. 이 두 기둥이 AI 시대의 모든 윤리 질문을 판단하는 기독교적 잣대입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q2 · 기독교 윤리란 무엇인가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">세상의 도덕만 잘 지켜도 착하게 살 수 있지 않나요?</div>
+      <div class="row ans">겉으로는 비슷해 보여도, 세속 도덕은 '왜'라는 근거가 얇습니다. 기독교 윤리는 하나님의 성품이라는 두터운 뿌리에서 옳고 그름의 이유를 길어 올립니다.</div>
+      <div class="row ask">계명만 있으면 되지, 왜 지혜와 성령의 인도까지 필요한가요?</div>
+      <div class="row ans">AI처럼 성경에 직접 답이 없는 새로운 문제가 많기 때문입니다. 그럴 때 지혜로 성찰하고, 공동체가 함께 기도하며 분별해야 합니다.</div>
+      <div class="row ask">'거룩'과 '사랑'은 서로 부딪치지 않나요?</div>
+      <div class="row ans">아닙니다. 둘은 한 뿌리입니다. 거룩은 하나님을 닮는 것이고, 사랑은 그 거룩함을 이웃에게 행동으로 나타내는 것입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 옳고 그름을 판단할 때, 실제로는 무엇을 기준으로 삼고 있나요?</li>
+      <li>"공정하게 대하자"는 말에 '왜?'라고 물으면, 나는 어떻게 대답할 수 있을까요?</li>
+      <li>계명·지혜·성령의 인도 중 요즘 나에게 가장 필요한 것은 무엇인가요?</li>
+      <li>내 삶에서 <b>거룩</b>과 <b>사랑</b>이 함께 드러나야 할 구체적인 자리는 어디일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">어떤 판단을 내릴 때, '세상 기준'이 아니라 '하나님의 성품'을 먼저 떠올립니다.</div>
+      <div class="li">이번 주 한 사람에게 거룩함을 사랑의 구체적 행동으로 표현해 봅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 세상의 얕은 기준이 아니라 주님의 성품을 저의 잣대로 삼게 하시고, 거룩과 사랑으로 이웃을 대하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    기독교 윤리의 출발점은 사람이 아니라 <span class="em">하나님</span>,<br>
+    그 두 기둥은 <span class="em">거룩</span>과 <span class="em">사랑</span>입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q2 / 100</div>
+</section>
+
+</body>
+</html>

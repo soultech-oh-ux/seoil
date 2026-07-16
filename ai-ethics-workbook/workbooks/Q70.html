@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q70 · AI는 노인 돌봄에 인간보다 윤리적인가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제7부 · 생명 윤리와 AI</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q70</div>
+    <div class="qtitle">AI는 노인 돌봄에 인간보다 윤리적인가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>지친 간병인은 짜증을 낼 수 있지만, AI는 피곤해하지도, 화내지도 않습니다. 24시간 한결같습니다. 그렇다면 <b>AI가 사람보다 더 윤리적인 돌봄</b>을 할 수 있는 걸까요? 얼핏 그래 보이지만, '돌봄'이라는 말의 참뜻을 들여다보면 이야기가 달라집니다. 함께 생각해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI는 일관성 같은 <b>일부 측면</b>에서 더 나을 수 있지만, 돌봄의 <b>본질적 의미</b>에서 AI가 인간보다 윤리적인 것은 불가능합니다. AI는 인간의 돌봄을 보조해야지 대체해서는 안 됩니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>솔직히 인정할 부분부터 봅시다. AI는 어떤 면에서 더 나을 수 있습니다. <b>일관성</b>(피로·소진·인력 부족으로 인한 질 저하가 없음), <b>인내심</b>(같은 질문에 화내지 않음), <b>편견 없음</b>(특정 노인을 무의식적으로 차별하지 않음), <b>24시간 모니터링</b> 등입니다. 이런 면에서 AI는 돌봄의 질을 높일 수 있습니다.</p>
+    <p>그러나 저자는 <b>진정한 돌봄의 의미</b>를 묻습니다. 돌봄(care)은 단순한 서비스 제공이 아닙니다. 한 인격이 다른 인격의 <b>존엄과 가치를 인정하고</b>, 그를 위해 시간과 에너지를 쏟는 <b>사랑의 행위</b>입니다.</p>
+    <p>여기서 성경은 "네 부모를 공경하라"(출 20:12)고 명합니다. 부모 공경은 돌봄의 <b>외주화</b>가 아니라 <b>관계적 헌신</b>을 요구합니다. 노인을 좋은 AI 시설에 맡기고 "더 좋은 기술적 돌봄이 제공된다"며 안심하는 것은, 이 명령의 참뜻을 놓치는 것입니다.</p>
+    <p>그래서 저자의 결론은 분명합니다. AI는 인간의 돌봄을 <b>보조해야지 대체해서는 안 됩니다</b>. 교회 공동체가 가장 취약한 노인들을 인격적으로 돌보는 것, 그것이 AI 시대의 <b>기독교적 증거</b>입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">출애굽기 20:12</span>
+      <span class="txt">"네 부모를 공경하라 그리하면 네 하나님 여호와가 네게 준 땅에서 네 생명이 길리라"</span>
+      <p class="reflect">부모 공경은 돌봄을 <b>남에게 넘기는 일</b>이 아니라 <b>관계적 헌신</b>을 요구합니다. 좋은 시설과 기술이 있어도, 직접 찾아가 손잡고 마음을 나누는 헌신을 대신할 수는 없습니다. 이 헌신이 계명의 참뜻입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q70 · AI는 노인 돌봄에 인간보다 윤리적인가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 지치지 않고 편견도 없다면 더 윤리적인 것 아닌가요?</div>
+      <div class="row ans">일관성이나 인내심 같은 일부 측면에서는 더 나을 수 있습니다. 그러나 돌봄의 본질적 의미에서 AI가 인간보다 윤리적인 것은 불가능합니다.</div>
+      <div class="row ask">'진정한 돌봄'은 무엇인가요?</div>
+      <div class="row ans">한 인격이 다른 인격의 존엄과 가치를 인정하고, 그를 위해 시간과 에너지를 쏟는 사랑의 행위입니다. 단순한 서비스 제공과는 다릅니다.</div>
+      <div class="row ask">그럼 노인을 좋은 AI 시설에 맡기면 안 되나요?</div>
+      <div class="row ans">시설과 기술의 도움은 받을 수 있습니다. 다만 "기술이 다 해주니 안심"하며 관계적 헌신을 놓아 버리면, '부모 공경'의 참뜻을 잃게 됩니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>"화내지 않는 AI"와 "가끔 지치지만 사랑하는 사람" 중, 아플 때 나는 누구의 돌봄을 원할까요?</li>
+      <li>'돌봄을 남에게 맡기는 것'과 '관계적 헌신'의 차이를 내 삶에서 느낀 적이 있나요?</li>
+      <li>바쁜 현실에서 부모나 어르신을 향한 '공경'을 지키기 어려운 이유는 무엇일까요?</li>
+      <li>AI가 기능을 맡는 시대에, 교회가 노인을 '인격적으로' 돌보는 구체적 모습은 어떤 것일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">이번 주, 부모님이나 어르신께 직접 연락드리거나 찾아가 손을 잡아 드립니다.</div>
+      <div class="li">돌봄을 기술에 '맡겨 안심'하기보다, 관계적 헌신으로 함께하는 자리를 지킵니다.</div>
+      <div class="pray"><b>기도</b> — "부모 공경을 명하신 주님, 편리함을 핑계로 사랑의 자리를 떠나지 않게 하소서. 가장 약한 어르신들을 인격적으로 돌보는 일이 이 시대 저희의 증거가 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 돌봄을 <span class="em">보조</span>할 뿐,<br>
+    존엄을 알아보는 <span class="em">사랑의 헌신</span>은 사람의 몫입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q70 / 100</div>
+</section>
+
+</body>
+</html>

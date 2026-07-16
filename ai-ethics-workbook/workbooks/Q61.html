@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q61 · AI가 생명을 조작하거나 수정할 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제7부 · 생명 윤리와 AI</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q61</div>
+    <div class="qtitle">AI가 생명을 조작하거나 수정할 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>불치병을 고치고 유전병을 막는 기술이 눈앞에 다가왔습니다. AI는 이제 생명의 설계도인 <b>유전자</b>까지 다루도록 돕고 있습니다. 사람의 생명을 '수정'하는 이 일을, 우리는 어디까지 반겨야 할까요? 하나님이 지으신 생명 앞에서 잠시 멈추어 생각해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">기술적으로 AI의 생명 조작은 이미 가능해지고 있으며 질병 치료 같은 선한 쓰임이 많습니다. 그러나 기독교 생명 윤리는 <b>치료를 넘어선 '강화'</b>에 대해 엄중한 물음을 제기합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>AI는 이미 생명과학에서 혁명적인 역할을 합니다. 단백질 구조를 예측하는 <b>알파폴드</b>는 신약 개발을 앞당기고, AI 분석 도구는 <b>유전자 가위(CRISPR)</b>의 표적을 더 정밀하게 설계합니다. 이 가운데 상당 부분은 불치병 치료와 유전 질환 예방이라는 분명한 선(善)입니다.</p>
+    <p>그러나 생명을 근본적으로 다시 설계하는 능력은 깊은 물음을 던집니다. 하나님이 지으신 생명을 사람이 도구로 재설계할 때, 우리는 창조의 질서를 존중하는 것일까요, 아니면 피조물이 <b>창조주의 영역</b>을 넘보는 것일까요?</p>
+    <p>저자는 세 가지 기준을 제시합니다. 첫째 <b>치료와 강화의 구분</b>—병을 고치는 것과 더 높은 지능·능력을 '업그레이드'하는 것은 다릅니다. 둘째 <b>동의</b>—태어날 아이의 유전자를 설계하는 것은 그 아이가 동의하지 않은 결정입니다. 셋째 <b>정의</b>—돈 있는 사람만 누린다면 생물학적 불평등이 생깁니다.</p>
+    <p>마치 낡은 집을 고쳐 살 만하게 만드는 것(치료)과, 남보다 더 크고 좋은 집으로 개조하려는 것(강화)이 다른 것과 같습니다. AI는 강력한 도구이지만, 생명을 다룰수록 더 큰 겸손과 분별이 필요합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">창세기 1:26</span>
+      <span class="txt">"하나님이 이르시되 우리의 형상을 따라 우리의 모양대로 우리가 사람을 만들고…"</span>
+      <p class="reflect">사람을 지으신 것은 하나님의 <b>고유한 창조 사역</b>입니다. 생명을 다루는 기술이 발전할수록, 우리는 창조주와 피조물의 자리를 혼동하지 않도록 조심해야 합니다. 고치는 손길은 감사히 쓰되, 하나님의 자리를 넘보는 교만은 경계해야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q61 · AI가 생명을 조작하거나 수정할 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI로 유전병을 고치는 것도 잘못인가요?</div>
+      <div class="row ans">아닙니다. 불치병 치료나 유전 질환 예방은 인류를 위한 선한 쓰임입니다. 문제가 되는 것은 병 치료를 넘어선 '능력 강화'입니다.</div>
+      <div class="row ask">치료와 강화는 어떻게 다른가요?</div>
+      <div class="row ans">치료는 병들거나 손상된 것을 정상으로 회복시키는 일이고, 강화는 정상인 사람을 더 뛰어나게 '개조'하는 일입니다. 둘은 다른 윤리 기준이 필요합니다.</div>
+      <div class="row ask">왜 태어날 아이의 유전자 설계가 문제인가요?</div>
+      <div class="row ans">그 아이는 자기 몸에 대한 결정에 동의한 적이 없기 때문입니다. 또 돈 있는 사람만 누린다면 새로운 생물학적 불평등이 생깁니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>불치병 치료를 위한 유전자 기술 소식을 들으면 어떤 마음이 드나요? 반가움과 두려움 중 어느 쪽인가요?</li>
+      <li>'치료'와 '강화'의 경계는 늘 분명할까요? 애매한 경우로는 어떤 것이 떠오르나요?</li>
+      <li>"돈 있는 사람만 누리는 생명 기술"이 현실이 된다면 교회는 어떻게 목소리를 내야 할까요?</li>
+      <li>생명을 다루는 기술 앞에서 신앙인이 지녀야 할 태도를 한 문장으로 정리해 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">생명 관련 기술 뉴스를 볼 때 '치료인가, 강화인가'를 스스로 물어보는 분별을 연습합니다.</div>
+      <div class="li">가장 약한 이들이 소외되지 않는 기술이 되도록 관심을 갖고 기도합니다.</div>
+      <div class="pray"><b>기도</b> — "생명의 주인 되신 주님, 병든 이를 고치는 지혜는 감사히 쓰되, 주님의 자리를 넘보는 교만에 빠지지 않게 하소서. 가장 약한 생명까지 귀히 여기는 마음을 주소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    고치는 손길은 <span class="em">감사히</span>,<br>
+    창조주의 자리를 넘보는 교만은 <span class="em">겸손히 경계</span>합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q61 / 100</div>
+</section>
+
+</body>
+</html>

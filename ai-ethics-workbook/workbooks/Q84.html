@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q84 · 인간의 창조성은 AI와 어떻게 다른가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제9부 · 생성형 AI와 창조성</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q84</div>
+    <div class="qtitle">인간의 창조성은 AI와 어떻게 다른가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI가 만든 그림과 사람이 그린 그림이 나란히 걸려 있다면, 무엇이 다를까요? 겉모습만 보면 구분이 어려울 수도 있습니다. 그러나 그 안에는 <b>눈에 보이지 않는 큰 차이</b>가 숨어 있습니다. 인간의 창조성이 왜 특별한지 함께 들여다봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">인간의 창조성은 AI와 세 가지에서 다릅니다. <b>몸으로 겪은 경험</b>, 말하려는 <b>의도와 의미</b>, 그리고 <b>공동체와 전통</b> 안에서 태어난다는 점입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>차이 하나 — 체화된 경험.</b> 인간의 예술은 몸을 가진 존재의 경험에서 나옵니다. 상실의 슬픔, 사랑의 기쁨, 고통과 두려움이 예술의 샘입니다. <b>베토벤</b>은 청각을 잃고서 후기 명작을 남겼고, <b>반 고흐</b>의 고통이 그 강렬한 색채를 낳았습니다. AI는 몸이 없으니 이 샘을 가질 수 없습니다.</p>
+    <p><b>차이 둘 — 의도와 의미.</b> 인간 예술가는 무언가를 '<b>말하려는</b>' 의도가 있습니다. 그 의도가 작품에 의미를 부여합니다. AI는 의도 없이 패턴을 조합할 뿐이라, "이 그림이 무엇을 말하려는가?"라는 물음에 답이 없습니다.</p>
+    <p><b>차이 셋 — 공동체와 전통.</b> 인간의 예술은 특정 공동체와 문화, 전통 안에서 태어나 다시 그 공동체를 빚어냅니다. 마치 한 가정의 김치 맛이 대대로 이어지며 가족을 하나로 묶듯, 예술도 살아있는 뿌리를 가집니다.</p>
+    <p>이 세 가지가 인간 창조성을 <b>살아있는 예술</b>로 만듭니다. AI의 결과물이 아무리 화려해도, 이 뿌리는 흉내 낼 수 없습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">열왕기상 4:32</span>
+      <span class="txt">"솔로몬은 잠언 삼천 가지를 말하였고 그의 노래는 천다섯 편이라"</span>
+      <p class="reflect">솔로몬의 시와 잠언은 <b>이스라엘의 신앙과 삶</b>이라는 공동체 안에서, 그 공동체를 위해 태어났습니다. 이 공동체적 뿌리가 그것을 살아있는 예술로 만들었습니다. 우리의 창작도 삶의 자리에서 나올 때 참됩니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q84 · 인간의 창조성은 AI와 어떻게 다른가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">'체화된 경험'이 왜 그렇게 중요한가요?</div>
+      <div class="row ans">슬픔, 기쁨, 고통 같은 몸의 경험이 예술의 샘이기 때문입니다. 베토벤과 반 고흐의 명작이 그 증거입니다. AI는 몸이 없어 이 샘이 없습니다.</div>
+      <div class="row ask">AI 그림에는 '의도'가 없다는 게 무슨 뜻인가요?</div>
+      <div class="row ans">사람은 무언가를 말하려고 그리지만, AI는 패턴만 조합합니다. 그래서 "무엇을 말하려는가"라는 질문에 답이 없습니다.</div>
+      <div class="row ask">공동체와 전통이 예술과 무슨 상관인가요?</div>
+      <div class="row ans">인간 예술은 문화와 전통 안에서 태어나 다시 그 공동체를 형성합니다. 이 살아있는 뿌리가 예술에 의미를 줍니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내 삶에서 슬픔이나 기쁨의 경험이 무언가를 만들어내게 한 적이 있나요?</li>
+      <li>내가 아끼는 노래나 그림, 글에는 어떤 <b>말하려는 의도</b>가 담겨 있었나요?</li>
+      <li>우리 교회 공동체가 함께 만들어온 신앙의 '작품'(찬양, 전통, 이야기)에는 무엇이 있을까요?</li>
+      <li>AI가 대신할 수 없는 <b>나만의 이야기</b>는 무엇인지 나눠 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">내가 겪은 경험이 담긴 이야기 하나를 이번 주 누군가에게 진솔하게 나눠 봅니다.</div>
+      <div class="li">공동체 안에서 함께 만들어가는 신앙의 유산에 한 부분으로 참여합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 제 삶의 경험과 눈물까지도 의미 있는 열매로 빚으시는 주님을 신뢰하며, 공동체 안에서 살아있는 창조의 부르심을 감당하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    인간의 창조성은 <span class="em">경험·의도·공동체</span>에서 나온<br>
+    AI가 흉내 낼 수 없는 <span class="em">살아있는 예술</span>입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q84 / 100</div>
+</section>
+
+</body>
+</html>

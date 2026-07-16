@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q85 · 하나님은 인간의 창조성을 어떻게 보시는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제9부 · 생성형 AI와 창조성</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q85</div>
+    <div class="qtitle">하나님은 인간의 창조성을 어떻게 보시는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI가 글도 쓰고 그림도 그리는 시대에, "이제 내 재능은 쓸모없어지는 걸까?" 하는 마음이 들기도 합니다. 그런데 하나님은 <b>우리의 창조성</b>을 어떻게 바라보실까요? 성경이 인간의 만드는 능력을 어떻게 말하는지 함께 확인해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">성경은 인간의 창조성을 <b>하나님이 주신 선물</b>이자 <b>하나님의 창조성의 반영</b>으로 긍정합니다. 우리의 창조는 하나님의 형상(Imago Dei)의 표현입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>창세기 1장에서 하나님은 <b>창조자</b>이십니다. 그리고 그 형상대로 지음받은 인간도 창조적 존재입니다. <b>아담이 동물들에게 이름을 붙인 것</b>(창 2:19-20)은 인류 최초의 창조적 행위였습니다. 이름을 짓는다는 것은 세상에 질서와 의미를 부여하는 일입니다.</p>
+    <p>하나님은 성막을 지을 때 <b>브살렐</b>에게 특별한 기술적 지혜를 부어주셨습니다(출 31:3). 이것은 하나님이 인간의 <b>예술적·기술적 창조성</b>을 귀하게 여기심을 보여줍니다. 손재주와 예술 감각도 하나님의 선물인 것입니다.</p>
+    <p>인간의 창조성은 <b>하나님의 영광을 드러낼 때</b> 가장 높은 의미를 가집니다. 작곡가 <b>바흐</b>는 악보 끝에 늘 "오직 하나님께 영광(Soli Deo Gloria)"이라 적었습니다. 재능을 자기 자랑이 아니라 하나님을 높이는 통로로 삼은 것입니다.</p>
+    <p>그러니 AI 시대에도 그리스도인의 창조 활동—글, 음악, 미술—은 <b>하나님이 주신 고유한 선물</b>입니다. AI가 이 영역에 들어올 때, 우리는 두려워하기보다 <b>더 깊이 창조주를 의지하며</b> 창조적 소명을 감당해야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">역대상 28:19</span>
+      <span class="txt">"이것이 다 여호와의 손에서 나온 것이라 여호와께서 모든 이적의 설계를 내게 깨우쳐 알게 하셨느니라"</span>
+      <p class="reflect">성전 설계의 지혜조차 <b>하나님에게서</b> 왔습니다. 우리의 창조 능력도 그 근원이 하나님이십니다. 재능을 두려움이나 교만이 아니라, <b>하나님께 영광을 돌리는</b> 통로로 삼는 것이 참된 청지기의 태도입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q85 · 하나님은 인간의 창조성을 어떻게 보시는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">인간의 창조성이 하나님과 무슨 관계가 있나요?</div>
+      <div class="row ans">우리가 하나님의 형상대로 지음받았기 때문입니다. 창조하시는 하나님의 성품이 우리 안에도 반영되어 있습니다.</div>
+      <div class="row ask">손재주나 예술 감각도 하나님의 선물인가요?</div>
+      <div class="row ans">그렇습니다. 하나님은 브살렐에게 기술적 지혜를 부어주셨습니다(출 31:3). 예술과 기술의 재능도 하나님이 귀히 여기시는 선물입니다.</div>
+      <div class="row ask">AI가 창작을 대신하면 내 재능은 의미가 없어지나요?</div>
+      <div class="row ans">아닙니다. 두려워하기보다 더 깊이 창조주를 의지하며 소명을 감당하라고 성경은 말합니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>하나님이 내게 주신 창조적 재능은 무엇일까요? 크든 작든 하나 떠올려 봅시다.</li>
+      <li>내 재능을 '자기 자랑'이 아니라 '하나님의 영광'을 위해 쓴다는 것은 어떤 모습일까요?</li>
+      <li>AI 시대에 그리스도인의 창작이 두려움이 아니라 <b>소명</b>이 되려면 무엇이 필요할까요?</li>
+      <li>바흐의 'Soli Deo Gloria'처럼, 내 일과 작품에 새기고 싶은 마음의 고백은 무엇인가요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">이번 주 내 재능이나 손길로 만든 것을 하나님께 드리는 마음으로 정성껏 해봅니다.</div>
+      <div class="li">AI를 두려워하기보다, 나를 향한 창조적 소명이 무엇인지 기도로 물어봅니다.</div>
+      <div class="pray"><b>기도</b> — "창조주 하나님, 제게 주신 재능이 주님의 선물임을 알게 하시고, 그 모든 것으로 오직 하나님께 영광을 돌리게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    인간의 창조성은 <span class="em">하나님의 형상</span>의 표현이자<br>
+    <span class="em">하나님께 영광</span>을 돌리는 거룩한 선물입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q85 / 100</div>
+</section>
+
+</body>
+</html>

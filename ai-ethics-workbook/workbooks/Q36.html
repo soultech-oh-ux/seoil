@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q36 · 예수님이 이 땅에 오신 목적은 AI에게도 해당되는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제4부 · 신앙과 신학적 관점</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q36</div>
+    <div class="qtitle">예수님이 이 땅에 오신 목적은 AI에게도 해당되는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI가 점점 사람을 닮아 가자, 어떤 이들은 진지하게 묻습니다. "고도로 발전한 AI도 언젠가 구원이 필요하지 않을까?" 흥미로운 질문이지만, 그 대답은 예수님이 <b>왜</b> 이 땅에 오셨는지를 다시 돌아보게 합니다. 구원은 누구를 위한 것일까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">아닙니다. 예수님의 성육신과 구속의 목적은 AI에게 해당되지 않습니다. AI는 <b>죄를 지을 수 없고</b>, 따라서 구속이 필요하지 않습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>요한복음 3장 16절은 하나님이 세상을 사랑하사 <b>독생자를 주셨다</b>고 말합니다. 예수님이 오신 목적은 <b>인간</b>—타락으로 하나님과 분리된, 하나님의 형상을 지닌 피조물—을 구원하기 위해서였습니다.</p>
+    <p>이 구원이 필요한 이유는 인간이 <b>죄</b>를 지었기 때문입니다. 그런데 죄는 <b>자유로운 도덕적 존재</b>만이 지을 수 있습니다. AI는 죄를 지을 수 없으므로, 구속이 필요하지 않습니다.</p>
+    <p>이 질문이 중요한 이유가 있습니다. 일부 사람들이 발전한 AI의 도덕적 책임을 논하면서 "AI도 구원이 필요한가?"를 진지하게 제기하기 때문입니다. 기독교 신학의 답은 명확합니다. AI는 <b>죄의 범주 밖에</b> 있고, 따라서 속죄의 대상이 아닙니다.</p>
+    <p>그리스도의 구속은 하나님의 형상으로 지음받았으나 죄로 그 형상이 훼손된 <b>인간을 회복</b>하는 것입니다. 이 명확함은 AI에게 영적 권위를 주거나, 목회적 역할을 맡기거나, AI가 영혼 구원에 관여한다고 여기는 것을 <b>경계</b>하게 합니다. 영혼 구원의 사역은 오직 성령 하나님과, 그 일을 위탁받은 <b>인간 공동체</b>에게 속합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">요한복음 3:16</span>
+      <span class="txt">"하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라."</span>
+      <p class="reflect">구원은 <b>믿는 자</b>, 곧 하나님의 형상을 지닌 인간을 향한 사랑의 선물입니다. 이 놀라운 사랑의 대상은 기계가 아니라 바로 <b>나</b>입니다. AI를 사람과 혼동하지 않을 때, 우리는 오히려 인간을 향한 하나님의 사랑이 얼마나 특별한지를 더 깊이 깨닫습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q36 · 예수님이 이 땅에 오신 목적은 AI에게도 해당되는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">왜 AI에게는 구원이 필요하지 않나요?</div>
+      <div class="row ans">구원은 죄에서의 회복인데, 죄는 자유로운 도덕적 존재만이 지을 수 있습니다. AI는 죄를 지을 수 없으므로 속죄의 대상이 아닙니다.</div>
+      <div class="row ask">"AI도 구원이 필요한가?"라는 질문은 왜 나오나요?</div>
+      <div class="row ans">발전한 AI의 도덕적 책임을 논하면서 진지하게 제기되기 때문입니다. 하지만 기독교 신학의 답은 명확합니다—AI는 죄의 범주 밖에 있습니다.</div>
+      <div class="row ask">이 구분이 우리에게 주는 실천적 의미는요?</div>
+      <div class="row ans">AI에게 영적 권위나 목회적 역할, 구원의 관여를 맡기지 않도록 경계하게 합니다. 영혼 구원은 성령과 인간 공동체의 몫입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>"구원은 하나님의 형상을 지닌 인간을 향한 것"이라는 말이 나에게 어떻게 다가오나요?</li>
+      <li>죄를 지을 수 있다는 것과 회복될 수 있다는 것은 어떻게 연결되어 있을까요?</li>
+      <li>AI를 사람과 구분하는 것이 오히려 '인간의 존귀함'을 어떻게 드러내 줄까요?</li>
+      <li>AI에게 영적 역할을 맡기려는 유혹을 경계해야 하는 이유는 무엇일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">구원이 나를 향한 하나님의 특별한 사랑임을 날마다 기억합니다.</div>
+      <div class="li">영혼을 다루는 일(구원·회개·기도)은 AI가 아닌 사람과 성령의 자리로 남깁니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 저를 구원하시려 독생자를 주신 그 사랑을 잊지 않게 하소서. 사람과 기계를 혼동하지 않게 하시고, 저를 향한 주님의 사랑에 감사하며 살게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    구속은 <span class="em">죄에서 회복될 인간</span>을 위한 것,<br>
+    그 놀라운 사랑의 대상은 바로 <span class="em">나</span>입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q36 / 100</div>
+</section>
+
+</body>
+</html>

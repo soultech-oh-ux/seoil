@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q13 · AI가 범죄를 저질렀을 때 처벌은 가능한가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제2부 · 도덕성과 윤리 기준</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q13</div>
+    <div class="qtitle">AI가 범죄를 저질렀을 때 처벌은 가능한가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>자율주행차가 사고를 내거나 AI가 사기 거래를 실행했다면, 그 AI를 '처벌'할 수 있을까요? AI를 삭제하는 것은 벌을 주는 걸까요, 아니면 그냥 고치는 걸까요? 죄와 벌의 의미를 곰곰이 되짚어 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">법적으로도 신학적으로도 현재의 AI는 <b>처벌의 대상이 될 수 없습니다</b>. AI를 삭제·수정하는 것은 처벌이 아니라 기술적 조치이며, 책임은 그 배후의 인간에게 귀속됩니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>처벌이 의미를 가지려면, 처벌받는 존재가 <b>고통을 경험하고</b>, 그 고통에서 교훈을 얻으며, 행동을 고칠 수 있어야 합니다. 더 근본적으로 처벌은 <b>자유로운 선택에 대한 응보</b>입니다. AI는 자유 의지가 없으므로 응보의 대상이 될 수 없습니다.</p>
+    <p>그래서 AI를 삭제하거나 코드를 수정하는 것은 처벌이 아니라 <b>기술적 수정</b>입니다. 고장 난 시계를 고치는 것을 '시계를 벌준다'고 하지 않는 것과 같습니다.</p>
+    <p>그렇다면 책임은 누구에게 갈까요? 설계에 결함이 있었다면 <b>개발 기업</b>에, 부적절하게 배포했다면 <b>운영자</b>에게, 감독을 소홀히 했다면 <b>사용자</b>에게 돌아갑니다. AI는 결코 <b>책임의 공백</b>을 만들어서는 안 됩니다.</p>
+    <p>실제로 유럽연합의 <b>AI법(EU AI Act)</b>은 고위험 AI에 엄격한 규제와 책임 체계를 도입했습니다. 그리스도인도 이런 사회적 논의에 참여해, 인간 존엄과 책임의 원칙이 법에 담기도록 목소리를 내야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">신명기 16:18</span>
+      <span class="txt">"각 성읍에 재판장과 지도자들을 둘 것이요 그들은 공의로운 재판으로 백성을 재판할 것이니라"</span>
+      <p class="reflect">성경은 재판과 책임의 <b>공동체적 구조</b>를 중요하게 봅니다. AI 시대에도 이 구조는 필요합니다. AI가 관여된 피해에 대해 명확한 책임 귀속 체계를 법과 제도가 반드시 마련해야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q13 · AI가 범죄를 저질렀을 때 처벌은 가능한가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI를 삭제하면 처벌한 것 아닌가요?</div>
+      <div class="row ans">아닙니다. 처벌은 자유로운 선택에 대한 응보인데, AI는 자유 의지가 없습니다. 삭제나 수정은 기술적 조치일 뿐입니다.</div>
+      <div class="row ask">그럼 AI 사고는 아무도 책임을 안 지나요?</div>
+      <div class="row ans">그렇지 않습니다. 설계 결함은 개발 기업, 잘못된 배포는 운영자, 감독 소홀은 사용자에게 책임이 귀속됩니다.</div>
+      <div class="row ask">그리스도인이 여기서 할 수 있는 일이 있나요?</div>
+      <div class="row ans">AI 법제 논의에 참여해, 인간의 존엄과 책임 원칙이 제도에 반영되도록 목소리를 내는 것입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>'벌을 준다'는 것이 참으로 의미 있으려면 무엇이 전제되어야 할까요?</li>
+      <li>AI가 '책임의 공백'을 만든다면 사회에 어떤 위험이 생길까요?</li>
+      <li>공의로운 재판이라는 성경의 가치가 AI 시대에도 중요한 이유는 무엇일까요?</li>
+      <li>AI 관련 법과 제도에 그리스도인이 목소리를 낸다면 무엇을 강조해야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI를 핑계 삼아 책임을 떠넘기려는 마음을 경계합니다.</div>
+      <div class="li">사회의 AI 규제·제도 논의에 관심을 갖고 인간 존엄의 가치를 지지합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 공의로운 사회를 세우는 일에 지혜를 주시고, 어떤 기술 뒤에도 인간의 책임이 사라지지 않게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 <span class="em">처벌의 대상</span>이 아닙니다.<br>
+    AI는 결코 <span class="em">책임의 공백</span>을 만들 수 없습니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q13 / 100</div>
+</section>
+
+</body>
+</html>

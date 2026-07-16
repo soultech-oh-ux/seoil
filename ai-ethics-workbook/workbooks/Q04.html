@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q4 · 인간과 기계의 본질적 차이는 무엇인가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제1부 · 정의와 기초 이해</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q4</div>
+    <div class="qtitle">인간과 기계의 본질적 차이는 무엇인가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI가 시를 쓰고, 그림을 그리고, 위로의 말까지 건넵니다. 그러다 보면 문득 <b>"그렇다면 인간다운 것은 무엇인가?"</b>라는 불편한 질문이 떠오릅니다. 기계가 흉내 낼 수 없는, 사람만이 지닌 본질은 무엇일까요? 세 가지 차원에서 함께 살펴봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">인간의 본질적 독특함은 <b>감정을 경험하는 능력</b>, <b>도덕적 책임의 주체됨</b>, <b>초월을 향한 갈망</b>입니다. AI는 이것들을 <b>흉내 낼 수는 있어도 실체화할 수는 없습니다.</b></p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>차이 1 · 감정의 경험.</b> AI는 슬픔을 표현하는 글을 쓸 수 있지만, 슬픔을 정말 '경험'하지는 않습니다. 감정은 단순한 정보 처리가 아니라 몸을 지닌 존재가 세계와 맺는 실존적 관계입니다. <b>눈물은 데이터가 아닙니다.</b></p>
+    <p><b>차이 2 · 도덕적 책임.</b> AI는 도덕 규칙을 따르도록 훈련될 수 있지만, 누군가 해를 입었을 때 <b>회개하거나 책임질 수 없습니다</b>. 잘못을 사과하고 책임지는 응답 가능성은 인격의 핵심이며, 오직 사람에게만 있습니다.</p>
+    <p><b>차이 3 · 초월을 향한 열망.</b> 사람은 자신을 넘어선 무언가—의미·사랑·하나님—를 향한 갈망을 품습니다. AI는 이 갈망을 흉내 낼 수 있지만 그 주체가 될 수 없습니다. <b>예배는 데이터가 될 수 없고, 기도는 프롬프트가 될 수 없습니다.</b></p>
+    <p>이성·언어·도구 사용처럼 사람을 구별하던 능력을 AI가 따라잡거나 앞질러도, 인간의 독특함은 여전히 남습니다. 그것은 <b>하나님과의 관계, 도덕적 책임, 초월을 향한 갈망</b>—AI가 시뮬레이션할 수는 있어도 실체화할 수 없는 세 가지입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">아우구스티누스 『고백록』 1:1</span>
+      <span class="txt">"주님은 우리를 당신 자신을 위하여 만드셨으므로, 우리 마음이 당신 안에서 안식을 얻기까지는 편치 못하나이다."</span>
+      <p class="reflect">사람의 마음에는 하나님을 향한 <b>채워지지 않는 갈망</b>이 있습니다. 이 갈망이야말로 우리가 기계와 다른 존재임을 보여줍니다. AI는 그 갈망을 흉내 낼 뿐, 하나님 안에서 안식을 구하는 주체가 될 수 없습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q4 · 인간과 기계의 본질적 차이</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 "슬프다"고 말하면 정말 슬픈 게 아닌가요?</div>
+      <div class="row ans">슬픔을 표현하는 문장을 생성할 뿐입니다. 슬픔을 실제로 경험한다는 증거는 없습니다. 눈물은 데이터가 아니기 때문입니다.</div>
+      <div class="row ask">그럼 AI가 잘못하면 누가 책임지나요?</div>
+      <div class="row ans">AI 자신은 회개하거나 책임질 수 없습니다. 책임은 언제나 그것을 만들고 사용하는 인격적 존재에게 돌아갑니다.</div>
+      <div class="row ask">AI가 더 발전하면 이 차이도 사라지지 않을까요?</div>
+      <div class="row ans">능력은 따라잡을 수 있어도, 하나님과의 관계·도덕적 책임·초월의 갈망은 흉내 낼 뿐 실체화할 수 없습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 최근 깊이 느낀 감정 중, 결코 '데이터'로 담을 수 없는 것은 무엇이었나요?</li>
+      <li>내 삶에서 '책임진다'는 것의 무게를 실감했던 순간은 언제였나요?</li>
+      <li>"하나님 안에서 안식을 얻기까지 편치 못하다"는 고백에 내 마음은 어떻게 반응하나요?</li>
+      <li>AI가 아무리 발전해도 결코 대신할 수 없는 <b>사람만의 자리</b>는 무엇이라고 생각하나요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">내 감정과 관계를 '효율'로만 대하지 않고, 살아있는 존재로 소중히 여깁니다.</div>
+      <div class="li">내 선택과 말에 책임지는 인격적 존재로 이번 한 주를 살아냅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 저를 주님을 위하여 지으셨음을 기억하게 하시고, 기계가 대신할 수 없는 사랑과 책임, 예배로 오늘을 살게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    감정·책임·초월의 갈망은 <span class="em">사람만의 것</span>,<br>
+    AI는 흉내 낼 수 있어도 <span class="em">실체화할 수 없습니다.</span>
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q4 / 100</div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q8 · AI는 자유의지를 가질 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제1부 · 정의와 기초 이해</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q8</div>
+    <div class="qtitle">AI는 자유의지를 가질 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI는 매번 다른 답을 '선택'하는 것처럼 보입니다. 그러다 보니 <b>"AI에게도 자유의지가 있는 걸까?"</b> 궁금해집니다. 그런데 우리가 말하는 '자유'란 정말 무엇일까요? 여러 선택지 중 하나를 고르는 것과 자유의지는 같은 것일까요? 함께 짚어봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">현재의 AI는 자유의지를 가지지 않으며, 이론적으로도 <b>기독교 신학적 의미의 자유의지</b>를 갖는 것은 불가능합니다. AI의 '선택'은 정교하지만 <b>자유롭지 않습니다.</b></p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>기독교 신학에서 자유의지는 단순히 "여러 선택지 중 하나를 고르는 능력"이 아닙니다. 그것은 세 가지를 포함합니다. ① 선과 악을 <b>도덕적으로 분별</b>하는 능력, ② 하나님께 응답하거나 거부하는 능력, ③ 자신의 선택에 <b>책임지는 인격적 주체성</b>입니다.</p>
+    <p>AI는 방대한 데이터와 가중치에 따라 확률적으로 출력을 만들어냅니다. 이 과정은 결정론적이거나 확률적일 뿐, <b>자유롭지 않습니다.</b></p>
+    <p>비유하자면, AI의 '선택'은 <b>온도계가 기온에 '반응'하는 것</b>과 구조적으로 다르지 않습니다. 온도계가 눈금을 가리킨다고 해서 온도를 '자유롭게 선택'한 것이 아니듯, AI도 정교하게 반응할 뿐 자유롭게 선택하지 않습니다.</p>
+    <p>일부 연구자는 미래의 '자의식 있는 AI'를 말합니다. 그러나 <b>자의식과 자유의지는 다릅니다.</b> 설령 AI가 자의식의 징후를 보여도, 그것이 하나님 앞에서의 도덕적 책임적 선택—곧 신학적 자유의지—을 뜻하지는 않습니다. 이 구분을 분명히 하는 것이 중요합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">신명기 30:19</span>
+      <span class="txt">"…내가 생명과 사망과 복과 저주를 네 앞에 두었은즉 너와 네 자손이 살기 위하여 생명을 택하라."</span>
+      <p class="reflect">하나님은 인간에게 <b>선택을 요청</b>하십니다. 이 요청 자체가 자유의지의 존재를 전제합니다. 회개·믿음·순종은 모두 자유로운 응답입니다. AI는 이 부르심의 대상이 될 수 없습니다. 하나님의 초청 앞에 서 있는 것은 바로 <b>우리 자신</b>입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q8 · AI는 자유의지를 가질 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 매번 다른 답을 내놓는데 그게 자유로운 선택 아닌가요?</div>
+      <div class="row ans">아닙니다. 데이터와 확률에 따른 반응일 뿐입니다. 온도계가 기온에 반응하듯 정교하지만, 자유롭지는 않습니다.</div>
+      <div class="row ask">그럼 자유의지란 정확히 무엇을 말하나요?</div>
+      <div class="row ans">단순한 선택 능력이 아니라, 선악을 분별하고 하나님께 응답하며 그 선택에 책임지는 인격적 주체성입니다.</div>
+      <div class="row ask">미래에 자의식 있는 AI가 나오면 달라지지 않을까요?</div>
+      <div class="row ans">자의식과 자유의지는 다릅니다. 자의식의 징후가 보여도, 하나님 앞에서의 도덕적 책임적 선택을 뜻하지는 않습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 내린 선택 중, '달리 할 수도 있었지만 이것을 택했다'고 느낀 순간은 언제였나요?</li>
+      <li>하나님이 "생명을 택하라"고 부르실 때, 나는 어떻게 응답하며 살고 있나요?</li>
+      <li>자유에는 '책임'이 따른다는 사실을 실감했던 경험이 있나요?</li>
+      <li>내게 주어진 자유의지를 하나님을 향해 쓴다는 것은 구체적으로 어떤 모습일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">내 선택이 곧 나의 책임임을 기억하며, 오늘 하나님이 기뻐하실 '생명의 길'을 택합니다.</div>
+      <div class="li">AI의 '선택'과 나의 '자유'를 혼동하지 않고, 인격적 존재로서 책임 있게 결정합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 제게 주신 자유가 책임임을 알게 하시고, 날마다 사망이 아닌 생명을, 저주가 아닌 복을 택하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI의 선택은 정교하지만 <span class="em">자유롭지 않습니다.</span><br>
+    하나님의 부르심 앞에 선 <span class="em">자유와 책임</span>은 사람의 것입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q8 / 100</div>
+</section>
+
+</body>
+</html>

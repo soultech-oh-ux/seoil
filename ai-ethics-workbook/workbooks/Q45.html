@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q45 · 기도 제목 추천을 AI가 해도 되는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제5부 · 교회와 목회 현장 적용</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q45</div>
+    <div class="qtitle">기도 제목 추천을 AI가 해도 되는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>기도하려고 앉았는데 무엇을 위해 기도할지 막막할 때가 있습니다. 그럴 때 AI에게 <b>"기도 제목을 추천해 줘"</b>라고 하면 정갈한 목록이 뚝딱 나옵니다. 편리하고 그럴듯한데, 왠지 마음 한켠이 개운하지 않습니다. 내 기도를 AI가 대신 정해 줘도 괜찮은 걸까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI가 기도 제목 작성을 <b>보조</b>하는 것은 허용될 수 있습니다. 그러나 기도가 <b>내 진정한 필요를 드리는 것</b>이 아니라 AI가 준 내용을 낭독하는 것이 되지 않도록 주의가 필요합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>기도의 가장 귀한 가치 중 하나는 <b>자발적이고 진정한 표현</b>입니다. 성령께서 우리 안에서 "말할 수 없는 탄식으로" 기도하신다는 말씀(롬 8:26)은, 기도가 <b>깊은 내면에서 우러나는 것</b>임을 보여 줍니다.</p>
+    <p>그런데 AI가 기도 제목을 제안하는 것은 기도의 내용을 <b>바깥에서 가져오는(외부화)</b> 일입니다. 이것이 지나치면, 기도가 나의 참된 필요와 갈망을 하나님 앞에 드리는 것이 아니라 <b>AI가 적절하다고 판단한 내용을 읽는 것</b>이 될 위험이 있습니다.</p>
+    <p>그래도 <b>허용 가능한 활용</b>이 있습니다. ① 기도가 막힐 때 다양한 <b>주제를 탐색</b>하도록 돕기, ② 교회 사역의 많은 기도 제목을 정리하는 <b>중보 목록 관리</b>, ③ 성경적 기도 언어를 배우는 <b>기도 모범 학습</b>의 참고 자료로 쓰기입니다.</p>
+    <p>비유하자면 AI는 <b>기도의 마중물</b>은 될 수 있어도, 샘물 자체는 될 수 없습니다. 물길을 터 주는 데까지가 도구의 자리이고, 그 뒤 하나님께 마음을 쏟는 일은 오롯이 나의 몫입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">요한복음 10:27</span>
+      <span class="txt">"내 양은 내 음성을 들으며 나는 그들을 알며 그들은 나를 따르느니라"</span>
+      <p class="reflect">목자와 양의 관계처럼, 기도는 하나님과의 <b>인격적 대화</b>입니다. AI가 이 대화의 내용을 지나치게 정해 주면, 하나님과 나 사이의 살아 있는 관계가 약해질 수 있습니다. 기도의 주도권은 늘 나와 하나님께 있어야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q45 · 기도 제목 추천을 AI가 해도 되는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 기도 제목을 추천하면 어떤 점이 문제인가요?</div>
+      <div class="row ans">기도의 내용을 바깥에서 가져오는 것이라, 지나치면 나의 진정한 필요를 드리는 대신 AI가 준 내용을 낭독하게 될 위험이 있습니다.</div>
+      <div class="row ask">그럼 AI를 기도에 아예 쓰면 안 되나요?</div>
+      <div class="row ans">그렇지 않습니다. 기도가 막힐 때 주제를 탐색하거나, 중보 기도 목록을 관리하거나, 성경적 기도 언어를 배우는 참고 자료로는 유익하게 쓸 수 있습니다.</div>
+      <div class="row ask">기도의 가장 귀한 가치는 무엇인가요?</div>
+      <div class="row ans">자발적이고 진정한 표현입니다. 성령이 우리 안에서 탄식으로 기도하시듯, 기도는 깊은 내면에서 우러나오는 하나님과의 인격적 대화입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>기도가 막혀 무엇을 구할지 몰랐던 경험이 있나요? 그때 어떻게 다시 기도가 열렸나요?</li>
+      <li>"내가 드리는 기도"와 "누가 정해 준 내용을 낭독하는 기도"의 차이는 무엇일까요?</li>
+      <li>AI를 기도의 <b>마중물</b>로만 쓰려면, 나는 어떤 선을 정해 두면 좋을까요?</li>
+      <li>기도를 하나님과의 <b>인격적 대화</b>로 회복하려면 우리 삶에 무엇이 필요할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">기도가 막힐 때 AI의 도움을 받되, 마지막엔 반드시 내 마음의 진짜 필요를 아뢰는 시간을 갖습니다.</div>
+      <div class="li">이번 주, 목록에 의존하지 않고 하나님과 조용히 대화하듯 기도하는 시간을 만들어 봅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 제 기도가 남이 정해 준 낭독이 아니라 제 마음 깊은 곳에서 우러나는 대화가 되게 하소서. 성령의 도우심으로 참된 필요를 아버지께 아뢰게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 기도의 <span class="em">마중물</span>이 될 수 있어도,<br>
+    기도는 하나님과의 <span class="em">인격적 대화</span>여야 합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q45 / 100</div>
+</section>
+
+</body>
+</html>

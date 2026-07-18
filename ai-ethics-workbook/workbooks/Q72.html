@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q72 · AI의 데이터 편향은 윤리적으로 문제인가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제8부 · 기술과 사회윤리</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q72</div>
+    <div class="qtitle">AI의 데이터 편향은 윤리적으로 문제인가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>우리는 흔히 "컴퓨터는 공정하다"고 생각합니다. 사람과 달리 감정이 없으니 차별도 없을 것 같습니다. 그런데 AI가 어떤 사람에게는 일자리를, 또 어떤 사람에게는 대출을 거절한다면 어떨까요? 그것이 알고 보니 <b>피부색이나 성별</b> 때문이었다면요? 함께 진지하게 들여다봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI의 데이터 편향은 단순한 기술적 결함이 아니라 <b>정의와 존엄성의 문제</b>이며, 심각한 윤리적 문제입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>AI는 <b>과거의 데이터</b>를 먹고 배웁니다. 그런데 그 데이터에 이미 사회의 차별이 담겨 있다면, AI는 그 차별까지 그대로 배웁니다. 마치 편견을 가진 선생님에게서 배운 학생이 같은 편견을 갖는 것과 같습니다.</p>
+    <p>실제 사례가 많습니다. 미국 <b>COMPAS</b> 재범 위험 예측 AI는 흑인 피의자에게 백인보다 두 배 높은 위험도를 매겼습니다(ProPublica, 2016). 아마존의 AI 채용 시스템은 남성 위주 이력서로 학습한 탓에 여성 지원자를 낮게 평가해 2018년 폐기됐습니다.</p>
+    <p>얼굴 인식 AI도 마찬가지입니다. MIT 연구에 따르면 일부 상용 얼굴 인식 AI의 <b>흑인 여성 오인식률</b>이 백인 남성보다 34.7%포인트나 높았습니다. 사람을 알아보는 기본 기능조차 특정 집단에게 불리하게 작동한 것입니다.</p>
+    <p>이것이 윤리 문제인 이유는 <b>피해가 실제</b>이기 때문입니다. 편향된 AI가 사람을 차별할 때, 누군가는 일자리를 얻지 못하고, 대출이 거부되며, 부당한 형사 처우를 받습니다. 숫자가 아니라 한 사람의 삶이 걸린 문제입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">레위기 19:15</span>
+      <span class="txt">"너희는 재판할 때에 불의를 행하지 말며 가난한 자의 편을 들지 말며 세력 있는 자라고 두둔하지 말고 공의로 사람을 재판할지며."</span>
+      <p class="reflect">공정한 재판의 원칙은 AI 시스템에도 그대로 적용됩니다. 알고리즘이 특정 집단을 구조적으로 차별하는 것은 바로 이 하나님의 공의 원칙을 위반하는 것입니다. AI라고 해서 예외가 될 수 없습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q72 · AI의 데이터 편향은 윤리적으로 문제인가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI는 감정이 없으니 오히려 사람보다 공정하지 않나요?</div>
+      <div class="row ans">그렇지 않습니다. AI는 과거의 데이터를 배우는데, 그 데이터에 이미 사회의 차별이 담겨 있으면 AI도 그 편견을 그대로 학습합니다.</div>
+      <div class="row ask">편향이 실제로 피해를 준 사례가 있나요?</div>
+      <div class="row ans">있습니다. 재범 예측 AI가 흑인에게 두 배 높은 위험도를 매기고, 채용 AI가 여성을 낮게 평가했으며, 얼굴 인식 AI의 오인식률도 집단마다 크게 달랐습니다.</div>
+      <div class="row ask">신앙인이 할 수 있는 실천이 있을까요?</div>
+      <div class="row ans">편향의 피해자를 대변하고, AI 윤리 감사·다양한 학습 데이터·알고리즘 투명성을 요구하는 사회적 목소리에 함께하는 것입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>"컴퓨터니까 공정하다"는 생각을 해 본 적이 있나요? 오늘 배운 내용은 그 생각을 어떻게 바꾸나요?</li>
+      <li>AI의 편향된 결정으로 피해를 입은 사람은 그 사실을 알기도 어렵습니다. 왜 이것이 더 위험할까요?</li>
+      <li>레위기의 "공의로 재판하라"는 명령을 AI 시대에 적용하면 어떤 요구가 될까요?</li>
+      <li>우리 교회나 공동체가 사람을 판단할 때 무의식적 편견은 없는지, 함께 돌아봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI가 내린 결정이라도 "왜 그런 결정인가"를 묻는 분별의 태도를 연습합니다.</div>
+      <div class="li">알고리즘의 투명성과 공정성을 요구하는 사회적 목소리에 관심을 갖고 지지합니다.</div>
+      <div class="pray"><b>기도</b> — "공의로우신 주님, 겉으로 객관적으로 보이는 도구 속에 숨은 불의를 분별하게 하시고, 차별받는 이웃의 편에 서는 용기를 주소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI의 편향은 기술 결함이 아니라 <span class="em">정의와 존엄성</span>의 문제입니다.<br>
+    "공의로 재판하라"는 명령은 <span class="em">알고리즘에도</span> 적용됩니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q72 / 100</div>
+</section>
+
+</body>
+</html>

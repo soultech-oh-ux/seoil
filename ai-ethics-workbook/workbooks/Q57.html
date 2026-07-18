@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q57 · AI와 함께 성경을 읽는 것은 신앙적으로 안전한가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제6부 · 교육과 신앙 훈련</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q57</div>
+    <div class="qtitle">AI와 함께 성경을 읽는 것은 신앙적으로 안전한가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>성경을 읽으며 궁금한 배경을 AI에게 곧바로 물어볼 수 있는 시대입니다. 어떤 질문은 참 도움이 되지만, 어떤 질문은 오히려 <b>내가 해야 할 몫</b>을 넘겨 버리게 합니다. AI와 함께 성경을 읽을 때, 어디까지가 안전하고 어디부터가 위험한지 선을 그어 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI를 성경 읽기의 <b>정보 보조 도구</b>로 쓰는 것은 안전합니다. 그러나 AI를 성경 읽기의 <b>주 해석자나 영적 안내자</b>로 삼는 것은 신앙적으로 위험합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>먼저 <b>유용한 활용</b>이 있습니다. "이 구절의 역사적 배경을 설명해줘", "이 히브리어·헬라어 단어의 뜻은?", "이 본문과 연결된 다른 구절은?", "이 시대의 문화적 맥락은?" 같은 질문입니다. 이것은 <b>성경 사전이나 주석을 펴 보는 것</b>과 다르지 않습니다.</p>
+    <p>반면 <b>위험한 활용</b>이 있습니다. "이 구절이 <b>내 상황에서</b> 의미하는 것을 알려줘"—개인 적용은 성령의 역사와 개인 기도를 통해 이루어져야 합니다. "이 이야기에서 <b>무엇을 배워야 하나?</b>"—이것을 AI에게 묻는 것은 해석의 책임을 <b>외주화</b>하는 것입니다.</p>
+    <p>차이를 가르는 기준은 간단합니다. <b>정보를 묻는 질문</b>(배경·단어·연결)은 안전하고, <b>의미와 적용을 대신 결정해 달라는 질문</b>은 위험합니다. 앞의 것은 참고서를 펴는 일이고, 뒤의 것은 성령의 자리를 AI에게 내주는 일입니다.</p>
+    <p>성경을 가르치는 <b>주된 교사는 성령</b>이십니다. AI는 이 역할을 담당할 수 없습니다. 성경 읽기에서 AI는 사전과 같은 <b>참고 도구</b>이지, 성령의 자리를 대신하는 안내자가 아닙니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">요한복음 14:26</span>
+      <span class="txt">"보혜사 곧… 성령 그가 너희에게 모든 것을 가르치시고 내가 너희에게 말한 모든 것을 생각나게 하시리라"</span>
+      <p class="reflect">성경을 가르치는 <b>주된 교사는 성령</b>이십니다. AI는 배경과 단어를 알려 주는 참고서가 될 수 있어도, 말씀의 뜻을 내 마음에 새기시는 <b>성령의 자리</b>를 대신할 수는 없습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q57 · AI와 함께 성경을 읽는 것은 신앙적으로 안전한가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">성경을 읽으며 AI에게 물어도 안전한 질문은 뭔가요?</div>
+      <div class="row ans">역사적 배경, 원어 단어의 뜻, 연결된 구절, 문화적 맥락 같은 정보 질문입니다. 이것은 성경 사전이나 주석을 펴 보는 것과 같습니다.</div>
+      <div class="row ask">그럼 위험한 질문은 어떤 것인가요?</div>
+      <div class="row ans">"이 구절이 내 상황에서 무슨 뜻이야?", "여기서 무엇을 배워야 하나?" 같은 질문입니다. 개인 적용과 해석의 책임을 AI에게 넘기는 외주화이기 때문입니다.</div>
+      <div class="row ask">왜 개인 적용은 AI에게 맡기면 안 되나요?</div>
+      <div class="row ans">개인 적용은 성령의 역사와 개인 기도를 통해 이루어지기 때문입니다. 성경을 가르치는 주된 교사는 성령이시며, AI가 그 자리를 대신할 수 없습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 AI에게 던진 성경 질문은 '정보형'이었나요, '적용형'이었나요? 돌아봅시다.</li>
+      <li>'해석의 외주화'가 반복되면 내 신앙에 어떤 변화가 생길까요?</li>
+      <li>성경 사전처럼 AI를 쓰되, 성령의 자리를 지키는 나만의 기준을 정한다면?</li>
+      <li>말씀의 개인 적용을 위해, 나는 어떤 기도의 자리를 마련할 수 있을까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI에게는 배경·단어 같은 정보만 묻고, 삶의 적용은 기도로 성령께 구합니다.</div>
+      <div class="li">성경을 읽을 때 "무엇을 배워야 하나?"를 AI 대신 먼저 스스로 묻고 묵상합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, AI는 참고서로만 삼게 하시고, 말씀을 제 마음에 새기시는 성령의 가르침을 의지하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 성경 읽기의 <span class="em">참고 도구</span>,<br>
+    말씀을 가르치는 <span class="em">주된 교사</span>는 성령이십니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q57 / 100</div>
+</section>
+
+</body>
+</html>

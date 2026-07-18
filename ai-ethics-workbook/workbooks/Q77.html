@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q77 · AI는 인간의 자유를 침해할 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제8부 · 기술과 사회윤리</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q77</div>
+    <div class="qtitle">AI는 인간의 자유를 침해할 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>우리는 스스로 자유롭게 선택한다고 믿습니다. 어떤 영상을 볼지, 무엇을 살지, 어떤 뉴스를 믿을지 말입니다. 그런데 그 선택지를 누군가 미리 짜 놓았다면요? AI가 우리도 모르게 생각의 울타리를 쳐 놓았다면, 우리는 여전히 자유로운 걸까요? 참된 자유가 무엇인지 함께 물어봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">예. AI는 여러 방식으로 인간의 자유를 침해할 수 있으며, 이미 침해하고 있습니다. 그러나 어떤 AI도 <b>하나님 안의 참 자유</b>를 완전히 침범할 수는 없습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>첫째, <b>알고리즘적 조작</b>입니다. 소셜 미디어 알고리즘은 우리에게 보여줄 것을 통제함으로 우리의 생각과 의견 형성에 영향을 줍니다. "내가 자유롭게 골랐다"고 믿지만, 사실은 알고리즘이 <b>선택지를 미리 좁혀</b> 놓은 것입니다.</p>
+    <p>둘째, <b>감시에 의한 자기 검열</b>입니다. 감시당한다는 인식만으로도 사람은 행동을 바꿉니다. 보이는 곳에서는 다르게 행동하지요(관찰자 효과). AI 감시 사회는 이렇게 <b>내면의 자유</b>를 조금씩 갉아먹습니다.</p>
+    <p>셋째, <b>AI 의존에 의한 자율성 약화</b>입니다. 모든 결정을 AI에게 물어볼수록, 스스로 생각하고 판단하는 능력이 위축됩니다. 마치 늘 계산기만 쓰면 암산 능력이 무뎌지는 것과 같습니다.</p>
+    <p>그러나 기독교의 자유는 남다릅니다. 그것은 단지 외적 강제로부터의 해방이 아니라, <b>죄로부터의 자유, 하나님 안에서의 참 자유</b>입니다. AI가 외적 자유를 제한할 때에도, 신앙인은 <b>내면의 자유</b>—하나님과의 관계, 양심, 소명 안의 선택—를 붙들 수 있습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">요한복음 8:36</span>
+      <span class="txt">"그러므로 아들이 너희를 자유롭게 하면 너희가 참으로 자유로우리라."</span>
+      <p class="reflect">참 자유는 무엇이든 마음대로 하는 것이 아니라, <b>진리 안에서 누리는 자유</b>입니다. 어떤 알고리즘도 감시도, 하나님과 나 사이의 내밀한 관계와 양심의 자유를 완전히 빼앗을 수 없습니다. 참 자유의 근원은 기술 밖에, 그리스도 안에 있습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q77 · AI는 인간의 자유를 침해할 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">내가 스스로 고르는데, 어떻게 자유가 침해되나요?</div>
+      <div class="row ans">알고리즘이 보여줄 것을 미리 통제해 선택지를 좁혀 놓기 때문입니다. 자유롭게 고른 것 같지만 울타리 안에서 고른 것일 수 있습니다.</div>
+      <div class="row ask">AI에게 자꾸 물어보는 게 왜 문제인가요?</div>
+      <div class="row ans">모든 결정을 AI에 맡길수록 스스로 생각하고 판단하는 능력이 위축됩니다. 계산기만 쓰면 암산이 무뎌지는 것과 같습니다.</div>
+      <div class="row ask">그럼 신앙인은 자유를 어떻게 지키나요?</div>
+      <div class="row ans">기독교의 자유는 하나님 안의 참 자유입니다. 외적 자유가 제한돼도 하나님과의 관계, 양심, 소명 안의 선택은 빼앗기지 않습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>추천 알고리즘이 내 관심과 취향을 좁혀 놓았다고 느낀 적이 있나요?</li>
+      <li>"감시받는다는 느낌"이 나의 말과 행동을 어떻게 바꾸는지 경험을 나눠 봅시다.</li>
+      <li>AI에 의존할수록 약해지는 나의 능력(판단·기억·집중)은 무엇일까요?</li>
+      <li>"진리가 주는 자유"와 "무엇이든 하는 자유"는 어떻게 다를까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">알고리즘이 주는 것만 소비하지 않고, 의도적으로 다른 관점과 정보를 찾아봅니다.</div>
+      <div class="li">작은 결정이라도 AI에 곧바로 맡기기 전에 스스로 생각하는 훈련을 이어갑니다.</div>
+      <div class="pray"><b>기도</b> — "진리로 자유롭게 하시는 주님, 눈에 보이지 않는 조종과 의존에서 저를 지키시고, 하나님 안의 참 자유를 날마다 누리게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 외적 자유를 <span class="em">좁힐 수</span> 있으나,<br>
+    하나님 안의 <span class="em">참 자유</span>는 빼앗을 수 없습니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q77 / 100</div>
+</section>
+
+</body>
+</html>

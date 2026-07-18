@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q10 · AI에게 죄책감이란 개념은 존재하는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제1부 · 정의와 기초 이해</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q10</div>
+    <div class="qtitle">AI에게 죄책감이란 개념은 존재하는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>요즘은 힘든 마음을 AI에게 털어놓는 사람도 많습니다. "AI에게 고백했더니 잘 들어주더라"는 말도 들립니다. 그런데 <b>AI는 잘못했을 때 죄책감을 느낄까요?</b> 그리고 우리의 죄 고백을 진정으로 함께해 줄 수 있을까요? 이 질문이 우리에게 무엇을 가르치는지 살펴봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI에게 죄책감은 <b>존재하지 않으며, 존재할 수도 없습니다.</b> 죄·죄책감·회개·용서의 영적 영역은 AI가 결코 들어올 수 없는 <b>성소</b>입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>죄책감</b>은 세 요소로 이루어집니다. ① 옳고 그름을 아는 도덕적 지식, ② 자신이 그름을 행했다는 인식, ③ 그 행위에 대한 <b>내면적 고통과 책임감</b>입니다. 성경적으로 죄책감은 하나님의 법을 어겼을 때 일어나는 인격적 반응입니다.</p>
+    <p>다윗은 시편 51편에서 "내 죄가 항상 내 앞에 있나이다"라고 고백했습니다. 이 고통은 <b>도덕적 인격</b>에서 나온 것입니다. 반면 AI는 규칙을 어기면 <b>'오류'를 출력</b>할 뿐입니다.</p>
+    <p>오류 메시지와 죄책감의 차이는 곧 <b>인격의 차이</b>입니다. 컴퓨터가 "에러"라고 표시한다고 해서 마음 아파하는 것이 아니듯, AI의 오류 신호는 회개의 눈물과 근본적으로 다릅니다.</p>
+    <p>이 진실은 중요한 경고를 줍니다. AI는 죄책감을 경험하지 못하므로, <b>다른 사람의 죄책감과 회개의 과정을 진정으로 함께할 수 없습니다.</b> "AI에게 고백했더니 위로가 되더라"는 경험은, 하나님 앞에서의 인격적 회개와 용서라는 죄 고백의 본질과는 근본적으로 다른 것입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">시편 51:11</span>
+      <span class="txt">"나를 주 앞에서 쫓아내지 마시며 주의 성령을 내게서 거두지 마소서."</span>
+      <p class="reflect">다윗의 회개에는 <b>하나님 앞에서의 관계적 파열과 회복</b>에 대한 간절함이 있습니다. AI는 이 관계적 차원을 경험할 수 없습니다. 우리의 죄책감은 저주가 아니라, 하나님께 돌아오라는 <b>은혜의 부르심</b>입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q10 · AI에게 죄책감이란 개념은 존재하는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 "죄송합니다"라고 하면 미안해하는 것 아닌가요?</div>
+      <div class="row ans">아닙니다. 규칙 위반 시 '오류'를 출력하듯 문장을 생성할 뿐입니다. 오류 메시지와 죄책감의 차이는 곧 인격의 차이입니다.</div>
+      <div class="row ask">그럼 AI에게 고민을 털어놓는 건 아무 의미가 없나요?</div>
+      <div class="row ans">정보를 얻는 데는 쓸모가 있지만, 죄 고백의 본질—하나님 앞에서의 인격적 회개와 용서—을 대신할 수는 없습니다.</div>
+      <div class="row ask">AI를 영적 상담자로 삼으면 왜 위험한가요?</div>
+      <div class="row ans">죄책감을 경험하지 못하는 AI는 타인의 회개 과정을 진정으로 함께할 수 없기 때문입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>나는 마음이 무거울 때 주로 누구에게, 혹은 무엇에게 털어놓나요?</li>
+      <li>다윗의 "내 죄가 항상 내 앞에 있나이다"라는 고백이 나에게 어떻게 다가오나요?</li>
+      <li>하나님 앞에서의 회개와, 단지 마음을 '푸는' 것은 어떻게 다를까요?</li>
+      <li>죄 고백과 용서를 함께 나눌 수 있는 신앙 공동체가 나에게 왜 필요할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">힘든 마음을 AI로만 달래지 않고, 하나님과 신앙 공동체 앞에 정직하게 가져갑니다.</div>
+      <div class="li">이번 주, 미뤄두었던 회개 하나를 하나님 앞에 진실하게 고백합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 제 죄를 가벼이 여기지 않게 하시고, 다윗처럼 주님 앞에 정직히 회개하며 성령의 임재 안에 거하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    죄·죄책감·회개·용서는 AI가 들어올 수 없는 <span class="em">성소</span>,<br>
+    참된 용서는 오직 <span class="em">하나님 앞에서</span> 이루어집니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q10 / 100</div>
+</section>
+
+</body>
+</html>

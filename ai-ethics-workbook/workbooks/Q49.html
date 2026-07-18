@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q49 · AI가 성경공부 리더가 되어도 괜찮은가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제5부 · 교회와 목회 현장 적용</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q49</div>
+    <div class="qtitle">AI가 성경공부 리더가 되어도 괜찮은가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>성경공부 시간에 어려운 질문이 나오면, 이제는 AI가 배경 지식과 해석을 척척 알려 줍니다. 원어의 뜻도, 역사적 맥락도 순식간에 정리해 주지요. 그렇다면 아예 <b>AI를 성경공부 리더로 세우면</b> 어떨까요? 지식이 풍부한 AI가 모임을 이끄는 것이 더 낫지 않을까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">정보 제공과 질문 응답에서 AI는 <b>유용한 도구</b>입니다. 그러나 공동체 형성·삶과의 연결·영적 안내라는 리더의 핵심 역할은 AI가 <b>담당해서는 안 됩니다.</b></p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>성경공부에는 <b>두 차원</b>이 있습니다. 하나는 <b>지식 전달 차원</b>—본문 배경, 원어 의미, 신학적 해석, 역사적 맥락입니다. 이 차원에서 AI는 매우 효과적인 도구가 될 수 있습니다.</p>
+    <p>다른 하나는 <b>공동체 형성 차원</b>—서로의 삶을 나누고, 함께 씨름하며, 서로에게 책임지는 관계입니다. 이것은 AI가 제공할 수 없습니다. 신명기 6장 6~7절이 가르치는 신앙 교육은 <b>삶 속에서, 관계를 통해</b> 이루어지는 것이기 때문입니다.</p>
+    <p>성경공부 리더의 가장 중요한 역할은 <b>삶으로 가르치는 것</b>입니다. 히브리서 13장 7절은 인도자들의 "믿음을 본받으라"고 합니다. 그런데 <b>AI에게는 본받을 삶이 없습니다.</b> 지식은 있어도 살아 낸 신앙이 없는 것이지요.</p>
+    <p>비유하자면 AI는 <b>훌륭한 참고서</b>는 될 수 있어도 <b>스승</b>은 될 수 없습니다. 그러므로 실천적 제안은 분명합니다. AI를 <b>보조 도구</b>로 활용하되, 리더는 반드시 사람이어야 합니다. AI가 준 자료를 삶과 연결하고 공동체 안에서 소화하는 것은 <b>인간 리더의 책임</b>입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">히브리서 13:7</span>
+      <span class="txt">"…하나님의 말씀을 너희에게 일러 주고 너희를 인도하던 자들을 생각하며 그들의 행실의 결말을 주의하여 보고 그들의 믿음을 본받으라"</span>
+      <p class="reflect">성경은 인도자의 <b>믿음을 본받으라</b>고 합니다. 참된 리더는 지식만이 아니라 <b>살아 낸 신앙</b>으로 가르칩니다. AI는 정보를 줄 수 있어도 본받을 삶이 없기에, 리더의 자리는 사람의 몫입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q49 · AI가 성경공부 리더가 되어도 괜찮은가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">성경공부에서 AI는 어디까지 도움이 되나요?</div>
+      <div class="row ans">지식 전달 차원입니다. 본문 배경, 원어 의미, 신학적 해석, 역사적 맥락을 제공하는 데는 AI가 매우 효과적인 도구가 됩니다.</div>
+      <div class="row ask">그럼 AI가 리더가 되면 안 되는 이유는요?</div>
+      <div class="row ans">성경공부 리더의 핵심은 공동체 형성과 삶으로 가르치는 것인데, AI에게는 본받을 삶이 없기 때문입니다. 지식은 있어도 살아 낸 신앙이 없습니다.</div>
+      <div class="row ask">그럼 어떻게 활용하는 것이 바람직한가요?</div>
+      <div class="row ans">AI를 보조 도구로 쓰되 리더는 반드시 사람이어야 합니다. AI가 준 자료를 삶과 연결하고 공동체 안에서 소화하는 것은 인간 리더의 책임입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>나에게 신앙을 "삶으로" 가르쳐 준 사람이 있나요? 그분에게서 무엇을 배웠나요?</li>
+      <li>"지식을 전달하는 것"과 "삶으로 가르치는 것"은 어떻게 다를까요?</li>
+      <li>우리 소그룹이 <b>공동체 형성 차원</b>에서 더 깊어지려면 무엇이 필요할까요?</li>
+      <li>AI 자료를 <b>삶과 연결</b>하려면, 리더와 구성원은 각각 어떤 역할을 해야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">성경공부에서 AI 자료를 참고하되, 반드시 서로의 삶을 나누는 시간을 함께 갖습니다.</div>
+      <div class="li">배운 말씀을 지식으로만 남기지 않고, 한 가지라도 삶으로 살아 내기로 결단합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 말씀이 지식에 머물지 않고 저의 삶이 되게 하소서. 서로의 믿음을 본받으며 함께 자라 가는 공동체를 이루게 하시고, 삶으로 가르치는 사람이 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 성경공부의 <span class="em">지식</span>을 도울 수 있으나,<br>
+    삶으로 가르치는 <span class="em">리더</span>는 사람이어야 합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q49 / 100</div>
+</section>
+
+</body>
+</html>

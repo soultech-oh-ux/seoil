@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q6 · AI는 창조의 연장이 될 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제1부 · 정의와 기초 이해</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q6</div>
+    <div class="qtitle">AI는 창조의 연장이 될 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>하나님은 사람에게 만들고 짓는 능력을 주셨습니다. 예술·과학·기술이 다 그 열매입니다. 그렇다면 <b>AI도 이 아름다운 창조의 연장선</b>에 놓을 수 있을까요? 도구로서의 AI와 '창조자'로서의 AI 사이, 그 경계선을 함께 살펴봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI를 <b>도구로 활용</b>해 선과 아름다움을 만들고 이웃을 섬기는 것은 하나님의 창조 사역에 참여하는 일이 될 수 있습니다. 그러나 <b>AI 자체가 창조의 주체가 되는 것은 다릅니다.</b></p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>신학자 필립 헤프너는 인간을 <b>"창조된 공동 창조자"</b>라 불렀습니다. 하나님의 형상을 지닌 사람은 새로운 것을 만들어내는 창조성을 하나님으로부터 받았습니다. 예술·음악·건축·과학·기술이 모두 그 능력의 열매입니다.</p>
+    <p>그러므로 AI를 활용해 의료 진단을 돕고, 언어 장벽을 넘어 복음을 전하며, 장애인이 더 풍성한 삶을 누리게 하는 것—이 모두가 <b>창조 사역의 연장</b>입니다. 성경에서 하나님은 성막 장인 <b>브살렐에게 기술적 지혜</b>를 부어주셨습니다(출 31:3).</p>
+    <p>그러나 중요한 경계선이 있습니다. <b>창조는 단순한 생성이 아닙니다.</b> 그것은 의도·의미·책임·사랑에서 비롯됩니다. 마치 붓이 아무리 훌륭해도 화가를 대신할 수 없듯, AI는 훌륭한 도구이지 창조의 주체가 아닙니다.</p>
+    <p>AI는 패턴 처리로 콘텐츠를 <b>'생성'</b>하지만, 신적 지혜의 반영으로서의 <b>'창조'</b>는 아닙니다. AI에게 창조의 주체성을 부여하거나 그것을 인간 창조성의 대체물로 삼을 때, 우리는 하나님이 주신 소명을 스스로 내려놓는 것입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">잠언 3:19</span>
+      <span class="txt">"여호와께서 지혜로 땅에 터를 놓으셨으며 명철로 하늘을 견고히 세우셨고"</span>
+      <p class="reflect">하나님의 창조는 <b>지혜</b>에서 비롯되었고, 인간의 창조성도 이 신적 지혜를 반영합니다. AI를 지혜롭게 도구로 쓸 때 우리는 창조 사역에 참여하지만, 창조의 <b>주체 자리</b>는 여전히 지혜의 근원이신 하나님과 그 형상을 지닌 사람의 몫입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q6 · AI는 창조의 연장이 될 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI로 그림을 만들거나 설교를 준비하면 잘못인가요?</div>
+      <div class="row ans">잘못이 아닙니다. 선과 아름다움을 이루고 이웃을 섬기는 도구로 쓰는 것은 하나님이 주신 지혜의 선한 사용입니다.</div>
+      <div class="row ask">그럼 AI가 만든 것도 '창조'라고 부를 수 있나요?</div>
+      <div class="row ans">엄밀히는 '생성'입니다. 창조는 의도·의미·책임·사랑에서 나오는 것이라, AI의 패턴 처리와는 본질이 다릅니다.</div>
+      <div class="row ask">어디까지가 도구이고, 어디부터가 문제가 되나요?</div>
+      <div class="row ans">AI를 창조성을 확장하는 도구로 쓰면 좋습니다. 그러나 인간 창조성의 대체물로 삼으면 하나님이 주신 소명을 방기하게 됩니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>하나님이 나에게 주신 '만들고 짓는 능력'은 어떤 모습으로 나타나 있나요?</li>
+      <li>AI를 도구로 써서 이웃을 섬긴 경험, 혹은 섬길 수 있는 자리가 있을까요?</li>
+      <li>내가 편리함에 기대어 내 몫의 창조성을 AI에 넘겨버린 적은 없나요?</li>
+      <li>브살렐처럼 '기술적 지혜'를 하나님 나라를 위해 쓴다면 어떤 일을 해볼 수 있을까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI를 창조성을 '확장'하는 도구로 쓰되, '대체'하지 않도록 분별합니다.</div>
+      <div class="li">내가 가진 재능과 기술을 이웃과 하나님 나라를 섬기는 데 사용해 봅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 브살렐에게 지혜를 주신 주님, 제게 주신 재능으로 선과 아름다움을 창조하며 이웃을 섬기게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 창조성을 확장하는 <span class="em">도구</span>,<br>
+    참된 창조는 <span class="em">의도·의미·책임·사랑</span>에서 비롯됩니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q6 / 100</div>
+</section>
+
+</body>
+</html>

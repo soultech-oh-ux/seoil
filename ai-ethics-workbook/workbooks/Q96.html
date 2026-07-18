@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q96 · 신앙 공동체는 AI 시대에 어떤 예언자적 역할을 해야 하나요? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제10부 · 미래 윤리와 종말론적 성찰</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q96</div>
+    <div class="qtitle">신앙 공동체는 AI 시대에 어떤 예언자적 역할을 해야 하나요?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>성경의 예언자들은 미래를 점치는 사람이 아니라, 시대의 잘못을 하나님의 말씀으로 드러내고 <b>"아니오"라고 말할 줄 아는 사람</b>이었습니다. 그렇다면 오늘, 딥페이크와 알고리즘 편향이 넘치는 AI 시대에 교회는 어떤 예언자적 목소리를 내야 할까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI 시대 교회의 예언자적 역할은 세 가지입니다. <b>진실을 선포하고, 약자를 대변하며, 대안 공동체를 몸으로 살아내는 것</b>입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>예언자적 역할</b>이란 하나님의 말씀에 비추어 시대의 구조적 문제를 드러내고, 정의와 샬롬(평화)의 비전을 선포하며, 필요할 때 "아니오"라고 말하는 사명입니다. AI 시대에 이는 세 가지로 구체화됩니다.</p>
+    <p>첫째, <b>진실 선포</b>입니다. AI가 만드는 딥페이크·허위 정보·조작적 알고리즘에 맞서 진실의 수호자가 되는 것입니다. 예수님은 "진리가 너희를 자유롭게 하리라"(요 8:32)고 하셨습니다. 교회는 정보 분별력을 가르치는 공동체가 되어야 합니다.</p>
+    <p>둘째, <b>약자 대변</b>입니다. AI 자동화로 인한 일자리 대체, 알고리즘 편향으로 인한 차별, 디지털 격차로 인한 소외—이 구조적 불의에 목소리를 높이는 것입니다.</p>
+    <p>셋째, <b>대안 공동체를 살아내는 것</b>입니다. 효율과 최적화만 앞세우는 AI 논리에 맞서, <b>비효율적으로 보여도 약자를 환대하고 느리지만 깊은 관계</b>를 추구하는 공동체의 모습 자체가 예언입니다. 마치 <b>빠른 길만 찾는 세상에서 굳이 함께 걷는 사람들</b>처럼요. 역사 속 교회가 노예제 폐지와 인권 운동에서 그랬듯, AI 혁명은 21세기 교회의 새로운 예언 무대입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">아모스 5:24</span>
+      <span class="txt">"오직 정의를 물 같이, 공의를 마르지 않는 강 같이 흐르게 할지어다."</span>
+      <p class="reflect">예언자 아모스는 겉만 번지르르한 종교가 아니라 <b>흐르는 정의</b>를 요구했습니다. AI 시대에도 교회의 예언은 진실을 지키고 약자를 대변하며, 정의가 강물처럼 흐르게 하는 삶으로 나타나야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q96 · 신앙 공동체는 AI 시대에 어떤 예언자적 역할을 해야 하나요?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">교회가 진실을 지킨다는 게 구체적으로 무엇인가요?</div>
+      <div class="row ans">딥페이크와 허위 정보가 넘치는 시대에, 정보를 분별하는 법을 가르치고 진실 규범을 옹호하는 것입니다. "진리가 너희를 자유롭게" 하기 때문입니다.</div>
+      <div class="row ask">약자 대변은 왜 예언자적 역할인가요?</div>
+      <div class="row ans">AI 자동화·편향·디지털 격차로 소외되는 이들이 생깁니다. 이 구조적 불의에 침묵하지 않고 목소리를 높이는 것이 성경이 말하는 예언입니다.</div>
+      <div class="row ask">'대안 공동체'는 무슨 뜻인가요?</div>
+      <div class="row ans">효율과 최적화만 좇는 세상과 달리, 비효율적으로 보여도 약자를 환대하고 깊은 관계를 추구하는 공동체입니다. 그 모습 자체가 세상을 향한 예언입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>요즘 나는 정보의 진위를 어떻게 분별하고 있나요? 속은 경험이 있나요?</li>
+      <li>우리 교회 주변에서 AI 시대에 <b>소외되기 쉬운 이웃</b>은 누구일까요?</li>
+      <li>'효율'을 앞세우는 세상에서, 교회가 지켜야 할 <b>비효율적이지만 소중한 가치</b>는 무엇일까요?</li>
+      <li>우리 공동체가 세상에 던질 수 있는 <b>예언자적 "아니오"</b>는 무엇일지 나눠 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">확인되지 않은 정보를 퍼 나르지 않고, 진실을 분별하고 지키는 사람이 됩니다.</div>
+      <div class="li">효율에 밀려나는 이웃을 환대하는 '비효율의 사랑'을 우리 공동체 안에서 실천합니다.</div>
+      <div class="pray"><b>기도</b> — "정의를 강물처럼 원하시는 하나님, 저희 공동체가 진실을 지키고 약자를 대변하며, 세상과 다른 사랑의 방식을 살아내는 예언자적 교회가 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    교회의 예언은 <span class="em">진실 선포·약자 대변</span>,<br>
+    그리고 <span class="em">대안 공동체를 살아내는</span> 삶입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q96 / 100</div>
+</section>
+
+</body>
+</html>

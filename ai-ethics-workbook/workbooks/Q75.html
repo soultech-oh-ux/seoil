@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q75 · 기독교는 AI 감시에 대해 어떤 태도를 가져야 하나? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제8부 · 기술과 사회윤리</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q75</div>
+    <div class="qtitle">기독교는 AI 감시에 대해 어떤 태도를 가져야 하나?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>앞서 우리는 전면적 감시 사회의 위험을 살펴봤습니다. 그렇다면 교회와 성도는 그저 걱정만 하고 있어야 할까요? 아닙니다. 성경의 예언자들은 불의 앞에서 침묵하지 않았습니다. 그리고 교회 자신도 성도의 소중한 정보를 다루는 자리에 있습니다. 우리가 취할 <b>구체적인 태도</b>를 함께 찾아봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">기독교는 AI 감시에 대해 <b>예언자적 비판과 실천적 저항</b>의 자세를 가져야 하며, 동시에 교회 스스로 <b>데이터 청지기 직분</b>을 실천해야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>첫째, <b>예언자적 비판</b>입니다. 성경의 예언자들은 권력의 불의한 사용에 저항했습니다. AI 감시가 특정 집단을 억압하거나 양심의 자유를 짓밟거나 인간 존엄을 침해할 때, 교회는 <b>침묵해서는 안 됩니다</b>.</p>
+    <p>둘째, <b>실천적 저항</b>입니다. ① <b>디지털 프라이버시 실천</b>—불필요한 데이터 수집 동의를 거부하고, 위치 추적을 제한하는 것은 '내면의 성소'를 지키는 신앙적 실천입니다. ② <b>공적 정책 참여</b>—인권 보호 원칙이 담긴 규제를 지지합니다.</p>
+    <p>셋째, 무엇보다 <b>교회 스스로의 데이터 청지기 직분</b>입니다. 교회도 성도의 개인 정보—헌금 내역, 상담 기록, 기도 제목—를 수집합니다. 이것은 <b>신뢰 관계 속에서 맡겨진</b> 소중한 것입니다.</p>
+    <p>그러므로 교회는 이 정보를 <b>최소한으로만 수집</b>하고, <b>안전하게 보관</b>하며, 어떤 경우에도 상업적으로 사용해서는 안 됩니다. 세상의 감시를 비판하면서 정작 교회 안에서 성도의 사생활을 함부로 다룬다면 앞뒤가 맞지 않습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">잠언 31:8</span>
+      <span class="txt">"너는 말 못하는 자와 모든 고독한 자의 송사를 위하여 입을 열지니라."</span>
+      <p class="reflect">AI 감시로 가장 취약해지는 이들—소수자, 힘없는 사람들—의 목소리를 대변하는 것이 예언자적 교회의 역할입니다. 스스로 목소리를 낼 수 없는 이들을 위해 <b>입을 여는 것</b>이 하나님이 주신 사명입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q75 · 기독교는 AI 감시에 대해 어떤 태도를 가져야 하나?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">'예언자적 비판'이란 정치에 나서라는 말인가요?</div>
+      <div class="row ans">권력이 인간 존엄을 침해할 때 침묵하지 않는다는 뜻입니다. 억압받는 이들을 위해 입을 여는 것은 성경이 명하는 교회의 역할입니다.</div>
+      <div class="row ask">평범한 성도가 할 수 있는 실천은 무엇인가요?</div>
+      <div class="row ans">불필요한 정보 수집 동의를 거부하고 위치 추적을 제한하는 등 '내면의 성소'를 지키는 프라이버시 실천, 그리고 인권 보호 규제를 지지하는 것입니다.</div>
+      <div class="row ask">교회도 성도 정보를 다루는데, 주의할 점은요?</div>
+      <div class="row ans">헌금·상담·기도 제목은 신뢰 속에 맡겨진 것입니다. 최소한으로 수집하고, 안전하게 보관하며, 절대 상업적으로 써서는 안 됩니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>우리 사회에서 AI 감시로 가장 취약해지는 이웃은 누구일까요?</li>
+      <li>"입을 열라"는 잠언의 명령을 오늘 우리 공동체는 어떻게 실천할 수 있을까요?</li>
+      <li>나는 내 개인 정보를 얼마나 소중히 여기고 있나요? 무심코 넘긴 동의는 없었나요?</li>
+      <li>우리 교회는 성도의 정보(헌금·상담·기도 제목)를 청지기답게 다루고 있는지 함께 점검해 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">불필요한 개인 정보 수집 동의를 무심코 누르지 않고, 한 번 더 살피는 습관을 들입니다.</div>
+      <div class="li">교회 봉사 중 알게 된 성도의 사연과 기도 제목을 신뢰의 그릇으로 소중히 지킵니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 말 못하는 자를 위해 입을 여는 용기와, 맡겨진 이웃의 비밀을 지키는 신실함을 주소서. 교회가 세상에 정의의 목소리이면서 신뢰의 안식처 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    교회는 감시 앞에서 <span class="em">침묵하지 않고</span>,<br>
+    맡겨진 정보를 지키는 <span class="em">데이터 청지기</span>가 되어야 합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q75 / 100</div>
+</section>
+
+</body>
+</html>

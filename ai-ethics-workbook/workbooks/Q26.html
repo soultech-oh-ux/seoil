@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q26 · 인간의 정체성은 기술로 대체될 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제3부 · 인간 정체성과 인격</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q26</div>
+    <div class="qtitle">인간의 정체성은 기술로 대체될 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>SNS의 '좋아요' 숫자에 기분이 오르내리고, 알고리즘이 추천하는 대로 취향이 바뀝니다. 어느새 나는 <b>기술이 빚어낸 '나'</b>를 살고 있는지도 모릅니다. 기술이 나의 <b>정체성</b>까지 대체할 수 있을까요? 참된 '나'는 어디에서 오는지 함께 생각해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">인간의 정체성은 기술로 <b>대체될 수 없습니다</b>. 그러나 기술이 우리를 형성하고 왜곡할 수 있으므로, 참된 '나'가 <b>그리스도 안에서</b> 온다는 사실을 붙잡는 훈련이 필요합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>우리는 이미 기술이 우리를 <b>빚어내는</b> 것을 경험합니다. SNS 속 이미지가 자아상을 바꾸고, 알고리즘 추천이 취향과 의견을 형성하며, <b>'좋아요' 숫자</b>가 나의 가치감을 좌우합니다. AI 시대에는 이 현상이 더 깊어집니다.</p>
+    <p>AI가 맞춤형 콘텐츠로 우리의 세계관을 짜 맞추고, AI 인터페이스가 사람 사귀는 방식을 바꾸며, AI 도구 의존이 <b>'나는 무엇을 할 수 있는 사람인가'</b>라는 감각마저 흔듭니다. 마치 거울이 나를 비추는 게 아니라, 거울이 나를 다시 그려 내는 셈입니다.</p>
+    <p>그러나 기독교인의 정체성은 세 겹의 관계에서 옵니다. <b>하나님의 형상으로 창조된 자</b>, <b>그리스도 안에서 새로 지어진 자</b>, <b>하나님 나라를 위해 부름받은 자</b>입니다. 이 정체성은 기술이 <b>줄 수도, 빼앗을 수도 없습니다</b>. 알고리즘이 규정하는 '나'가 아니라, 하나님 앞에 선 '나'가 참된 '나'입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">에베소서 2:10</span>
+      <span class="txt">"우리는 그가 만드신 바라 그리스도 예수 안에서 선한 일을 위하여 지으심을 받은 자니…"</span>
+      <p class="reflect">나의 정체성은 '좋아요'나 알고리즘이 아니라 <b>하나님의 손</b>에서 옵니다. 나는 만들어진 작품이며, 선한 일을 위해 지음받은 자입니다. 이 사실은 어떤 기술도 지울 수 없습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q26 · 인간의 정체성은 기술로 대체될 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">기술이 정말 나의 정체성을 바꿀 수 있나요?</div>
+      <div class="row ans">정체성을 '대체'할 수는 없지만 '형성하고 왜곡'할 수는 있습니다. '좋아요' 숫자와 알고리즘 추천이 이미 우리의 자아상에 영향을 주고 있습니다.</div>
+      <div class="row ask">그럼 참된 정체성은 어디에서 오나요?</div>
+      <div class="row ans">세 겹의 관계에서 옵니다. 하나님의 형상으로 창조된 자, 그리스도 안에서 새로 지어진 자, 하나님 나라를 위해 부름받은 자입니다.</div>
+      <div class="row ask">흔들리는 정체성을 지키려면 무엇을 해야 하나요?</div>
+      <div class="row ans">디지털 금식으로 실제 존재를 경험하고, 하나님 앞에서 자신을 돌아보며, 온라인이 아닌 살아 있는 공동체 안에서 정체성을 세워야 합니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>'좋아요'나 조회 수에 기분이 좌우된 경험이 있나요? 그때 나의 자존감은 어디에 달려 있었나요?</li>
+      <li>알고리즘이 그려 준 '나'와 하나님 앞의 '나'는 어떻게 다를까요?</li>
+      <li>에베소서 2:10의 '하나님의 작품'이라는 정체성은 나에게 어떤 확신을 주나요?</li>
+      <li>디지털 금식을 실제로 해 본다면, 언제 어떻게 시도해 볼 수 있을까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">하루 정해진 시간 '디지털 금식'을 실천하며, 화면 밖 나의 실제 존재를 마주합니다.</div>
+      <div class="li">조용한 시간에 하나님 앞에 앉아, 알고리즘이 아닌 하나님이 부르시는 '나'를 확인합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 세상의 숫자와 화면이 저를 규정하려 할 때, 저는 주님의 작품임을 기억하게 하소서. 하나님 앞에 선 참된 '나'로 살게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    참된 '나'는 알고리즘이 그린 <span class="em">이미지</span>가 아니라,<br>
+    그리스도 안에서 지음받은 <span class="em">하나님의 작품</span>입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q26 / 100</div>
+</section>
+
+</body>
+</html>

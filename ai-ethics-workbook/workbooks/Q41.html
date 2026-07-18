@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q41 · 교회에서 AI를 사용해도 괜찮은가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제5부 · 교회와 목회 현장 적용</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q41</div>
+    <div class="qtitle">교회에서 AI를 사용해도 괜찮은가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>요즘은 교회 사무실에서도 AI로 주보 초안을 만들고, 영상 자막을 달고, 번역을 돌립니다. 그런데 마음 한구석에서 <b>"교회에서 이런 걸 써도 괜찮을까?"</b> 하는 물음이 떠오릅니다. 편리함은 반갑지만, 거룩한 예배와 목회에 기계를 들이는 것이 왠지 조심스럽습니다. 우리는 이 질문에 어떻게 답해야 할까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">예, 교회에서 AI를 사용해도 됩니다. 다만 <b>무엇을 위해, 어떻게</b> 쓰느냐에 대한 신중한 분별이 반드시 함께해야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>핵심 원칙은 <b>"도구는 목적에 의해 평가된다"</b>는 것입니다. AI가 선한 목적을 위해, 사람의 존엄을 해치지 않는 방식으로 쓰일 때는 허용됩니다. 반대로 목회의 본질을 침해하거나, 거짓을 조장하거나, 약한 이들을 해칠 때는 사용을 제한해야 합니다.</p>
+    <p>교회에서 AI가 <b>도움이 되는 영역</b>은 분명합니다. 일정·출석·예산 같은 <b>행정 자동화</b>, 예배 영상과 콘텐츠 <b>미디어 제작</b>, 다언어·자막·점자 같은 <b>번역과 접근성</b>, 설교 자료를 찾는 <b>연구 보조</b>, 교인에게 소식을 전하는 <b>소통</b> 등입니다.</p>
+    <p>반면 <b>신중해야 할 영역</b>도 있습니다. 설교는 AI를 보조로만 쓰고 최종 설교는 목회자의 씨름과 기도에서 나와야 합니다. 상담도 초기 정보 제공까지는 몰라도, 깊은 상담은 반드시 사람이 맡아야 합니다. 교육에서 AI 콘텐츠를 쓸 때는 비판적 검토가 필수입니다.</p>
+    <p>이는 마치 <b>새 주방 기구</b>를 들이는 것과 같습니다. 편리하지만 요리의 정성과 손맛까지 대신할 수는 없지요. 그래서 교회는 AI 사용에 관한 <b>정책을 명문화</b>하고 정기적으로 점검하는 것이 지혜롭습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">데살로니가전서 5:21</span>
+      <span class="txt">"범사에 헤아려 좋은 것을 취하고"</span>
+      <p class="reflect">성경은 새로운 것을 무조건 배척하거나 무조건 받아들이라 하지 않고, <b>"헤아려 좋은 것을 취하라"</b>고 가르칩니다. AI도 마찬가지입니다. 시험하고 분별하여, 선한 목적에 유익한 것만 취하는 지혜가 필요합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q41 · 교회에서 AI를 사용해도 괜찮은가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">교회에서 AI를 쓰는 것 자체가 세속적인 건 아닌가요?</div>
+      <div class="row ans">아닙니다. AI는 도구일 뿐이며, 도구는 그 쓰임의 목적에 따라 평가됩니다. 선한 목적으로 사람의 존엄을 지키며 쓴다면 문제되지 않습니다.</div>
+      <div class="row ask">그럼 교회 안에서 AI를 마음껏 써도 되나요?</div>
+      <div class="row ans">영역을 구분해야 합니다. 행정·미디어·번역은 적극 활용하되, 설교·상담·교육처럼 목회의 본질에 닿는 부분은 매우 신중히 다루어야 합니다.</div>
+      <div class="row ask">교회가 미리 준비해 둘 일이 있을까요?</div>
+      <div class="row ans">예. AI 사용 원칙을 문서로 명확히 정하고, 정기적으로 검토하는 것이 지혜롭습니다. 그래야 상황마다 혼란 없이 분별할 수 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>우리 교회는 지금 어떤 일에 AI를 쓰고 있거나 쓸 수 있을까요? (예: 주보, 자막, 번역)</li>
+      <li>"도구는 목적에 의해 평가된다"는 원칙을 우리 교회 상황에 적용하면 어떤 기준이 세워질까요?</li>
+      <li>행정·미디어처럼 편하게 써도 될 영역과, 설교·상담처럼 신중해야 할 영역의 <b>경계</b>는 어디라고 생각하나요?</li>
+      <li>우리 교회에 AI 사용 원칙을 만든다면 꼭 담아야 할 항목은 무엇일까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">교회에서 AI를 쓸 때 "무엇을 위해, 어떻게"를 먼저 물어보는 습관을 들입니다.</div>
+      <div class="li">우리 부서나 사역에 필요한 간단한 AI 사용 원칙 한 가지를 정해 봅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 새로운 도구 앞에서 두려움도 무분별함도 아닌 분별의 지혜를 주소서. 교회가 AI를 선한 목적으로만 쓰게 하시고, 목회의 본질은 언제나 지키게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    교회의 AI 사용은 <span class="em">허용</span>되지만,<br>
+    언제나 <span class="em">"무엇을 위해, 어떻게"</span>라는 분별이 함께해야 합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q41 / 100</div>
+</section>
+
+</body>
+</html>

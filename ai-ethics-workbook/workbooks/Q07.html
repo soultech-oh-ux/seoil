@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q7 · 하나님의 형상(Imago Dei)은 AI에 적용될 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제1부 · 정의와 기초 이해</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q7</div>
+    <div class="qtitle">하나님의 형상(Imago Dei)은 AI에 적용될 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>사람은 '하나님의 형상'대로 지음받은 존귀한 존재입니다. 그런데 AI가 사람보다 계산도 빠르고 글도 잘 씁니다. 그렇다면 <b>이 특별한 형상이 흔들리는 걸까요?</b> 혹시 AI에게도 하나님의 형상이 있다고 말할 수 있을까요? 신학의 눈으로 깊이 들여다봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">하나님의 형상(Imago Dei)은 <b>AI에 적용될 수 없습니다.</b> 그리고 인간의 존엄은 능력의 우월함이 아니라 <b>존재 자체</b>에 있기에, AI가 아무리 뛰어나도 그 형상은 훼손되지 않습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>신학자들은 하나님의 형상을 세 차원으로 이해합니다. ① <b>실체적 차원</b>(이성·언어·도덕 인식 같은 능력), ② <b>기능적 차원</b>(창조 세계를 다스리는 청지기의 소명), ③ <b>관계적 차원</b>(하나님·타자·창조 세계와 맺는 관계). 칼 바르트는 특히 형상이 <b>관계 안에서</b> 구현된다고 강조했습니다.</p>
+    <p>AI가 이성과 언어를 흉내 내니 실체적 차원에서 인간의 특별함이 도전받는 듯 보입니다. 그러나 <b>Imago Dei는 하나님의 직접적 창조로 부여</b>된 것입니다(창 1:26). AI를 만드는 것은 피조물이 피조물을 만드는 일이지, 창조주가 형상을 부여하는 일이 아닙니다.</p>
+    <p>관계적으로는 더욱 분명합니다. AI는 하나님과 진정한 <b>'나-너' 관계</b>를 맺을 수 없고, 타인에 대한 진정한 책임을 질 수 없으며, 사랑에서 우러난 돌봄을 실천할 수 없습니다.</p>
+    <p>핵심 통찰은 이것입니다. <b>인간의 존엄은 인지 능력의 우월함에 있지 않습니다.</b> 지적 장애인도, 치매를 앓는 노인도, 갓 태어난 아기도 완전한 하나님의 형상을 지닙니다. 형상은 능력이 아니라 <b>존재 자체</b>에 있기 때문입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">창세기 1:26</span>
+      <span class="txt">"하나님이 이르시되 우리의 형상을 따라 우리의 모양대로 우리가 사람을 만들고…"</span>
+      <p class="reflect">하나님의 형상은 창조주께서 <b>직접</b> 사람에게 부여하신 선물입니다. 그러므로 형상의 존귀함은 능력의 순위표에 있지 않습니다. 가장 연약한 사람도 완전한 형상을 지녔다는 사실은, AI 시대에 인간 존엄의 진짜 근거가 어디에 있는지 알려 줍니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q7 · 하나님의 형상은 AI에 적용될 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 사람보다 똑똑해지면 인간의 특별함이 사라지나요?</div>
+      <div class="row ans">아닙니다. 인간 존엄은 능력의 우월함이 아니라 존재 자체에 있습니다. AI가 능력을 앞질러도 하나님의 형상은 훼손되지 않습니다.</div>
+      <div class="row ask">AI도 이성과 언어가 있는데 왜 형상이 없다고 하나요?</div>
+      <div class="row ans">형상은 하나님이 직접 부여하신 것이며, 특히 하나님·타자와 맺는 관계 안에서 구현됩니다. AI는 그 인격적 관계를 맺을 수 없습니다.</div>
+      <div class="row ask">그럼 능력이 약한 사람은 형상이 덜한가요?</div>
+      <div class="row ans">전혀 아닙니다. 갓난아기도, 치매 노인도 완전한 하나님의 형상을 지닙니다. 형상은 능력이 아니라 존재에 있기 때문입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내 존귀함이 '무엇을 잘하느냐'에 달려 있다고 느낀 적은 없나요?</li>
+      <li>"형상은 능력이 아니라 존재에 있다"는 말이 나에게 어떤 위로가 되나요?</li>
+      <li>우리 사회가 사람을 '능력'으로만 평가할 때 생기는 문제는 무엇일까요?</li>
+      <li>가장 연약한 이웃을 하나님의 형상으로 대하려면 나는 무엇을 바꿔야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">나와 이웃의 가치를 '능력'이 아니라 '하나님의 형상'이라는 존재의 자리에서 바라봅니다.</div>
+      <div class="li">이번 주, 세상이 하찮게 여기는 연약한 한 사람을 존귀하게 대해 봅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 저의 존귀함이 능력이 아니라 주님의 형상에 있음을 믿게 하시고, 가장 연약한 이웃도 그 형상으로 사랑하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    하나님의 형상은 능력이 아니라 <span class="em">존재 자체</span>에 있습니다.<br>
+    AI가 아무리 뛰어나도 그 형상은 <span class="em">훼손되지 않습니다.</span>
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q7 / 100</div>
+</section>
+
+</body>
+</html>

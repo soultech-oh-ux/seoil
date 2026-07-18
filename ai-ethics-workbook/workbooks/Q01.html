@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q01 · AI란 정확히 무엇인가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제1부 · 정의와 기초 이해</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q1</div>
+    <div class="qtitle">AI란 정확히 무엇인가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>요즘 뉴스마다 'AI'라는 말이 빠지지 않습니다. 그런데 정작 <b>AI가 무엇인지</b> 한마디로 설명하려면 막막해집니다. AI는 사람처럼 생각하는 기계일까요? 아니면 그냥 똑똑한 계산기일까요? 신앙인으로서 이 기술을 이해하는 첫걸음을 떼어 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI는 인간의 지적 활동(학습·추론·언어·창작)을 흉내 내도록 만든 <b>도구</b>입니다. 놀라운 결과를 내놓지만, 진정한 이해나 감정, 영적 경험은 갖지 못합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>AI(인공지능)</b>란 학습·추론·문제해결·언어이해 같은 사람의 지적 능력을 기계가 해내도록 설계한 기술입니다. 1956년 존 매카시가 처음 이름 붙였고, "기계가 지능적으로 행동하게 하는 과학"으로 정의했습니다.</p>
+    <p>AI는 세 단계로 발전했습니다. ① <b>규칙 기반</b>(사람이 정한 'if-then' 규칙대로만 작동) → ② <b>머신러닝</b>(데이터에서 스스로 패턴을 학습, 1997년 체스 챔피언을 이긴 딥블루) → ③ <b>딥러닝·대형언어모델</b>(ChatGPT·Claude처럼 사람 뇌의 신경망을 본뜬 오늘날의 생성형 AI).</p>
+    <p>지금의 AI는 수조 개의 문장을 학습하며 <b>"다음에 올 단어의 확률"</b>을 반복 예측합니다. 마치 수많은 책을 읽고 문장을 자연스럽게 이어 쓰는 법을 익힌 것과 같습니다. 그러다 프로그래밍하지 않은 능력이 저절로 나타나는데, 이를 '창발'이라 부릅니다.</p>
+    <p>그러나 철학자 존 설의 <b>'중국어 방'</b> 실험이 보여주듯, 그럴듯한 답을 내놓는다고 해서 <b>정말로 이해하는 것은 아닙니다</b>. AI는 전기처럼 세상을 바꾸는 강력한 도구이지만, 어디까지나 패턴을 처리하는 기계입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">창세기 1:27</span>
+      <span class="txt">"하나님이 자기 형상 곧 하나님의 형상대로 사람을 창조하시되…"</span>
+      <p class="reflect">이해·감정·영혼은 하나님이 <b>사람에게만</b> 주신 선물입니다. AI가 아무리 똑똑해 보여도, 그것은 사람이 만든 '도구'일 뿐 창조주의 형상을 지닌 존재가 아닙니다. 도구를 바르게 아는 것이 바르게 쓰는 첫걸음입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q1 · AI란 정확히 무엇인가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 사람처럼 '생각'하는 건가요?</div>
+      <div class="row ans">아니요. AI는 학습한 데이터에서 패턴을 계산해 가장 그럴듯한 답을 내놓을 뿐, 스스로 이해하거나 뜻을 품지는 못합니다.</div>
+      <div class="row ask">그럼 AI가 내놓는 답은 항상 믿어도 되나요?</div>
+      <div class="row ans">그렇지 않습니다. AI는 사실을 '아는' 게 아니라 확률로 문장을 잇기 때문에, 틀린 내용을 자신 있게 말하기도 합니다. 분별이 필요합니다.</div>
+      <div class="row ask">AI를 쓰는 것 자체가 신앙에 어긋나나요?</div>
+      <div class="row ans">아닙니다. 전기나 인쇄술처럼 AI도 도구입니다. 중요한 것은 '무엇을 위해, 어떻게' 쓰느냐입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 일상에서 이미 사용하고 있는 AI에는 어떤 것들이 있을까요? (예: 지도앱, 번역, 추천 영상)</li>
+      <li>"AI는 도구일 뿐"이라는 말에 동의하나요? 그렇게 느껴지지 않을 때는 언제인가요?</li>
+      <li>AI가 아무리 발전해도 <b>사람만이 할 수 있는 일</b>은 무엇이라고 생각하나요?</li>
+      <li>AI를 신앙생활에 지혜롭게 활용한다면 어떤 모습일지 나눠 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI를 '두려워하지도, 맹신하지도' 않는 분별의 태도를 연습합니다.</div>
+      <div class="li">이번 주 AI를 쓸 때, 그 답이 참인지 한 번 더 확인하는 습관을 들입니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 새로운 기술 앞에서 두려움도 교만도 아닌 지혜를 주시고, 저의 마음이 하나님만을 참 지혜로 삼게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 사람이 만든 <span class="em">강력한 도구</span>,<br>
+    참된 이해와 영혼은 하나님이 사람에게 주신 <span class="em">선물</span>입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q1 / 100</div>
+</section>
+
+</body>
+</html>

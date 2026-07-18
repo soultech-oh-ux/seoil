@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q83 · AI는 창의적인가, 조합적인가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제9부 · 생성형 AI와 창조성</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q83</div>
+    <div class="qtitle">AI는 창의적인가, 조합적인가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI가 그려낸 그림, 작곡한 음악, 지어낸 이야기를 보면 "정말 창의적이다!"라는 감탄이 절로 나옵니다. 그런데 이것이 진짜 <b>창의성</b>일까요, 아니면 이미 있던 것들을 <b>새롭게 섞은 것</b>일까요? 겉보기엔 비슷해 보이지만, 이 둘의 차이는 생각보다 큽니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">AI는 <b>조합적</b>입니다. 놀랍도록 정교해 창의적으로 보이지만, 기존 패턴을 새롭게 조합할 뿐 <b>진정으로 새로운 것</b>을 만들어내는 창조는 아닙니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>AI는 텍스트·이미지·음악 등 방대한 인간 창작물을 학습한 뒤, 주어진 요청에 맞는 <b>확률적 조합</b>을 만들어냅니다. 이 결과가 너무 정교해서 종종 사람의 창작처럼 보입니다. 하지만 그것은 <b>기존 패턴들의 새로운 조합</b>이지, 없던 것을 처음 만들어낸 창조가 아닙니다.</p>
+    <p>컴퓨터 과학자 <b>멜라니 미첼</b>은 이렇게 말합니다. "AI는 인간이 만든 창작물의 <b>증류(distillation)</b>다. 그것은 무에서 새로운 것을 만들지 않는다." 마치 여러 과일을 갈아 만든 새 주스와 같습니다. 맛은 새롭지만, 재료는 모두 이미 있던 것입니다.</p>
+    <p>반면 하나님의 창조는 <b>무에서 유를 만드는(creatio ex nihilo)</b> 진짜 창조입니다. 인간의 창조성도 이 신적 창조성의 반영으로서, <b>진정으로 새로운 의미와 아름다움</b>을 빚어냅니다.</p>
+    <p>이렇게 구분한다고 해서 AI를 깎아내리는 것이 아닙니다. AI는 놀라운 도구입니다. 다만 이 차이를 알아야, <b>인간 예술가의 고유한 가치</b>—살아있는 경험에서 나오는 의미 창조—를 소중히 여길 수 있습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">이사야 43:19</span>
+      <span class="txt">"보라 내가 새 일을 행하리니 이제 나타낼 것이라"</span>
+      <p class="reflect">참된 새로움은 <b>하나님</b>에게서 옵니다. 그분은 없던 것을 창조하시는 분입니다. 우리의 창조성도 그 반영이기에 귀합니다. AI의 조합을 창조와 혼동하지 않을 때, 인간의 창작이 더욱 소중해집니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q83 · AI는 창의적인가, 조합적인가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI 작품이 이렇게 새로운데 왜 창조가 아닌가요?</div>
+      <div class="row ans">재료가 모두 기존 창작물이기 때문입니다. 새 조합은 만들지만, 없던 것을 처음 빚어내는 창조와는 다릅니다.</div>
+      <div class="row ask">'증류'라는 말은 무슨 뜻인가요?</div>
+      <div class="row ans">이미 있는 것들을 모아 진하게 뽑아낸다는 뜻입니다. 무에서 새것을 만드는 게 아니라 기존 것을 정제한다는 의미입니다.</div>
+      <div class="row ask">그럼 AI를 창의적이라 칭찬하면 안 되나요?</div>
+      <div class="row ans">AI를 비하할 필요는 없습니다. 다만 참 창의성은 인간 고유의 것임을 알아야 예술가의 가치를 지킬 수 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 '창의적'이라고 감탄했던 AI 결과물이 있나요? 그 감탄은 어디서 왔을까요?</li>
+      <li>'조합'과 '창조'의 차이를 일상에서 어떻게 설명할 수 있을까요?</li>
+      <li>하나님이 무에서 세상을 창조하셨다는 사실은 나의 창작 활동을 어떻게 보게 하나요?</li>
+      <li>AI가 흉내 낼 수 없는 <b>인간만의 창의성</b>은 무엇이라고 생각하나요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">하나님이 내게 주신 작은 창조적 재능(요리, 글, 노래 등)을 하나 발견하고 감사합니다.</div>
+      <div class="li">AI의 결과물을 대할 때 '조합인가, 창조인가'를 분별하는 시선을 길러 봅니다.</div>
+      <div class="pray"><b>기도</b> — "창조주 하나님, 참된 새로움은 주님께로부터 옴을 알게 하시고, 주신 창조의 은사를 기쁨으로 발휘하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 기존 패턴의 <span class="em">조합</span>,<br>
+    참 창조는 <span class="em">무에서 유</span>를 만드시는 하나님의 것입니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q83 / 100</div>
+</section>
+
+</body>
+</html>

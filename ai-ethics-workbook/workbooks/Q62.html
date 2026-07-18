@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q62 · 인간-기계 융합(사이보그)은 기독교 윤리에 반하는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제7부 · 생명 윤리와 AI</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q62</div>
+    <div class="qtitle">인간-기계 융합(사이보그)은 기독교 윤리에 반하는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>안경을 쓰고 보청기를 끼는 것은 아무도 문제 삼지 않습니다. 그런데 뇌에 칩을 심어 기억력을 높이거나, 마음을 컴퓨터에 옮긴다면 어떨까요? <b>사람과 기계가 하나가 되는 일</b>, 어디까지가 괜찮고 어디부터가 선을 넘는 걸까요? 함께 생각해 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">인간-기계 융합은 그 <b>범위</b>에 따라 다르게 평가해야 합니다. 의료 목적의 기술 보조는 허용되지만, 인간의 근본 본성을 변형하는 데까지 나아가면 기독교 윤리의 경계를 넘습니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>저자는 인간-기계 융합을 하나의 <b>스펙트럼(연속된 띠)</b>으로 봅니다. 한쪽 끝에는 안경, 보청기, 심장 박동기처럼 널리 허용되는 것들이 있고, 그다음에 인공 팔다리·인공 수정체 같은 의료적 보조가 있습니다.</p>
+    <p>더 나아가면 <b>뇌-컴퓨터 인터페이스(BCI)</b>로 장애를 극복하는 것—여기까지는 신중하게 허용될 수 있습니다. 그러나 인지 능력을 높이려 뇌에 칩을 심는 것은 깊은 윤리적 물음을 낳고, 의식을 디지털에 올리는 '마음 업로드'는 기독교 윤리에 근본적으로 반한다고 저자는 말합니다.</p>
+    <p>기준은 <b>기독교 신체 신학</b>에 있습니다. 그리스도인의 몸은 <b>성령이 거하시는 전(殿)</b>입니다. 이는 몸을 그저 업그레이드할 수 있는 하드웨어로 보는 <b>트랜스휴머니즘</b>과 근본적으로 다릅니다.</p>
+    <p>한 문장으로 정리하면 이렇습니다. 몸을 <b>회복하고 치유하는</b> 기술(치료적)은 허용되지만, 하나님의 형상·도덕적 책임·유한성의 의미 같은 인간의 <b>근본 본성을 바꾸려는</b> 기술(강화적)에는 깊은 경계심을 가져야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">고린도전서 6:19</span>
+      <span class="txt">"너희 몸은 너희가 하나님께로부터 받은 바 너희 가운데 계신 성령의 전인 줄을 알지 못하느냐"</span>
+      <p class="reflect">우리 몸은 마음대로 개조할 하드웨어가 아니라 <b>성령이 거하시는 거룩한 전</b>입니다. 아픈 몸을 고치고 회복시키는 일은 이 거룩함을 섬기는 일이지만, 몸을 통째로 갈아치우려는 시도는 그 뜻을 벗어납니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q62 · 인간-기계 융합(사이보그)은 기독교 윤리에 반하는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">그럼 심장 박동기나 인공 관절도 신앙에 어긋나나요?</div>
+      <div class="row ans">아닙니다. 몸을 회복하고 치유하는 의료적 기술은 허용됩니다. 그런 것들은 오히려 하나님이 주신 지혜로 고통을 덜어 주는 선한 일입니다.</div>
+      <div class="row ask">어디서부터 경계해야 하나요?</div>
+      <div class="row ans">장애 극복을 넘어 정상인의 능력을 '강화'하려는 지점부터입니다. 특히 의식을 디지털에 옮기려는 '마음 업로드'는 기독교 윤리에 근본적으로 반합니다.</div>
+      <div class="row ask">'트랜스휴머니즘'이 왜 문제인가요?</div>
+      <div class="row ans">몸을 언제든 업그레이드할 수 있는 기계로 보기 때문입니다. 성경은 몸을 성령이 거하시는 전으로 보므로, 그 관점과 근본적으로 다릅니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>내가 지금 몸에 지닌 '기계'(안경, 임플란트, 보청기 등)는 무엇인가요? 그것을 불편하게 느낀 적이 있나요?</li>
+      <li>'치료'와 '강화'를 가르는 나만의 기준을 세운다면 어떤 것일까요?</li>
+      <li>"몸은 성령의 전"이라는 말이 기술을 대하는 태도에 어떤 차이를 만든다고 생각하나요?</li>
+      <li>먼 미래에 뇌 칩이나 마음 업로드가 흔해진다면, 신앙 공동체는 어떤 목소리를 내야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">내 몸을 '성령이 거하시는 전'으로 여기고 소중히 돌보는 태도를 되새깁니다.</div>
+      <div class="li">기술 앞에서 '고치는가, 아니면 본성을 바꾸는가'를 분별하는 눈을 기릅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 제 몸이 성령의 전임을 기억하게 하소서. 아픈 것을 고치는 지혜는 감사히 받되, 사람됨의 근본을 바꾸려는 교만한 꿈에 마음을 빼앗기지 않게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    몸은 성령의 <span class="em">전</span>,<br>
+    치유하는 기술은 <span class="em">허용</span>, 본성을 바꾸려는 기술은 <span class="em">경계</span>합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q62 / 100</div>
+</section>
+
+</body>
+</html>

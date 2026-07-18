@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q65 · 죽음을 결정하는 AI는 정당한가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제7부 · 생명 윤리와 AI</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q65</div>
+    <div class="qtitle">죽음을 결정하는 AI는 정당한가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>전쟁터의 자율 무기가 스스로 표적을 정하고, 알고리즘이 안락사 적격성을 평가하는 이야기가 더는 공상이 아닙니다. 사람의 <b>목숨을 끊는 결정</b>을 기계가 자동으로 내려도 될까요? "기계가 정했으니 내 탓이 아니다"라는 말은 정당할까요? 무거운 물음 앞에 함께 서 봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">죽음에 관한 결정에 AI가 <b>자동으로 참여</b>하는 것은 기독교 윤리에서 허용될 수 없습니다. 이는 하나님의 주권과 인간의 존엄성 모두에 관한 문제입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>앞선 질문(Q63)이 생명 결정 전반을 다뤘다면, 여기서는 특히 <b>죽음을 부르는 결정</b>에 초점을 둡니다. 이미 현실에서 AI는 자율 무기의 교전 대상 선정, 팬데믹 때의 자원 배분 권고, 안락사 적격성 평가 제안, 자율주행 사고 시 보호 대상 결정 등에 개입하고 있습니다.</p>
+    <p>이에 대해 저자는 성경의 절대적 기준을 제시합니다. "내 때가 주의 손에 있나이다"(시 31:15). 생명과 죽음의 <b>시간은 하나님의 손</b>에 있습니다. 인간은 이 주권을 위임받아 책임 있게 행사할 뿐, 그것을 <b>알고리즘에 완전히 넘겨서는 안 됩니다</b>.</p>
+    <p>특히 <b>자율 무기</b>에 대해 기독교 윤리는 단호합니다. 사람을 죽이는 결정은 언제나 그 도덕적 무게를 의식하는 <b>인간 행위자</b>가 내려야 합니다. 방아쇠를 당기는 순간의 무거움을 아는 사람만이 그 결정을 감당할 수 있습니다.</p>
+    <p>가장 위험한 것은 <b>"기계가 결정했으니 내 책임이 아니다"</b>라는 논리입니다. 이것은 전쟁 범죄에 대한 새로운 <b>도피 경로</b>가 됩니다. 책임을 기계 뒤에 숨기는 이 태도를, 저자는 결코 허용될 수 없다고 잘라 말합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">시편 31:15</span>
+      <span class="txt">"나의 앞날이 주의 손에 있사오니…"</span>
+      <p class="reflect">생명과 죽음의 때는 오직 <b>하나님의 손</b>에 있습니다. 사람은 이 주권을 잠시 위임받아 두렵고 떨림으로 행사할 뿐, 기계에 넘겨 책임을 회피할 수 없습니다. 죽음의 결정 앞에서는 언제나 책임지는 사람이 있어야 합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q65 · 죽음을 결정하는 AI는 정당한가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">자율 무기가 왜 특별히 문제인가요?</div>
+      <div class="row ans">사람을 죽이는 결정은 그 무게를 의식하는 인간이 내려야 하기 때문입니다. 기계가 스스로 표적을 정하고 죽이는 것은 기독교 윤리가 단호히 반대합니다.</div>
+      <div class="row ask">"기계가 결정했으니 내 탓이 아니다"는 말은 왜 위험한가요?</div>
+      <div class="row ans">책임을 기계 뒤에 숨기는 논리이기 때문입니다. 저자는 이것이 전쟁 범죄에 대한 새로운 도피 경로가 된다고 경고합니다.</div>
+      <div class="row ask">그럼 AI를 아예 이 영역에서 쓰면 안 되나요?</div>
+      <div class="row ans">AI가 정보를 돕는 것과, 죽음의 결정을 자동으로 내리는 것은 다릅니다. 문제는 최종 결정을 인간을 배제한 채 기계에 완전히 넘기는 것입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>사람을 죽이는 결정을 기계가 내린다는 소식을 들으면 어떤 마음이 드나요?</li>
+      <li>책임을 기계 뒤에 숨기는 일은 전쟁 말고 우리 일상에서도 일어날 수 있을까요?</li>
+      <li>"내 때가 주의 손에 있다"는 고백은 죽음을 대하는 태도를 어떻게 바꿀까요?</li>
+      <li>생명을 다루는 기술에 '반드시 인간이 책임진다'는 원칙을 지키려면 사회는 무엇을 준비해야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">생명과 죽음의 때가 하나님께 있음을 고백하며, 내 삶의 주권을 그분께 맡깁니다.</div>
+      <div class="li">어떤 결정 앞에서도 책임을 남에게(혹은 기계에) 떠넘기지 않는 정직을 연습합니다.</div>
+      <div class="pray"><b>기도</b> — "생명의 주권자 하나님, 사람을 죽이고 살리는 결정을 기계에 떠넘기는 세상을 불쌍히 여기소서. 죽음의 무게를 가벼이 여기지 않게 하시고, 모든 결정에 책임지는 정직한 사람이 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    죽음의 때는 <span class="em">하나님의 손</span>에,<br>
+    생명을 끊는 결정의 책임은 <span class="em">기계에 숨길 수 없습니다</span>.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q65 / 100</div>
+</section>
+
+</body>
+</html>

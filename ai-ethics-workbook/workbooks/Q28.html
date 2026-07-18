@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q28 · 인간이 만든 AI가 인간을 뛰어넘을 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제3부 · 인간 정체성과 인격</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q28</div>
+    <div class="qtitle">인간이 만든 AI가 인간을 뛰어넘을 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>바둑도, 의료 영상 판독도, 수학 올림피아드도 이제 AI가 최고의 인간을 이깁니다. 그렇다면 AI가 정말 <b>인간을 뛰어넘은</b> 걸까요? 그런데 '뛰어넘는다'는 말은 정확히 무슨 뜻일까요? 그 의미를 분명히 하면, 두려움이 <b>안심</b>으로 바뀝니다. 함께 살펴봅시다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">특정 <b>능력</b>에서는 AI가 이미 인간을 능가했습니다. 그러나 존엄성·의미·사랑·관계·하나님과의 교제라는 <b>존재의 차원</b>에서는 AI가 인간을 결코 뛰어넘지 못합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>AI가 인간을 앞선 영역은 실제로 많습니다. 체스·바둑·포커에서 챔피언을 압도하고, <b>의료 영상 판독</b>에서 숙련 의사보다 정확하며, 단백질 구조 예측(알파폴드)으로 수십 년 난제를 풀고, 법률 문서 검토와 수학 경시에서도 인간을 넘어섭니다. 이것은 진짜이고 중요합니다.</p>
+    <p>그러나 '뛰어넘는다'의 <b>진짜 의미</b>를 물어야 합니다. 만약 그것이 존엄성·의미·사랑·관계·하나님과의 교제를 뜻한다면, AI는 <b>결코 인간을 능가하지 못합니다</b>. 이것들은 <b>능력의 문제</b>가 아니라 <b>존재의 문제</b>이기 때문입니다.</p>
+    <p>여기 <b>안심</b>이 있습니다. <b>계산기</b>가 암산에서 우리를 앞서도 우리가 위협받지 않는 것처럼, AI가 특정 능력에서 앞서는 것도 우리를 흔들 이유가 없습니다. 인간의 존엄성은 애초에 <b>능력에 달려 있지 않기</b> 때문입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">시편 139:1-2</span>
+      <span class="txt">"여호와여 주께서 나를 살펴 보셨으므로 나를 아시나이다 주께서 내가 앉고 일어섬을 아시고 멀리서도 나의 생각을 밝히 아시오며"</span>
+      <p class="reflect">하나님이 나를 아시는 방식—삶의 구체적 상황, 내면의 씨름, 영적 여정까지—으로 AI가 나를 <b>'알고'</b> 능가할 수는 없습니다. 참된 앎과 사랑은 데이터가 아니라 관계입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q28 · 인간이 만든 AI가 인간을 뛰어넘을 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 정말 인간을 이긴 영역이 있나요?</div>
+      <div class="row ans">네. 바둑·포커, 의료 영상 판독, 단백질 구조 예측, 법률 검토, 수학 경시 등에서 이미 최고의 인간을 능가했습니다. 이것은 실제입니다.</div>
+      <div class="row ask">그럼 인간이 AI에게 뒤처지는 것 아닌가요?</div>
+      <div class="row ans">'능력'에서는 그렇지만 '존재'에서는 아닙니다. 존엄성·의미·사랑·관계·하나님과의 교제는 능력의 문제가 아니어서 AI가 능가할 수 없습니다.</div>
+      <div class="row ask">그런데 왜 위협을 느끼지 않아도 되나요?</div>
+      <div class="row ans">계산기가 암산에서 우리를 앞서도 우리가 흔들리지 않듯, 인간의 존엄성은 능력에 있지 않기 때문입니다. 안심할 근거가 여기 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>AI가 인간을 앞섰다는 뉴스를 들을 때, 내 마음에는 어떤 감정이 드나요?</li>
+      <li>'능력에서 이기는 것'과 '존재에서 뛰어넘는 것'은 어떻게 다를까요?</li>
+      <li>계산기 비유가 나에게 주는 안심은 무엇인가요?</li>
+      <li>하나님이 나를 '아신다'는 시편의 고백이, AI의 앎과 어떻게 다르게 다가오나요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI의 능력 뉴스에 위축될 때, '나의 값은 능력이 아니다'라고 스스로에게 되새깁니다.</div>
+      <div class="li">나를 속속들이 아시는 하나님과의 교제—기도와 묵상—에 이번 주 시간을 더 냅니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 저를 앉고 일어섬까지 아시는 주님 앞에서 참 안식을 얻습니다. 능력의 저울에 흔들리지 않고 주님의 사랑 안에 거하게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI는 <span class="em">능력</span>에서 앞설 수 있어도,<br>
+    사랑과 <span class="em">존재</span>에서는 인간을 넘지 못합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q28 / 100</div>
+</section>
+
+</body>
+</html>

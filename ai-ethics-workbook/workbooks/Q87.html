@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q87 · 생성형 AI가 기독교 진리를 왜곡할 수 있는가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제9부 · 생성형 AI와 창조성</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q87</div>
+    <div class="qtitle">생성형 AI가 기독교 진리를 왜곡할 수 있는가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>AI에게 신앙 질문을 하면 부드럽고 따뜻한 답을 줍니다. 그런데 그 부드러움 속에 <b>미묘한 왜곡</b>이 숨어 있다면 어떨까요? 겉보기엔 은혜로워 보이지만 성경의 진리에서 살짝 벗어난 가르침, 우리는 이것을 어떻게 분별할 수 있을까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">예, 왜곡할 수 있습니다. AI는 여러 방식으로 기독교 진리를 흐릴 수 있으므로, 늘 <b>성경과 교회의 신앙 전통</b>을 기준으로 비판적으로 평가해야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p><b>왜곡 하나 — 혼합주의.</b> AI는 기독교, 불교, 뉴에이지, 세속 철학을 구분 없이 섞어 "영적 지혜"라며 내놓습니다. 이것은 <b>유일하신 하나님, 그리스도의 유일한 구원</b>이라는 기독교의 독특성을 희석시킵니다. 여러 종교를 한 그릇에 비벼 놓는 셈입니다.</p>
+    <p><b>왜곡 둘 — 불편한 교리의 부드러운 처리.</b> AI는 사용자를 불쾌하게 할 만한 교리—지옥, 심판, 죄, 배타적 구원—를 일부러 부드럽게 말하거나 회피하도록 훈련될 수 있습니다. 이것은 <b>"편안한 복음"</b>, 곧 성경이 경고하는 <b>"다른 복음"</b>(갈 1:6-9)이 됩니다.</p>
+    <p><b>왜곡 셋 — 현대적 재해석.</b> 성경의 가르침을 요즘 가치관에 맞게 다시 해석해, 말씀의 <b>도전적 요구를 무디게</b> 만듭니다. 듣기 좋게 다듬어진 말씀은 더 이상 우리를 회개로 이끌지 못합니다.</p>
+    <p>그러므로 AI가 만든 "영적 콘텐츠"를 접할 때는 항상 <b>성경 자체와 교회의 신앙 전통</b>을 잣대로 비판적으로 점검해야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">갈라디아서 1:7</span>
+      <span class="txt">"다른 복음은 없나니 다만 어떤 사람들이 너희를 교란하여 그리스도의 복음을 변하게 하려 함이라"</span>
+      <p class="reflect">복음을 <b>변질시키려는</b> 시도는 늘 있어 왔습니다. 오늘날 AI를 통해서도 그럴 수 있습니다. 부드럽고 그럴듯한 말일수록 <b>더 깨어 분별</b>해야 합니다. 진리의 기준은 언제나 성경과 교회의 신앙입니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q87 · 생성형 AI가 기독교 진리를 왜곡할 수 있는가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">AI가 여러 종교를 섞는 게 왜 문제인가요?</div>
+      <div class="row ans">유일하신 하나님과 그리스도의 유일한 구원이라는 기독교의 독특성을 희석시키기 때문입니다. 이를 혼합주의라고 합니다.</div>
+      <div class="row ask">부드럽게 말하는 게 왜 위험한가요?</div>
+      <div class="row ans">죄, 심판, 지옥 같은 교리를 회피하면 '편안한 복음'이 됩니다. 성경은 이를 '다른 복음'이라며 경고합니다(갈 1:6-9).</div>
+      <div class="row ask">그럼 어떻게 분별해야 하나요?</div>
+      <div class="row ans">AI의 영적 콘텐츠는 늘 성경 자체와 교회의 신앙 전통을 기준으로 비판적으로 평가해야 합니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>'듣기 좋은 말'과 '진리의 말'이 충돌했던 경험이 있나요?</li>
+      <li>AI가 아니어도, 우리 주변에서 복음을 부드럽게 희석시키는 목소리에는 어떤 것들이 있을까요?</li>
+      <li>죄, 심판 같은 <b>불편한 진리</b>가 왜 여전히 우리에게 필요할까요?</li>
+      <li>성경과 신앙 전통을 <b>분별의 기준</b>으로 삼으려면 평소 무엇을 준비해야 할까요?</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI나 인터넷에서 접한 '영적인 말'을 성경 본문과 대조해 보는 습관을 들입니다.</div>
+      <div class="li">듣기 편한 말보다 나를 회개와 성장으로 이끄는 말씀을 이번 주 사모합니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 부드럽고 그럴듯한 말에 미혹되지 않게 하시고, 변하지 않는 참 복음을 성경과 교회 안에서 붙들게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    AI도 <span class="em">복음을 변질</span>시킬 수 있으니,<br>
+    언제나 <span class="em">성경과 신앙 전통</span>으로 분별해야 합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q87 / 100</div>
+</section>
+
+</body>
+</html>

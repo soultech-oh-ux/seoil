@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q47 · 교회 행정에 AI를 활용하는 것은 올바른가? — AI와 기독교 윤리 워크북</title>
+<style>
+  :root{
+    --navy:#132a4a; --navy2:#1f3d68; --gold:#c8860a; --gold-soft:#f3e6c4;
+    --cream:#fdf9ef; --ink:#26303c; --sub:#5a6675; --line:#e3d9c3;
+    --blue-soft:#eef3fa; --blue-line:#cdddf1;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Malgun Gothic","Apple SD Gothic Neo","Nanum Gothic","맑은 고딕",sans-serif;
+    background:#d9dee5; color:var(--ink); line-height:1.62;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; background:#fff; margin:10mm auto;
+    padding:15mm 16mm 13mm; position:relative; box-shadow:0 3px 14px rgba(0,0,0,.18);
+    display:flex; flex-direction:column;
+  }
+  /* ---- header ---- */
+  .tag{display:flex; justify-content:space-between; align-items:center;
+    font-size:9.5pt; color:var(--sub); border-bottom:1px solid var(--line); padding-bottom:5px; margin-bottom:12px;}
+  .tag .part{color:var(--gold); font-weight:700; letter-spacing:.02em;}
+  .tag .brand{font-weight:600; color:var(--navy);}
+  .qhead{display:flex; align-items:baseline; gap:12px; margin-bottom:6px;}
+  .qnum{font-size:30pt; font-weight:800; color:var(--navy); line-height:1; letter-spacing:-.01em;}
+  .qtitle{font-size:16.5pt; font-weight:800; color:var(--navy); line-height:1.28;}
+  /* ---- section blocks ---- */
+  .sec{margin-top:13px;}
+  .sec > h2{
+    font-size:11.5pt; font-weight:800; color:var(--navy); margin-bottom:6px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .sec > h2 .em{font-size:12.5pt;}
+  .sec p{font-size:10.7pt; margin-bottom:6px;}
+  .sec p:last-child{margin-bottom:0;}
+  b{color:var(--navy2);}
+  .lead{
+    background:var(--gold-soft); border-left:5px solid var(--gold);
+    padding:11px 14px; border-radius:0 8px 8px 0; font-size:11pt; font-weight:600; color:#5c4207;
+  }
+  .verse{
+    background:var(--cream); border:1px solid var(--line); border-radius:8px;
+    padding:11px 14px; font-size:10.5pt;
+  }
+  .verse .ref{display:block; color:var(--gold); font-weight:800; font-size:10pt; margin-bottom:3px;}
+  .verse .txt{font-style:italic; color:#4a3a17;}
+  .verse .reflect{margin-top:7px; color:var(--ink); font-style:normal;}
+  /* ---- page2 dialog ---- */
+  .qa{border:1px solid var(--blue-line); border-radius:9px; overflow:hidden; margin-top:4px;}
+  .qa .row{padding:9px 13px; font-size:10.5pt;}
+  .qa .ask{background:var(--blue-soft); font-weight:700; color:var(--navy);}
+  .qa .ask::before{content:"Q. "; color:var(--gold); font-weight:800;}
+  .qa .ans{border-bottom:1px solid #eef1f5;}
+  .qa .ans::before{content:"A. "; color:var(--navy2); font-weight:800;}
+  .qa .row:last-child{border-bottom:none;}
+  ol.talk{list-style:none; counter-reset:t; margin-top:4px;}
+  ol.talk li{counter-increment:t; position:relative; padding:7px 0 7px 30px; font-size:10.7pt; border-bottom:1px dashed var(--line);}
+  ol.talk li:last-child{border-bottom:none;}
+  ol.talk li::before{content:counter(t); position:absolute; left:0; top:6px;
+    width:21px; height:21px; background:var(--navy); color:#fff; border-radius:50%;
+    font-size:9.5pt; font-weight:700; display:flex; align-items:center; justify-content:center;}
+  .apply{background:#f4f8f3; border:1px solid #d7e6d5; border-radius:8px; padding:10px 14px; font-size:10.5pt;}
+  .apply .li{padding-left:18px; position:relative; margin-bottom:5px;}
+  .apply .li::before{content:"✔"; position:absolute; left:0; color:#3f8f4a; font-weight:700;}
+  .pray{margin-top:8px; padding-top:8px; border-top:1px dashed #cbdcc8; font-style:italic; color:#3a5a3d;}
+  .pray b{color:#2f6b39;}
+  .takeaway{
+    margin-top:auto; background:var(--navy); color:#fff; border-radius:9px;
+    padding:12px 15px; font-size:11pt; font-weight:700; text-align:center; line-height:1.5;
+  }
+  .takeaway .em{color:var(--gold-soft);}
+  .foot{margin-top:9px; font-size:8.5pt; color:var(--sub); text-align:center;}
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto; height:100vh; page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:A4; margin:0;}
+</style>
+</head>
+<body>
+
+<!-- ===== PAGE 1 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">제5부 · 교회와 목회 현장 적용</span>
+    <span class="brand">AI와 기독교 윤리 100문 100답 · 워크북</span>
+  </div>
+
+  <div class="qhead">
+    <div class="qnum">Q47</div>
+    <div class="qtitle">교회 행정에 AI를 활용하는 것은 올바른가?</div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">📖</span> 오늘의 질문</h2>
+    <p>교회 사무실에는 헌금 정리, 출석 관리, 주보 작성, 일정 조율 같은 일이 끝없이 쌓입니다. AI가 이런 반복 업무를 도와준다면 얼마나 좋을까요. 그런데 교회는 성도들의 <b>헌금 기록과 기도 제목 같은 민감한 정보</b>도 다룹니다. 이런 정보를 AI에 맡겨도 정말 괜찮을까요?</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💡</span> 한눈에 보는 답</h2>
+    <p class="lead">예, 교회 행정에 AI를 활용하는 것은 올바르며 <b>적극 권장</b>할 만합니다. 다만 성도의 민감한 정보를 지키는 <b>'데이터 청지기 직분'</b>을 반드시 함께 지켜야 합니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🔍</span> 쉽게 풀어보기</h2>
+    <p>교회 행정에서 AI는 여러 영역에 유용합니다. <b>재정 관리</b>(헌금 추적·예산 분석), <b>성도 관리</b>(방문자 추적·소그룹 배정·기념일 알림), <b>커뮤니케이션</b>(주보·이메일 초안), <b>일정 관리</b>(회의·시설 예약·봉사 조율), <b>자료 관리</b>(설교 기록 정리·문서 검색) 등입니다. 이렇게 확보한 시간을 목회 사역의 본질에 투자할 수 있습니다.</p>
+    <p>그러나 반드시 붙들어야 할 원칙이 있습니다. 바로 <b>데이터 청지기 직분</b>입니다. 교회는 헌금 기록, 상담 내용, 기도 제목, 연락처 같은 <b>민감한 개인 정보</b>를 보유합니다. 이것은 <b>신뢰 관계 속에서 맡겨진 것</b>입니다.</p>
+    <p>그러므로 AI 시스템을 도입할 때는 성도 데이터의 <b>안전한 보호</b>를 반드시 확인해야 합니다. 특히 교회 데이터를 상업적 AI 서비스에 올릴 때의 위험—데이터 유출, 무단 사용—을 분명히 인식해야 합니다.</p>
+    <p>비유하자면, 성도의 정보는 <b>맡겨진 귀중품을 보관하는 금고</b>와 같습니다. 편하다고 아무 곳에나 두면 안 됩니다. 특히 개인 상담 기록 같은 극히 민감한 정보는 <b>AI 시스템에 입력하지 않는 것이 원칙</b>입니다.</p>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">✝️</span> 성경의 눈으로</h2>
+    <div class="verse">
+      <span class="ref">고린도전서 4:2</span>
+      <span class="txt">"그리고 맡은 자들에게 구할 것은 충성이니라"</span>
+      <p class="reflect">청지기에게 요구되는 것은 <b>충성</b>입니다. 교회가 성도의 정보를 다루는 일은 곧 맡겨진 것을 지키는 청지기 직분입니다. 효율보다 신뢰를, 편리보다 보호를 앞세우는 충성됨이 필요합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE 2 ===== -->
+<section class="page">
+  <div class="tag">
+    <span class="part">Q47 · 교회 행정에 AI를 활용하는 것은 올바른가?</span>
+    <span class="brand">함께 묻고 답하기</span>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">💬</span> 묻고 답하며 이해하기</h2>
+    <div class="qa">
+      <div class="row ask">교회 행정에 AI를 쓰는 것이 정말 권장되나요?</div>
+      <div class="row ans">예. 재정·성도 관리·소통·일정·자료 정리 등에서 AI는 큰 도움이 되며, 절약한 시간을 목회의 본질에 투자할 수 있어 적극 권장됩니다.</div>
+      <div class="row ask">'데이터 청지기 직분'이란 무슨 뜻인가요?</div>
+      <div class="row ans">교회가 보유한 헌금 기록·상담 내용·기도 제목·연락처 같은 민감한 정보는 신뢰 관계 속에서 맡겨진 것이므로, 충성되게 지켜야 한다는 원칙입니다.</div>
+      <div class="row ask">절대 조심해야 할 것은 무엇인가요?</div>
+      <div class="row ans">교회 데이터를 상업적 AI 서비스에 올릴 때의 유출·무단 사용 위험입니다. 특히 개인 상담 기록 같은 극히 민감한 정보는 AI에 입력하지 않는 것이 원칙입니다.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🗣️</span> 함께 이야기 나눠요</h2>
+    <ol class="talk">
+      <li>우리 교회 행정 업무 중 AI가 도와주면 좋을 일은 무엇이 있을까요?</li>
+      <li>교회가 다루는 정보 가운데 특히 <b>민감하게 지켜야 할 것</b>은 무엇일까요?</li>
+      <li>"편리함"과 "정보 보호"가 부딪칠 때, 우리는 어떤 기준으로 선택해야 할까요?</li>
+      <li>데이터 청지기로서 우리 교회가 세워 둘 <b>보호 원칙</b> 한 가지를 함께 만들어 봅시다.</li>
+    </ol>
+  </div>
+
+  <div class="sec">
+    <h2><span class="em">🙏</span> 삶으로 살아내기</h2>
+    <div class="apply">
+      <div class="li">AI 도구를 쓰기 전, 이 정보가 민감한 것은 아닌지 한 번 더 점검하는 습관을 들입니다.</div>
+      <div class="li">개인 상담 기록 등 극히 민감한 정보는 AI에 입력하지 않는 원칙을 지킵니다.</div>
+      <div class="pray"><b>기도</b> — "주님, 맡은 자에게 구하는 것이 충성임을 기억하게 하소서. 교회에 맡겨진 성도들의 정보를 편리함 때문에 함부로 다루지 않게 하시고, 신뢰를 지키는 청지기가 되게 하소서. 아멘."</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    교회 행정의 AI 활용은 <span class="em">권장</span>되지만,<br>
+    성도의 정보를 지키는 <span class="em">청지기의 충성</span>이 함께해야 합니다.
+  </div>
+  <div class="foot">AI와 기독교 윤리 100문 100답 · 오경근 지음 | 성도 교육용 워크북 · Q47 / 100</div>
+</section>
+
+</body>
+</html>
